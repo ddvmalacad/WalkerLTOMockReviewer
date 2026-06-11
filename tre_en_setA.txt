@@ -1,0 +1,502 @@
+tre_en_setA
+//SET A English
+
+//Road Signs and Pavement Markings
+1.	Pursuant to LTO regulations, identify the regulatory implication of a continuous yellow line on the roadway.  
+a. Overtaking maneuvers are permitted with caution 
+b. Overtaking maneuvers are strictly prohibited 
+c. Designated parking zone for emergency vehicles
+2.	Identify the classification of a traffic sign characterized by a red triangular border.  
+a. Regulatory or mandatory instruction 
+b. Warning or cautionary alert
+c. Informational or service-related guidance
+3.	Identify the primary hazard factor associated with a circular red sign featuring a white horizontal bar.  
+a. Yield to oncoming traffic 
+b. Absolute prohibition of entry 
+c. Temporary stoppage for pedestrians
+4.	A circular white sign with a red border containing the numeral "30" signifies:  
+a. The proximity to the next intersection is 30 kilometers 
+b. The prescribed maximum vehicle length is 30 meters 
+c. The maximum allowable speed limit in kilometers per hour
+5.	Identify the warning sign depicting a vehicle tilted on a downward slope.  
+a. Slippery road surface ahead 
+b. Steep descent requiring gear reduction 
+c. Approaching a low-clearance bridge
+6.	Identify the warning sign depicting a vehicle falling into a body of water.  
+a. Slippery road surface 
+b. Riverbank or quayside hazard 
+c. Potential for flash flooding
+7.	Identify the regulatory implication of a circular red sign with a trumpet icon and a diagonal slash.  
+a. Use of horn is mandatory for safety 
+b. Use of horn is prohibited except in emergencies 
+c. Use of horn is permitted only during daylight hours
+8.	What is the technical definition of a warning sign featuring two lines that converge at the top?  
+a. Dual-lane highway ahead 
+b. Road narrows or reduction in lane width 
+c. Approaching an expressway entrance
+9.	Identify the warning sign featuring a locomotive or steam engine silhouette.  
+a. Industrial zone crossing 
+b. Railroad crossing ahead 
+c. Heavy machinery crossing
+10.	A warning sign depicting two silhouettes of children carrying bags signifies:  
+a. Designated playground area 
+b. Proximity to a school zone or pedestrian crossing 
+c. Residential area with high population density
+11.	Identify the warning sign depicting an S-shaped black arrow.  
+a. Winding road for the next 5 kilometers 
+b. Double curve ahead, first to the left or right 
+c. Sharp U-turn maneuver required
+12.	Identify the prohibitive sign featuring the silhouette of a heavy truck with a red diagonal slash.  
+a. Commercial vehicles must yield 
+b. No entry for trucks or heavy goods vehicles 
+c. Weight limit of 5000kg GVW
+13.	Identify the warning sign featuring a black cross (+) or plus sign.  
+a. Medical clinic or hospital ahead 
+b. Standard four-way intersection ahead 
+c. Railroad crossing without gates
+14.	Identify the warning sign depicting rocks falling from a cliff side.  
+a. Mountainous terrain hazard 
+b. Falling rocks or landslide-prone area 
+c. Rough road surface
+15.	Identify the warning sign depicting a vehicle with wavy tracks trailing behind it.  
+a. Unpaved road surface 
+b. Slippery road surface when wet 
+c. Vehicle experiencing mechanical failure
+16.	Identify the regulatory sign featuring a vertical white arrow on a blue background.  
+a. Mandatory straight-ahead direction 
+b. One-way traffic flow 
+c. Priority over oncoming traffic
+17.	What is the implication of double continuous yellow lines on a highway?  
+a. Overtaking is permitted on the right side only 
+b. Overtaking is strictly prohibited on both sides as it is extremely hazardous 
+c. Overtaking is permitted during off-peak hours
+18.	A broken yellow line on the left side of your lane indicates:  
+a. Overtaking is permitted if the road is clear 
+b. Overtaking is prohibited due to poor visibility 
+c. Lane-splitting for motorcycles is mandatory
+19.	Identify the significance of a red octagon sign.  
+a. Yield to all approaching traffic 
+b. Mandatory stop at the designated line or before the intersection 
+c. Proceed with caution at 20 kph
+20.	Identify the implication of an arrow painted on the road surface.  
+a. Recommended speed for the specific lane 
+b. Mandatory adherence to the direction indicated 
+c. Optional lane for turning or going straight
+
+
+
+//Road and Traffic Rules
+1.	Identify the statutory condition under which overtaking on the right side of a vehicle is permitted.  
+a. On highways with two or more lanes of traffic moving in the same direction 
+b. When the vehicle in front is moving slower than 40 kph 
+c. When the road shoulder is paved and free of obstructions
+2.	Pursuant to R.A. 4136, a motor vehicle is legally considered "parked" when:  
+a. It is stopped for the purpose of loading or unloading passengers for less than 5 minutes
+b. It is brought to a stop on the shoulder with the hazard lights activated 
+c. It remains stationary for a period of time with the engine deactivated
+3.	Before executing a turning maneuver, a driver must signal their intention at a minimum distance of:  
+a. 15 meters 
+b. 60 meters 
+c. 30 meters
+4.	Identify the primary hazard factor associated with left-turn maneuvers at uncontrolled intersections.  
+a. Oncoming vehicles from the left typically maintain higher speeds 
+b. The driver must simultaneously monitor traffic from both left and right directions 
+c. The turning radius for a left turn is naturally wider and less stable
+5.	At a roundabout (rotunda), which vehicle maintains the statutory right-of-way?  
+a. The vehicle attempting to enter the intersection 
+b. The vehicle already navigating within the roundabout 
+c. The vehicle with the highest Gross Vehicle Weight (GVW)
+6.	Overtaking is strictly prohibited at the foot of a bridge because:  
+a. High-speed winds may destabilize the vehicle 
+b. The driver's line of sight is obstructed, preventing a clear view of oncoming traffic 
+c. Bridge surfaces are generally narrower than standard roadways
+7.	When approaching a curve, the safest technical procedure is to:  
+a. Decelerate to a safe speed before entering the curve 
+b. Maintain a constant speed and apply brakes at the apex 
+c. Accelerate slightly to maintain traction through the turn
+8.	Identify the manual hand signal for a right-hand turn.  
+a. Left arm extended horizontally outward 
+b. Left arm extended upward at a 90-degree angle 
+c. Left arm extended downward toward the ground
+9.	When executing a lane change on a highway, the driver should activate the signal at least:  
+a. 10 seconds before the maneuver 
+b. 60 seconds before the maneuver 
+c. 5 meters before the maneuver
+10.	At an intersection with no traffic signals or signs, if two vehicles arrive simultaneously from different streets, which driver must yield?  
+a. The driver of the vehicle on the right side 
+b. The driver of the vehicle on the left side 
+c. The driver of the vehicle with the smaller engine displacement
+11.	Identify the manual hand signal signifying an intention to stop or decelerate suddenly.  
+a. Left arm extended horizontally 
+b. Left arm pointed toward the ground 
+c. Left arm pointed toward the sky
+12.	What is the prescribed maximum speed limit when traversing a designated school zone?  
+a. 35 kph 
+b. 20 kph 
+c. 30 kph
+13.	Parking is strictly prohibited in which of the following locations?  
+a. Within a designated pedestrian crosswalk 
+b. Within 10 meters of a fire hydrant 
+c. Both a and b are correct
+14.	On a multi-lane highway, a driver intending to travel slower than the flow of traffic should occupy the:  
+a. Extreme right lane 
+b. Extreme left lane 
+c. Center lane
+15.	Identify the manual hand signal for a left-hand turn.  
+a. Left arm pointed toward the sky 
+b. Left arm extended horizontally outward 
+c. Left arm pointed toward the ground
+16.	At a four-way intersection without traffic controls, the right-of-way is generally accorded to:  
+a. The vehicle coming from the right 
+b. The vehicle coming from the left 
+c. The vehicle that arrives last
+17.	When may a driver cross a solid yellow line?  
+a. To execute a legal left turn into a driveway or side road 
+b. To overtake a slow-moving agricultural vehicle 
+c. To change lanes for a faster exit
+18.	Identify the correct procedure when a police officer signals you to stop despite a green traffic light.  
+a. Prioritize the green traffic light as it is a mechanical control 
+b. Follow the instructions of the police officer immediately 
+c. Proceed with caution and stop at the next intersection
+19.	Overtaking is prohibited in which of the following scenarios?  
+a. On a curve where the view is obstructed within 150 meters 
+b. When approaching the crest of a grade 
+c. Both a and b are correct
+20.	Under what condition is driving at high speeds legally permissible?  
+a. When the driver is in a state of emergency 
+b. Only when it is within the prescribed speed limit and road conditions are safe
+c. When the roadway is clear of other motor vehicles
+
+
+
+//Safe Driving Principles
+1.	To maintain optimal situational awareness, a driver should monitor the side and rear-view mirrors:  
+a. Briefly and frequently at regular intervals 
+b. Only when preparing for a lane change 
+c. Once every five minutes of continuous driving
+2.	Before exiting a parked position, the driver must perform a "360-degree check," which involves: 
+a. Activating the hazard lights for 30 seconds 
+b. Inspecting the vehicle’s surroundings for obstacles or pedestrians 
+c. Sounding the horn twice to alert nearby residents
+3.	After an overtaking maneuver, what is the technical indicator that it is safe to return to the original lane?  
+a. When you can see the headlights of the overtaken vehicle in your rear-view mirror 
+b. When you are at least 5 meters ahead of the other vehicle 
+c. When the other driver flashes their high beams
+4.	When parking on an uphill grade with a curb, the front wheels should be positioned:  
+a. Parallel to the curb 
+b. Turned away from the curb 
+c. Turned toward the curb
+5.	Identify the mandatory response to a flashing yellow traffic signal.  
+a. Complete stop and wait for the light to turn green 
+b. Decelerate and proceed through the intersection with extreme caution 
+c. Accelerate to clear the intersection before it turns red
+6.	Pursuant to defensive driving principles, the "one vehicle length" rule refers to:  
+a. The maximum distance allowed between vehicles in a funeral cortege 
+b. The minimum recommended following distance for every 10 kph of speed 
+c. The required distance when parking behind a stationary vehicle
+7.	Identify the appropriate defensive action when confronted by a vehicle with blinding high-beam headlights.  
+a. Activate your own high beams to neutralize the glare 
+b. Direct your gaze slightly toward the right-side white shoulder line 
+c. Bring the vehicle to an immediate stop on the roadway
+8.	At what stage of operation must a driver engage in active decision-making?  
+a. Only during hazardous weather conditions 
+b. Continuously throughout the entire duration of the driving task 
+c. Only when navigating unfamiliar urban intersections
+9.	Identify the primary purpose of the motor vehicle’s horn.  
+a. To signal arrival at a specific destination 
+b. To provide a safety warning or alert other road users to your presence 
+c. To express frustration regarding traffic congestion
+10.	To mitigate the risks of fatigue and drowsiness during extended transit, a driver should:  
+a. Consume caffeinated beverages exclusively 
+b. Schedule periodic rest stops to rejuvenate and stretch 
+c. Increase vehicle speed to reach the destination faster
+11.	Identify the essential components of long-trip preparation.  
+a. Comprehensive pre-trip inspection and planning of the intended route 
+b. Ensuring all repair tools and a spare tire are in functional condition 
+c. All of the above
+12.	If a following vehicle signals an intent to execute an overtaking maneuver, the defensive driver should:  
+a. Accelerate to prevent the maneuver if it seems unsafe 
+b. Decelerate slightly and move toward the right to facilitate a safe pass 
+c. Maintain speed and occupy the center of the lane
+13.	A defensive driver is technically defined as one who:  
+a. Anticipates the potential errors of other road users and adjusts accordingly 
+b. Drives aggressively to avoid being caught in traffic clusters 
+c. Prioritizes speed over road markings to reach a destination
+14.	Hazard management in driving fundamentally requires:  
+a. Early identification of potential risks and proactive reaction 
+b. Driving only in the center lane of an expressway 
+c. Avoiding nighttime driving in all circumstances
+15.	The safest operating speed for any motor vehicle is primarily determined by:  
+a. The maximum speed indicated on the vehicle's speedometer 
+b. Current road, traffic, and meteorological conditions 
+c. The driver's personal level of urgency
+16.	When changing lanes, the "Mirror-Signal-Maneuver" (MSM) sequence must also include:  
+a. A quick check of the vehicle’s blind spots 
+b. Flashing the high beams to alert oncoming traffic 
+c. Deactivating the air conditioning to increase engine power
+17.	If the brake lights of the lead vehicle illuminate, your immediate reaction should be:  
+a. Execute an immediate lane change to avoid deceleration 
+b. Prepare to apply the brakes and increase the following distance 
+c. Sound the horn to alert the lead driver
+18.	The "Right-of-Way" should be treated by a responsible driver as:  
+a. A statutory right that must be insisted upon at all times
+b. Something to be yielded if it prevents a potential collision 
+c. A secondary concern compared to vehicle speed
+19.	Identify the hazard associated with driving too closely to the vehicle in front (tailgating).  
+a. Reduced fuel efficiency due to drafting 
+b. Insufficient reaction time in the event of sudden braking 
+c. Increased wear on the vehicle’s transmission
+20.	When navigating a curve, what is the primary physical force a driver must counteract?  
+a. Centripetal force pulling the vehicle toward the center 
+b. Centrifugal force tending to push the vehicle toward the outside of the curve 
+c. Gravitational force affecting the braking distance
+
+
+//Land Transportation Laws and Violations
+1.	Which Republic Act is officially recognized as the Land Transportation and Traffic Code?  
+a. R.A. 4136 
+b. R.A. 8750 
+c. R.A. 10586
+2.	Identify the legislation that mandates the use of seat belt devices in all motor vehicles.  
+a. R.A. 8749 
+b. R.A. 8750 
+c. R.A. 10913
+3.	The "Anti-Distracted Driving Act," which prohibits the use of mobile devices while driving, is:  
+a. R.A. 10913 
+b. R.A. 10666 
+c. R.A. 11229
+4.	Under the LTO Demerit Point System, a "Grave Violation" is assigned a value of:  a. 1 demerit point 
+b. 3 demerit points 
+c. 5 demerit points
+5.	A "Less Grave Violation" is assigned a demerit value of:  
+a. 3 demerit points 
+b. 1 demerit point 
+c. 5 demerit points
+6.	Violations not classified as Grave or Less Grave are deemed "Light Violations" and carry:  
+a. 2 demerit points 
+b. 1 demerit point 
+c. 0 demerit points
+7.	Identify the penalty for the use of a falsified or fake driver's license.  
+a. A fine and a six-month disqualification from license acquisition 
+b. Immediate imprisonment for a minimum of one year 
+c. An administrative warning and a 100-peso fine
+8.	Driving a motor vehicle without a valid license is punishable by a fine and:  
+a. Permanent revocation of the vehicle's registration 
+b. Impounding of the motor vehicle for a period not exceeding ten (10) days 
+c. Immediate forfeiture of the vehicle to the state
+9.	In the event of a road traffic incident (accident), the driver must report the event to the nearest police station:  
+a. Within 72 hours of the occurrence 
+b. Immediately, unless physically incapacitated 
+c. Within 48 hours of the occurrence
+10.	Pursuant to the Motorcycle Crime Prevention Act (R.A. 11235), failure to report a lost number plate may result in:  
+a. A simple administrative fine 
+b. Fines and potential imprisonment as prescribed by the act 
+c. No penalty if the license is still valid
+11.	Identify the act that regulates the safety of children aboard motor vehicles (Child Safety in Motor Vehicles Act).  
+a. R.A. 11229 
+b. R.A. 10666 
+c. R.A. 10054
+12.	A Student Permit holder who accumulates five (5) demerit points will face:  
+a. A mandatory 10-year suspension of driving privileges 
+b. Immediate confiscation and revocation of the Student Permit 
+c. A double fine upon the next application for a Non-Professional license
+13.	Drivers of Public Utility Vehicles (PUVs) are subject to what demerit policy for violations committed while operating for-hire? 
+a. Half the standard demerit points 
+b. Double the standard demerit points 
+c. Demerit points are waived if the driver attends a seminar
+14.	A driver who accumulates ten (10) or more demerit points is required to complete:  
+a. The Driving Enhancement Program (DEP) only 
+b. The DEP plus a successful retake of the Theoretical Examination 
+c. A 30-day community service program
+15.	Identify the statutory period allowed to settle a traffic case and redeem a license after apprehension.  
+a. 30 days 
+b. 15 days 
+c. 10 days
+16.	The Anti-Drunk and Drugged Driving Act of 2013 is officially known as:  
+a. R.A. 10586 
+b. R.A. 9165 
+c. R.A. 8750
+17.	A driver's license may be revoked for a minimum of two (2) years if the driver accumulates:  
+a. 20 demerit points 
+b. 30 demerit points  
+c. 40 or more demerit points
+18.	If a driver fails to complete a required intervention program within 30 days of notice, the result is:  
+a. Permanent revocation of the license 
+b. Suspension of the license until the program is completed 
+c. Forfeiture of the motor vehicle
+19.	Pursuant to LTO policy, accumulated demerit points shall revert to zero (0) upon:  
+a. The completion of one calendar year without a violation 
+b. The successful renewal of the driver's license 
+c. The payment of all outstanding administrative fines
+20.	Under R.A. 10666, children are prohibited from being transported on motorcycles on public roads unless:  
+a. Their feet can reach the foot pegs and they can reach around the driver’s waist 
+b. They are wearing a standard protective helmet 
+c. Both a and b are correct
+
+
+
+//Licensing Information and General Knowledge
+1.	Identify the minimum age requirement for an applicant of a Student-Driver’s Permit.  
+a. 18 years old 
+b. 16 years old 
+c. 17 years old
+2.	The minimum age for a Non-Professional Driver’s License (NPDL) applicant is:  
+a. 18 years old 
+b. 16 years old 
+c. 17 years old
+3.	To qualify for a Professional Driver’s License (PDL), an applicant must be at least:  
+a. 18 years old
+b. 21 years old 
+c. 19 years old
+4.	Identify the validity period of a newly issued Student-Driver’s Permit.  
+a. Six (6) months 
+b. One (1) year 
+c. Two (2) years
+5.	A driver's license holder with no traffic violations during the 5-year validity period is entitled to a renewal valid for:  
+a. 10 years 
+b. 7 years 
+c. 5 years
+6.	Identify the driving restriction for a licensee with Condition Code 1.  
+a. Limited to daylight driving only 
+b. Mandatory use of corrective lenses while operating a vehicle 
+c. Requirement to use a hearing aid
+7.	Condition Code 2 on a driver's license indicates the driver is restricted to:  
+a. Operating vehicles with automatic transmission only 
+b. Operating vehicles equipped with special devices for upper or lower limbs 
+c. Operating customized motor vehicles only
+8.	Identify the vehicle classification associated with DL Code B.  
+a. Motorcycles or motorized tricycles 
+b. Passenger cars with a GVW not exceeding 5000kg and up to 8 seats 
+c. Heavy commercial trucks exceeding 3500kg GVW
+9.	DL Code B1 is technically required for the operation of:  
+a. Passenger vans or jeepneys with more than 8 seats but not exceeding 5000kg GVW b. Light articulated vehicles 
+c. Heavy passenger buses exceeding 5000kg GVW
+10.	Identify the requirement for a holder of an "Automatic Transmission (AT)" license code to operate a "Manual Transmission (MT)" vehicle.  
+a. They may do so provided they have 5 years of driving experience 
+b. They must take and pass the practical driving test for MT 
+c. No additional requirement is necessary; AT covers MT
+11.	A Non-Professional Driver's License is legally restricted to the operation of:  
+a. Private motor vehicles only 
+b. Public Utility Vehicles (PUVs) such as taxis or buses 
+c. Any vehicle as long as the driver is not being paid
+12.	A Professional Driver's License is mandatory for any individual who:  
+a. Operates a motor vehicle for hire or is paid for driving 
+b. Operates a vehicle with a GVW exceeding 3000kg 
+c. Drives more than 100 kilometers per day
+13.	Identify the validity period for a Medical Certificate used in a license application.  
+a. 30 days 
+b. 60 days 
+c. 90 days
+14.	A Student Permit holder is legally authorized to drive only when accompanied by:  
+a. Any person over the age of 21 
+b. A duly licensed driver acting as an instructor with the appropriate license codes 
+c. A family member with a valid government ID
+15.	Foreigners applying for a Philippine Driver's License must have stayed in the country for at least:  
+a. One (1) month, with proof of stay/visa for at least six (6) months 
+b. Six (6) months, with a valid working permit 
+c. One (1) year of continuous residency
+16.	DL Code C is specifically designated for the operation of:  
+a. Motorcycles with sidecars 
+b. Heavy commercial vehicles (Goods) with a GVW exceeding 3500kg 
+c. Articulated vehicles with a combined GVW exceeding 7500kg
+17.	What is the consequence if a driver's license is not renewed for more than two (2) years?  
+a. Payment of the basic renewal fee and a late penalty 
+b. Mandatory retaking of both the theoretical and practical examinations 
+c. Permanent cancellation of the license number
+18.	Identify the classification for a vehicle used for the carriage of goods with a GVW not exceeding 3500kg.  
+a. Category M1 
+b. Category N1 
+c. Category L7
+19.	Holders of DL codes with a "Manual Transmission" (MT) designation are permitted to drive:  
+a. Manual Transmission vehicles only 
+b. Both Manual and Automatic Transmission vehicles 
+c. Automatic Transmission vehicles only if they have no violations
+20.	To upgrade from DL Code B2 to Code C (Heavy Commercial), a driver must have held the B2 code for at least:  
+a. One (1) year 
+b. Four (4) years 
+c. Two (2) years
+
+
+
+//Vehicle Maintenance and Troubleshooting
+1.	Prior to embarking on a long-distance transit, identify the most critical pre-departure routine.  
+a. Verifying the fuel level only 
+b. Planning the route and conducting a comprehensive vehicle condition check 
+c. Ensuring the vehicle’s exterior is clean for better visibility
+2.	Which documents are mandatory to be carried within the vehicle at all times while operating on public roads?  
+a. Driver's License, Original Receipt (OR), and Certificate of Registration (CR) 
+b. Driver's License and Insurance Policy only 
+c. Valid ID and a copy of the deed of sale
+3.	A red flag (daylight) or red light (nighttime) is required if a load protrudes from the rear of the vehicle by more than:  
+a. One (1) meter 
+b. Two (2) meters 
+c. Three (3) meters
+4.	Identify the appropriate technical response if the vehicle's braking system fails while in motion.  
+a. Deactivate the ignition immediately to stop the fuel flow 
+b. Rapidly pump the brake pedal and gradually engage the handbrake/parking brake 
+c. Shift the transmission into "Neutral" and steer toward an embankment
+5.	Identify the primary institution responsible for the specialized training of Ambulance drivers.  
+a. TESDA or LTO-Accredited TESDA Training Centers 
+b. National Fire Training Institute (NFTI) 
+c. Department of Health (DOH) Central Office
+6.	Drivers of Firetrucks are required to undergo specialized training conducted by the:  
+a. Armored Services Association 
+b. National Fire Training Institute (NFTI) 
+c. LTO Traffic Safety Division
+7.	Identify the mandatory training requirement for drivers of School Service vehicles.  
+a. Training from the Department of Education 
+b. Certification from the LTO or the LTFRB 
+c. Red Cross First Aid Certification
+8.	A driver of a Special-purpose Vehicle (SV) must hold which type of license?  
+a. A Non-Professional Driver's License 
+b. A Professional Driver's License corresponding to the specific vehicle category 
+c. A Student Permit with an SV endorsement
+9.	The Medical Certificate for drivers of special-purpose vehicles must be renewed:  
+a. Every 60 days 
+b. Upon every renewal of the Driver's License 
+c. Only if the driver is over 60 years old
+10.	Regularly monitoring and maintaining proper tire pressure is essential for:  
+a. Enhancing fuel efficiency and ensuring optimal road grip/safety 
+b. Increasing the maximum speed capability of the vehicle 
+c. Changing the vehicle's classification category
+11.	Identify the essential tool kit for long-distance travel.  
+a. Tire jack, lug wrench, spare tire, and basic hand tools 
+b. Portable GPS and a mobile phone charger 
+c. First-aid kit and emergency food supply only
+12.	What is the first safety action to take if the engine begins to overheat?  
+a. Immediately pour cold water over the engine block 
+b. Pull over safely, deactivate the engine, and allow it to cool before inspection 
+c. Continue driving at low speed to a service station
+13.	Vehicle Category M1 is technically defined as:  
+a. A two-wheeled vehicle with a speed exceeding 50 kph 
+b. A passenger vehicle with no more than 8 seats (excluding the driver) and GVW ≤ 5000kg 
+c. A heavy goods vehicle with GVW exceeding 12000kg
+14.	Carriers of Hazardous Cargo must be duly trained and certified by:  
+a. The Department of Energy 
+b. TESDA or Accredited TESDA Training Centers 
+c. The National Bureau of Investigation
+15.	Identify the significance of Condition Code 5 on a license.  
+a. Requirement to drive only with a hearing aid 
+b. Requirement to drive only during daylight hours 
+c. Requirement to drive a vehicle with a specialized steering system
+16.	Before exiting a parking slot, identify the necessary safety check.  
+a. Sound the horn to notify other drivers 
+b. Inspect the surroundings for pedestrians, children, or low-lying obstacles 
+c. Rev the engine to ensure it is at operating temperature
+17.	If the brake lights of the lead vehicle activate, you must:  
+a. Prepare to decelerate or stop to maintain a safe following distance 
+b. Overtake the vehicle to avoid being slowed down 
+c. Toggle your hazard lights to warn the vehicle behind you
+18.	The technical term for a vehicle with a GVW exceeding 3500kg used for goods is:  
+a. Category N1
+b. Category N2 or N3 (Heavy Commercial) 
+c. Category M3
+19.	Pursuant to LTO standards, how many days is a Medical Certificate valid for from the date of issuance?  
+a. 15 days 
+b. 60 days 
+c. 30 days
+20.	Identify the primary reason for checking the engine oil level regularly.  
+a. To ensure proper lubrication of internal components and prevent engine seizure 
+b. To increase the octane rating of the fuel 
+c. To improve the vehicle’s aerodynamic performance
+

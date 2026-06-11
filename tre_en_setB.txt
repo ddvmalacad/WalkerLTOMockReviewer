@@ -1,0 +1,513 @@
+tre_en_setB
+
+//SET B English
+
+//Road Signs and Pavement Markings
+
+1.	What does a red circular traffic sign usually indicate? 
+A. Information and direction 
+B. Warning or hazard ahead
+C. Regulatory or prohibitory mandates
+2.	What is the primary purpose of a blue and white rectangular or square sign? 
+A. Warning sign
+B. Informative sign 
+C. Mandatory instruction sign
+3.	A red triangle-shaped sign is used to: 
+A. Provide information 
+B. Give a warning 
+C. Indicate a prohibition
+4.	What is the meaning of a single solid yellow line on the road? 
+A. Overtaking is allowed at any time
+B. Overtaking is strictly prohibited
+C. You may cross it for a U-turn only
+5.	Two solid yellow lines painted together indicate: 
+A. It is extremely dangerous to overtake; do not cross 
+B. Overtaking is allowed on the right side 
+C. The road is under construction
+6.	A broken white line on a multi-lane road indicates: 
+A. You are prohibited from changing lanes 
+B. You may change lanes if it is safe to do so 
+C. Only public utility vehicles may use this lane
+7.	What does a broken yellow line indicate? 
+A. Overtaking is allowed on the side where the line is broken 
+B. Overtaking is prohibited on both sides 
+C. The road is for emergency vehicles only
+8.	If you see two broken yellow lines on the pavement, it means: 
+A. Overtaking is strictly prohibited for all vehicles 
+B. You may overtake on either the left or right side if there is no danger 
+C. One-way traffic only
+9.	What is the meaning of an arrow painted on the pavement? 
+A. It is a decorative marker for the lane 
+B. Follow the direction indicated by the arrow 
+C. You may ignore it if there is no oncoming traffic
+10.	A sign with the text "No Entry" (Bawal Pumasok) means:
+A. Only cars can enter 
+B. All vehicles are prohibited from entering 
+C. Only residents can enter
+11.	A warning sign showing a car on a wavy path (Madulas ang kalsada) means: 
+A. The road is under repair 
+B. The road is slippery
+C. Fast driving is encouraged
+12.	A sign showing falling rocks (Panganib sa nahuhulog na bato) warns of:
+A. Steep cliffs 
+B. Landslide or falling debris hazard
+C. Rough road surface
+13.	A sign showing a steep downward slope indicates: 
+A. Steep descent 
+B. Steep ascent 
+C. Road ends ahead
+14.	A sign showing the road narrowing (Papaliit ang kalsada) means: 
+A. The road is widening
+B. The road narrows ahead 
+C. End of the highway
+15.	A sign with a "No Parking" (Bawal pumarada) symbol means: 
+A. You can park for a maximum of 5 minutes 
+B. You are not allowed to park in that area 
+C. Only motorcycles are permitted to park
+16.	A sign showing a red circle with a "U" and a slash (Bawal ang likong pabalik) means: 
+A. No left turn 
+B. No U-turn 
+C. No right turn
+17.	A sign depicting a train (Daang tren) indicates:
+ A. A bus terminal
+ B. A railroad crossing 
+C. A construction zone
+18.	A sign showing a person walking (Tawiran ng tao) indicates: 
+A. A park nearby 
+B. A pedestrian crossing 
+C. No walking allowed on the pavement
+19.	A sign with a number inside a red circle (e.g., 60) refers to: 
+A. Minimum speed limit 
+B. Maximum speed limit 
+C. Distance to the next city in kilometers
+20.	A sign showing a red circle with a slash over a horn (Bawal bumusina) means: 
+A. Use your horn frequently to alert others 
+B. No blowing of horn 
+C. Siren-only zone
+
+
+
+//Road and Traffic Rules
+
+1.	When is it permissible to overtake a vehicle on the right side? 
+A. If the highway has two or more lanes moving in one direction 
+B. If the road is a narrow two-way street 
+C. If the sidewalk is wide enough to fit your vehicle
+2.	When approaching an intersection with a "STOP" sign, you must: 
+A. Slow down and proceed if you see no danger
+B. Stop completely and proceed only when it is safe to do so 
+C. Give way only to vehicles coming from the right
+3.	What does a flashing red traffic light mean? 
+A. Wait for the green light before moving 
+B. Slow down and proceed with caution 
+C. Stop completely and proceed only when it is safe, similar to a stop sign
+4.	At what minimum distance should you give a signal before turning? 
+A. 15 meters 
+B. 30 meters 
+C. 60 meters
+5.	Before changing lanes, a driver should signal, check the rearview mirror, and:
+A. Check for oncoming or approaching vehicles in the target lane 
+B. Blow the horn to warn others 
+C. Turn on the high beam headlights
+6.	Why is a left turn generally considered more dangerous than a right turn?
+A. Vehicles from the left are always traveling faster 
+B. You must be alert for vehicles coming from both the left and right directions 
+C. There are more lanes to cross in a single maneuver
+7.	In a roundabout (rotonda), which vehicle has the legal right-of-way?
+A. The vehicle about to enter the rotonda 
+B. The vehicle already within the rotonda 
+C. The vehicle with the loudest horn
+8.	What does a flashing yellow traffic light mean?
+A. Stop and wait for the light to change to green 
+B. Proceed with caution and slow down 
+C. Speed up to cross the intersection quickly
+9.	A steady green light means:
+A. You may proceed unless there is a pedestrian or vehicle in the path 
+B. Stop at the designated stop line 
+C. You must slow down and wait for the yellow light
+10.	A steady yellow light indicates: 
+A. Prepare to stop as the light is about to turn red 
+B. Speed up to beat the red light
+C. You may continue at the same speed regardless of the change
+11.	What is the meaning of a green arrow signal? 
+A. Entry to the intersection is prohibited for all 
+B. It permits vehicles to turn in the direction the arrow points 
+C. Pedestrians may cross the street in front of you
+12.	If a driver extends their left arm straight out the window, what does it mean?
+ A. The driver is turning right 
+B. The driver is turning left 
+C. The driver is stopping
+13.	If a driver extends their left arm upward, what does it indicate? 
+A. The driver is turning right 
+B. The driver is stopping 
+C. The driver is turning left
+14.	If a driver extends their left arm downward, what does it indicate? 
+A. The driver is stopping or slowing down  
+B. The driver is turning right 
+C. The driver is turning left
+15.	At an intersection with no traffic signals, if two vehicles arrive at the same time, which has the right-of-way? 
+A. The vehicle coming from the left
+B. The vehicle coming from the right 
+C. The larger vehicle
+16.	If you want to drive slower than other vehicles on a multi-lane highway, you should stay in the: 
+A. Left lane 
+B. Right lane 
+C. Middle lane
+17.	You are not allowed to cross a solid yellow line except when: 
+A. Overtaking a slower vehicle 
+B. Making a left turn into a driveway or side street 
+C. Changing lanes for a faster exit
+18.	Overtaking is prohibited at the foot of a bridge because:
+ A. The bridge surface is usually too narrow 
+B. Visibility is limited and you cannot see oncoming vehicles 
+C. There are usually many pedestrians on bridges
+19.	What is the maximum speed limit in a school zone? 
+A. 35 kph 
+B. 20 kph 
+C. 30 kph
+20.	If a police officer signals you to stop, you should: 
+A. Ignore the officer and speed away 
+B. Stop and provide your license and vehicle documents if requested 
+C. Stop and argue with the officer regarding the reason
+
+
+
+//Safe Driving Principles
+
+1.	How often should you check your side and rearview mirrors?
+A. Quickly and frequently 
+B. Only when you feel like a vehicle is nearby 
+C. At least every minute
+2.	Before leaving a parking space, you must: 
+A. Check your surroundings and blind spots before moving 
+B. Blow your horn twice 
+C. Accelerate immediately to merge with traffic
+3.	After overtaking, what is the safest way to return to your original lane? 
+A. Check your rearview mirror to see the front of the vehicle you passed 
+B. Look back over your shoulder at the vehicle you passed 
+C. Stop immediately to ensure the lane is clear
+4.	What should you do to prepare for a long trip? 
+A. Only check the fuel level
+B. Plan your route and ensure the vehicle is in good mechanical condition 
+C. Just drive and address issues as they arise
+5.	When parking uphill with a curb, you should turn your front wheels: 
+A. Toward the curb 
+B. Away from the curb 
+C. Straight ahead
+6.	According to the LTO manual, having a driver's license is considered a: 
+A. Constitutional Right 
+B. Civil Honor 
+C. Privilege
+7.	What is the safest rule regarding right-of-way? 
+A. Always insist on your right-of-way to teach others
+B. Do not insist on your right-of-way if it prevents an accident 
+C. Blow your horn continuously to claim your right-of-way
+8.	If an oncoming vehicle has blinding high beam headlights, you should: 
+A. Turn on your high beams to blind them back 
+B. Look slightly toward the right side of the road or the white line 
+C. Stare directly at the lights to gauge the vehicle's position
+9.	When approaching a curve, you should: 
+A. Slow down before entering the curve 
+B. Speed up while in the curve to maintain traction 
+C. Brake suddenly while in the middle of the curve
+10.	A driver must make safe driving decisions:
+ A. Only when traffic is heavy 
+B. Only if they are a professional driver 
+C. Continuously and proactively while driving
+11.	What is the recommended following distance behind another vehicle under normal conditions? 
+A. Two car lengths
+B. One car length 
+C. Three car lengths
+12.	If the brake lights of the vehicle ahead of you turn on, you should: 
+A. Blow your horn to warn the driver 
+B. Prepare to brake and increase your following distance 
+C. Change lanes immediately without signaling
+13.	The vehicle horn should be used primarily to: 
+A. Create noise to vent frustration 
+B. Show off a customized sound 
+C. Give a necessary safety warning
+14.	The safest speed for a vehicle depends on: 
+A. Road, traffic, and weather conditions 
+B. The vehicle's maximum speedometer rating 
+C. The driver's personal hurry or preference
+15.	To combat fatigue and drowsiness during a long trip, a driver should: 
+A. Drink alcohol to relax before driving 
+B. Stop occasionally to rest, stretch, or nap 
+C. Take anti-sleep medication frequently
+16.	If a vehicle behind you signals that it wants to overtake, you should: 
+A. Move to the right and stop completely 
+B. Slow down slightly, move to the right, and let it pass 
+C. Speed up so the other vehicle cannot pass you
+17.	What is a "blind spot" in driving? 
+A. An area around the vehicle not visible in the mirrors 
+B. A part of the engine block 
+C. A type of traffic light that has failed
+18.	When driving near a school, you must:
+A. Drive at your normal highway speed 
+B. Exercise extreme caution and slow down significantly 
+C. Use your horn continuously to alert students
+19.	The philosophy of "defensive driving" aims to: 
+A. Arrive at the destination faster than other motorists 
+B. Avoid accidents regardless of who is legally at fault
+C. Prove to others who is the more skilled driver
+20.	What is the first priority when an emergency vehicle with sirens is approaching? 
+A. Race the emergency vehicle to clear the path 
+B. Yield the right-of-way and move to the side of the road 
+C. Stop in the middle of the road immediately
+
+
+
+//Land Transportation Laws and Violations
+1.	What is the penalty for driving under the influence of alcohol or prohibited drugs? 
+A. Php 2,000.00 
+B. 6 months imprisonment 
+C. 1-month license suspension
+2.	What is the penalty for using a fake driver's license? 
+A. Php 500.00 and a 6-month disqualification from getting a license 
+B. Imprisonment for not more than 6 months 
+C. Php 100.00 fine
+3.	In case of an accident involving your vehicle, it must be reported to the nearest police station:
+ A. Within 72 hours 
+B. Immediately 
+C. Within 48 hours
+4.	How many days is the grace period to settle a traffic case and redeem a license after being apprehended? 
+A. 30 days 
+B. 15 days 
+C. 10 days
+5.	A red flag or red light must be attached to any load that extends beyond the rear of the vehicle by more than: 
+A. 1 meter 
+B. 3 meters
+C. 2 meters
+6.	Driving without a valid license is punishable by: 
+A. Php 500.00 
+B. Php 500.00 and vehicle impoundment for up to 10 days 
+C. Php 750.00
+7.	How many demerit points are assigned to a "Grave Violation"? 
+A. 5 points 
+B. 3 points 
+C. 1 point
+8.	How many demerit points are assigned to a "Less Grave Violation"?
+A. 5 points 
+B. 3 points
+C. 1 point
+9.	Violations not classified as grave or less grave are considered "Light" and carry: 
+A. 5 points
+B. 3 points 
+C. 1 point
+10.	A driver with 5 to 9 demerit points must undergo which intervention? 
+A. Revocation of license 
+B. Driving Enhancement Program (DEP) 
+C. A new practical driving test
+11.	A driver with 10 or more demerit points is required to:
+A. Attend DEP and pass a theoretical exam 
+B. Pay a Php 10,000 fine 
+C. Surrender the vehicle permanently
+12.	If a driver accumulates at least 40 demerit points, their license will be: 
+A. Suspended for 1 month 
+B. Revoked for at least 2 years 
+C. Replaced with a student permit
+13.	When do accumulated demerit points revert to zero?
+A. Every calendar year 
+B. Upon license renewal
+C. Every 5 years
+14.	Drivers of public utility vehicles (PUV) are penalized with how many demerit points for violations? 
+A. The standard points 
+B. Double the demerit points 
+C. Triple the demerit points
+15.	A Student Permit will be confiscated and revoked if the holder accumulates: 
+A. 1 demerit point 
+B. 5 demerit points 
+C. 10 demerit points
+16.	What is the penalty for a driver whose license has been revoked three times? 
+A. Perpetual disqualification from getting a license 
+B. A 10-year ban on all permits 
+C. A Php 50,000 fine
+17.	A driver must complete the required intervention program within how many days of their last apprehension/notice? 
+A. 15 days 
+B. 30 days 
+C. 60 days
+18.	Which documents must a driver always carry while operating a vehicle? 
+A. License only
+B. License, vehicle registration (CR), and the latest official receipt (OR) 
+C. Passport and insurance papers
+19.	A driver who commits no violations for 5 years is entitled to a license validity of: 
+A. 5 years 
+B. 10 years 
+C. Lifetime
+20.	The initial validity of a new Driver's License (reckoned from birth date) is: 
+A. 1 year 
+B. 5 years 
+C. 3 years
+
+
+
+
+
+//Licensing Information and General Knowledge
+1.	A Student-Driver's Permit (SP) is valid for a period of: 
+A. 1 year 
+B. 6 months 
+C. 2 years
+2.	What is the minimum age requirement for an applicant of a Student Permit? 
+A. 15 years old 
+B. 17 years old 
+C. 16 years old
+3.	What is the minimum age for a Non-Professional Driver's License (NPDL)? 
+A. 16 years old 
+B. 17 years old 
+C. 18 years old
+4.	What is the minimum age for a Professional Driver's License (PDL)? 
+A. 17 years old 
+B. 18 years old 
+C. 21 years old
+5.	What is the minimum age for a Conductor's License (CL)?
+ A. 17 years old 
+B. 20 years old 
+C. 18 years old
+6.	An NPDL allows a person to operate:
+A. Private motor vehicles 
+B. Public utility vehicles 
+C. Any type of vehicle regardless of use
+7.	A PDL is required for:
+A. Personal use only 
+B. Student drivers 
+C. Any driver hired or paid for operating a motor vehicle
+8.	Which DL Code is required for operating a motorcycle?
+A. DL Code B
+B. DL Code A
+C. DL Code C
+9.	DL Code B is for vehicles (Category M1) with a Gross Vehicle Weight (GVW) of up to:
+A. 5,000 kg 
+B. 3,500 kg 
+C. 7,000 kg
+10.	DL Code C is intended for which type of vehicle? 
+A. Passenger cars 
+B. Motorcycles 
+C. Heavy Commercial vehicles (>3500kg GVW)
+11.	DL Code D is required for
+A. Buses (>5000kg GVW and more than 8 seats) 
+B. Tricycles 
+C. Trailers
+12.	Driving Condition 1 mandated on a license means the licensee must: 
+A. Drive only during daylight 
+B. Drive only with corrective lenses 
+C. Use a hearing aid
+13.	Driving Condition 2 indicates the licensee must: 
+A. Drive a customized vehicle 
+B. Wear eyeglasses 
+C. Drive only with special equipment for upper/lower limbs
+14.	Driving Condition 3 requires the licensee to: 
+A. Drive a customized motor vehicle only 
+B. Drive only with a companion 
+C. Drive in the city only
+15.	Driving Condition 4 means the licensee is restricted to: 
+A. Night driving 
+B. Daylight driving only 
+C. Highway driving
+16.	Driving Condition 5 mandates the use of: 
+A. Corrective lenses
+B. An automatic transmission 
+C. A hearing aid
+17.	A Student Permit holder must be accompanied by: 
+A. A licensed driver accredited as a driving instructor 
+B. Anyone who knows how to drive 
+C. Their parents or legal guardians only
+18.	A Medical Certificate for a license application is valid for: 
+A. 30 days 
+B. 60 days 
+C. 1 year
+19.	A new Conductor's License (CL) is initially valid for:
+A. 3 years 
+B. 10 years 
+C. 5 years
+20.	Licensees with Conditions 2, 3, 4, or 5 are generally prohibited from: 
+A. Operating For-Hire or Public Utility Vehicles 
+B. Driving private cars 
+C. Driving on expressways
+
+
+
+
+//Vehicle Maintenance and Troubleshooting
+
+1.	A vehicle is legally considered "parked" if:
+A. It is stopped to load passengers
+B. It is stopped for a long time with the engine off 
+C. It is stopped to unload cargo
+2.	Drivers of ambulances must obtain a Certificate of Training from: 
+A. TESDA or Accredited TESDA Training Centers 
+B. LTO 
+C. Department of Health
+3.	Drivers of firetrucks must be trained by the: 
+A. LTO 
+B. TESDA 
+C. National Fire Training Institute
+4.	A training certificate for School Service drivers is issued by: 
+A. TESDA 
+B. LTO or LTFRB 
+C. The Department of Education
+5.	Carriers of hazardous cargo require specialized training from: 
+A. TESDA or Accredited TESDA Training Centers 
+B. LTO 
+C. The Bureau of Fire Protection
+6.	If a driver has a "Manual Transmission" (MT) Clutch Code, they are: 
+A. Only allowed to drive MT vehicles 
+B. Prohibited from driving AT vehicles 
+C. Allowed to operate both MT and AT vehicles
+7.	If a driver has an "Automatic Transmission" (AT) Clutch Code, they are:
+A. Allowed to drive MT vehicles 
+B. Not allowed to operate MT vehicles 
+C. Allowed to drive any vehicle type
+8.	A driver for a Special-purpose Vehicle (SV) must hold: 
+A. A Professional Driver's License matching the vehicle code 
+B. A Student Permit 
+C. A Non-Professional License
+9.	Vehicle Category L6 refers to a four-wheeled vehicle with an unladen mass of not more than: 
+A. 500 kg
+B. 750 kg 
+C. 350 kg
+10.	Vehicle Category L7, specifically for vehicles intended for carrying goods, has a maximum unladen mass of:
+A. 400 kg 
+B. 550 kg 
+C. 600 kg
+11.	Vehicle Category L1 is a two-wheeled vehicle with a maximum speed not exceeding: 
+A. 50 kph 
+B. 30 kph 
+C. 60 kph
+12.	Vehicle Category M1 is used for passengers and has no more than how many seats (excluding the driver)?
+A. 5 seats 
+B. 15 seats
+C. 8 seats
+13.	Vehicle Category N1 is for the carriage of goods with a GVW not exceeding: 
+A. 3,500 kg 
+B. 5,000 kg 
+C. 7,000 kg
+14.	Vehicle Category O1 refers to trailers with a GVW not exceeding: 
+A. 500 kg 
+B. 750 kg 
+C. 1,000 kg
+15.	If you stop temporarily to unload a passenger while keeping the engine running, is the vehicle considered "parked"? 
+A. Yes 
+B. Only if hazard lights are on 
+C. No
+16.	Parking is strictly prohibited in which of the following areas? 
+A. Pedestrian crossings (tawiran ng tao) 
+B. Designated parking lots 
+C. Private driveways with permission
+17.	To operate a heavy articulated vehicle (DL Code CE), a driver must have held a Code C or D license for at least: 
+A. 1 month 
+B. 6 months 
+C. 1 year
+18.	Part of "conditioning the vehicle" for a long trip includes: 
+A. Cleaning the interior only 
+B. Buying new exterior accessories 
+C. Planning the route and checking mechanical readiness
+19.	Why should you carry repair tools on long trips? 
+A. In case the vehicle breaks down or requires minor adjustments 
+B. To add necessary weight to the vehicle for traction 
+C. To comply with city noise ordinances
+20.	A professional driver must match their DL Code to the specific: 
+A. Color of the vehicle 
+B. Vehicle Category they are operating 
+C. Age of the vehicle
+
