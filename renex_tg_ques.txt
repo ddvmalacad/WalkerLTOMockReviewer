@@ -1,0 +1,153 @@
+renex_tg_ques
+
+
+1. Ang isang drayber na walang anumang huling sa trapiko sa loob ng limang taon bago mag-expire ang lisensya ay may karapatang mag-renew na may bisa na ilang taon?  
+A. 2 taon 
+B. 5 taon 
+C. 10 taon 
+D. 15 taon
+
+2. Ano ang kabuuang panahon ng bisa ng isang Student-Driver’s Permit (SP) mula sa petsa ng pagkakaloob nito?  
+A. 6 na buwan 
+B. 1 taon 
+C. 2 taon 
+D. 5 taon
+
+3. Alin sa mga sumusunod ang naglalarawan sa Driving Enhancement Program (DEP) na kailangan bago ang unang pag-renew ng isang limang-taong lisensya?  
+A. Isang praktikal na pagsusulit para sa mga propesyonal na drayber lamang 
+B. Isang road safety seminar na dinisenyo ng LTO para sa mga may-ari ng lisensya 
+C. Isang physical fitness test na isinasagawa ng isang opisyal ng LTO 
+D. Isang proseso ng pagpaparehistro para sa mga bagong sasakyan
+
+4. Kung ang Driver’s License ay hindi na-renew ng higit sa dalawang taon matapos ang petsa ng pag-expire, ano ang dapat gawin ng may-ari upang ma-renew ito?  
+A. Magbayad lamang ng basic fee at penalty 
+B. Dumalo lamang sa DEP seminar 
+C. Magpakita lamang ng bagong medical certificate 
+D. Kumuha at pumasa sa parehong theoretical at practical na pagsusulit
+
+5. Sa ilalim ng mga regulasyon ng LTO, paano legal na inuuri ang Driver’s License?  
+A. Isang karapatang konstitusyonal para sa lahat ng nagbabayad ng buwis
+B. Isang pansamantalang permit para sa mga estudyante lamang 
+C. Isang pribilehiyo, hindi karapatan 
+D. Isang propesyonal na kinakailangan para sa lahat ng may sapat na gulang
+
+6. Aling batas ang kilala bilang Anti-Distracted Driving Act (Batas Laban sa Nagambalang Pagmamaneho)?  
+A. R.A. No. 8750 
+B. R.A. No. 10913 
+C. R.A. No. 10586 
+D. R.A. No. 10666
+
+7. Ang R.A. No. 8750 ay kilala rin bilang:  
+A. Seat Belts Use Act of 1999 
+B. Anti-Drunk and Drugged Driving Act 
+C. Motorcycle Helmet Act of 2009 
+D. Philippine Clean Air Act of 1999
+
+8. Aling batas ang nagbabawal sa pagmamaneho sa ilalim ng impluwensya ng alak, mapanganib na gamot, at iba pang katulad na sustansya?  
+A. R.A. No. 4136 
+B. R.A. No. 10586 
+C. R.A. No. 10916 
+D. R.A. No. 8794
+
+9. Ang R.A. No. 10666 ay nakatuon sa kaligtasan ng aling grupo ng mga tao sa motorsiklo?  
+A. Mga nakatatandang pasahero 
+B. Mga propesyonal na courier 
+C. Mga bata 
+D. Mga buntis
+
+10. Ano ang pangunahing pokus ng R.A. No. 8749?  
+A. Limitasyon sa bilis (Speed limits) 
+B. Road user's charges 
+C. Malinis na hangin (Clean air) 
+D. Kaligtasan ng bata sa mga motor vehicle
+
+11. Ang mga traffic road signs, signals, at marka sa kalsada (pavement markings) sa Pilipinas ay naaayon sa anong 2012 na pamantayan?  
+A. LTO Licensing Standards 
+B. DPWH Highway Safety Design Standards
+C. International Traffic Safety Code 
+D. National Building Code
+
+12. Ang mga traffic signs na nagbibigay-alam sa mga gumagamit ng daan tungkol sa mga batas at regulasyon sa trapiko ay inuuri bilang:  
+A. Regulatory Signs 
+B. Warning Signs 
+C. Informative Signs 
+D. Miscellaneous Signs
+
+13. Aling kategorya ng mga sign ang ginagamit upang babalaan ang mga gumagamit ng daan tungkol sa mga potensyal na panganib o kondisyon sa kalsada? 
+A. Regulatory Signs 
+B. Warning Signs 
+C. Informative Signs 
+D. Pavement Markings
+
+14. Ano ang klasipikasyon ng mga sign na nagbibigay ng direksyon, instruksyon, at iba pang impormasyon upang tulungan ang mga gumagamit ng kalsada? 
+A. Warning Signs 
+B. Regulatory Signs 
+C. Informative Signs 
+D. Road Markings
+
+15. Ano ang layunin ng mga road sign at marka sa kalsada (pavement markings) ayon sa manwal?  
+A. Upang palamutian ang mga pambansang highway 
+B. Upang gabayan ang mga motorista, naglalakad, at may-ari ng lisensya para sa mas mabuting pag-unawa at kaligtasan sa daan 
+C. Upang palitan ang pangangailangan para sa pagpasok sa driving school 
+D. Upang subaybayan ang bilis ng lahat ng tumatakbong sasakyan
+
+16. Aling DL Code ang kinakailangan upang magmaneho ng mga motorsiklo (Vehicle Categories L1, L2, at L3)?  
+A. Code A 
+B. Code B 
+C. Code C 
+D. Code D
+
+17. Ang isang drayber na may DL Code B ay awtorisadong magmaneho ng anong uri ng sasakyan?  
+A. Heavy commercial vehicles (N2, N3) 
+B. Sasakyang pampasahero na hindi hihigit sa 8 upuan (M1) 
+C. Heavy passenger buses (M3) 
+D. Motorsiklo na may sidecar (L4)
+
+18. Aling Vehicle Category ang tumutugma sa DL Code B1?  
+A. M1 (Passenger Car) 
+B. M2 (Passenger Van/Jeepney) 
+C. N1 (Light Commercial) 
+D. O1 (Light Articulated)
+
+19. Aling DL Code ang kinakailangan para sa mga heavy commercial vehicle na nasa kategoryang N2 at N3?  
+A. Code B 
+B. Code B2 
+C. Code C 
+D. Code CE
+
+20. Kung ang lisensya ng drayber ay may Manual Transmission (MT) Clutch Code, anong uri ng mga sasakyan ang maaari nilang imaneho? 
+A. Mga sasakyang Manual Transmission (MT) lamang 
+B. Mga sasakyang Automatic Transmission (AT) lamang 
+C. Parehong Manual (MT) at Automatic (AT) na mga sasakyan 
+D. Mga semi-automatic na sasakyan lamang
+
+21. Kung ang isang drayber ay sertipikado ng isang LTO accredited physician na may paningin na hindi pasok sa 20/40 range, anong Medical Condition Code ang dapat na nakalagay sa kanyang lisensya?  
+A. Condition 1 (Magmaneho lamang gamit ang corrective lenses) 
+B. Condition 2 (Magmaneho lamang gamit ang espesyal na kagamitan) 
+C. Condition 4 (Magmaneho lamang sa oras ng may araw) 
+D. Condition 5 (Magmaneho lamang gamit ang hearing aid)
+
+22. Ang isang licensee na may Medical Condition Code 4 ay limitado sa pagmamaneho sa anong oras?  
+A. Gabi lamang 
+B. Oras ng may araw lamang (daylight) 
+C. Rush hours lamang 
+D. Tuwing weekend lamang
+
+23. Ayon sa 2012 DPWH standards, ano ang layunin ng mga marka sa kalsada (pavement markings)?  
+A. Upang ipakita ang mga administratibong hangganan ng isang lungsod 
+B. Upang magbigay ng malinaw na gabay at regulasyon para sa paggamit ng lane ng mga motorista 
+C. Upang palitan ang pangangailangan para sa mga ilaw sa kalsada sa gabi 
+D. Upang kilalanin ang partikular na road contractor na gumawa ng highway
+
+24. Ang mga may-ari ba ng Driver's License na may AT (Automatic Transmission) clutch code ay pinapayagang magmaneho ng mga sasakyang MT (Manual Transmission)?  
+A. Oo, sa anumang oras 
+B. Oo, ngunit may student permit lamang 
+C. Hindi, hindi sila pinapayagan 
+D. Sa mga kaso lamang ng matinding emerhensya
+
+25. Ang Medical Certificate na inisyu ng isang LTO accredited clinic ay may bisa sa loob ng ilang araw mula sa petsa ng pagkakaloob?  
+A. 15 araw 
+B. 30 araw 
+C. 60 araw 
+D. 90 araw
+
