@@ -144,7 +144,7 @@ app.get('/api/questions', (req, res) => {
             });
             
             // Subcategory Focus Session Cap
-            filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 10);
+            filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 20);
         }
 
         res.json(filtered);

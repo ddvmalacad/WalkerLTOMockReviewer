@@ -1,222 +1,372 @@
-/* ==========================================================================
-   1. SYSTEM DESIGN TOKENS (The "Focus" Scheme)
-   ========================================================================== */
+/* --- GOOGLE FONTS IMPORT --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* --- PREMIUM TECH DESIGN TOKENS --- */
 :root {
-    /* 
-       UX Psychology: Soft, warm backgrounds reduce digital eye strain by 
-       lowering the overall light emission. Stark white (#FFF) causes glare. 
-    */
-    --bg-main: #F7F5F2;          /* Warm, paper-like off-white */
-    --surface: #FFFFFF;          /* Pure white strictly for elevated cards */
+    --bg-gradient: linear-gradient(135deg, #f0f4f8 0%, #e2e8f0 100%);
+    --surface: #ffffff;
+    --primary: #0f172a;         /* Ultra-sleek Obsidian Navy */
+    --primary-light: #2563eb;   /* Premium Vibrant Royal Blue */
+    --accent: #3b82f6;          /* Modern Electric Accent */
+    --success: #10b981;         /* Emerald Success Leaf */
+    --success-light: #f0fdf4;   /* Soft Success Mint Tint */
+    --error: #f43f5e;           /* Vivid Rose Warning Crimson */
+    --error-light: #fff1f2;     /* Soft Rose Warning Tint */
+    --text-main: #1e293b;       /* Dark Slate Main Typography */
+    --text-muted: #64748b;      /* Cool Neutral Gray Subtexts */
+    --border: #cbd5e1;          /* Defined Soft Border Rule */
+    --border-light: #e2e8f0;    /* Light Inner Divider Lines */
     
-    /* 
-       UX Psychology: Off-black text prevents the visual "buzzing" or 
-       halation effect that occurs with #000 on #FFF. 
-    */
-    --text-primary: #2C3338;     /* Deep slate gray for optimal reading */
-    --text-secondary: #5A6570;   /* Muted gray for meta-data and hints */
-    --border-soft: #E2DFD8;      /* Low-contrast divider */
-
-    /* 
-       UX Psychology: Functional accents only. Colors map to cognitive 
-       associations (Blue = action, Green = correct, Amber = caution). 
-    */
-    --accent-blue: #4A7298;      /* Calming, non-aggressive primary action */
-    --accent-blue-hover: #3A5A78;
-    --accent-green: #588C73;     /* Muted sage for success/correct */
-    --accent-amber: #D99A5B;     /* Soft amber for warnings/alerts */
-    --accent-red: #C85A5A;       /* Muted crimson for errors */
-
-    /* Typography & Spacing Variables */
-    --font-base: 'Inter', system-ui, -apple-system, sans-serif;
-    --radius-md: 8px;
-    --radius-lg: 12px;
-    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.03);
+    --radius-lg: 20px;
+    --radius-md: 12px;
+    --radius-sm: 8px;
     
-    /* 
-       UX Psychology: Deliberate, predictable animations prevent spatial 
-       disorientation. Fast, subtle fades keep the user grounded. 
-    */
-    --transition-snappy: all 0.2s ease-in-out;
+    --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08);
+    --shadow-md: 0 10px 30px -10px rgba(15, 23, 42, 0.07), 0 1px 3px rgba(15, 23, 42, 0.02);
+    --shadow-lg: 0 20px 40px -15px rgba(15, 23, 42, 0.12), 0 1px 10px rgba(15, 23, 42, 0.04);
+    
+    --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Optional: Warm Dark Mode Integration */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-main: #1C1E20;      /* Deep, warm charcoal (not pitch black) */
-        --surface: #25282B;
-        --text-primary: #EAECEE; /* Soft silver for reading */
-        --text-secondary: #9AA0A6;
-        --border-soft: #383C40;
-        --accent-blue: #5C8EBD;
-        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.15);
-    }
-}
-
-/* ==========================================================================
-   2. TYPOGRAPHY, READABILITY & BASE RESET
-   ========================================================================== */
+/* --- BASE APPLICATION ARCHITECTURE RESET --- */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-    font-family: var(--font-base);
-    background-color: var(--bg-main);
-    color: var(--text-primary);
-    line-height: 1.65; /* Optimal for preventing line-blur */
-    -webkit-font-smoothing: antialiased;
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-gradient);
+    min-height: 100vh;
+    color: var(--text-main);
     display: flex;
     justify-content: center;
-    padding: 2rem 1rem;
-    min-height: 100vh;
+    align-items: center;
+    padding: 24px;
+    line-height: 1.6;
 }
 
-/* 
-   UX Psychology: The "65ch" Rule. Constraining the maximum width of text 
-   blocks prevents the eye from traveling too far horizontally, which 
-   drastically improves scanning speed and retention.
-*/
-.stage-container {
-    background-color: var(--surface);
+/* --- MAIN VIEWPORT INTERACTION WRAPPER CARD --- */
+.container {
+    background: var(--surface);
     width: 100%;
-    max-width: 65ch; /* Strict typographic constraint */
-    padding: 3rem 2.5rem; /* Generous whitespace lowers cognitive anxiety */
+    max-width: 660px;
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-soft);
-    border: 1px solid var(--border-soft);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 48px;
+    transition: var(--transition);
 }
 
-h1, h2, h3 {
-    line-height: 1.2;
-    color: var(--text-primary);
-    letter-spacing: -0.02em;
-    margin-bottom: 1rem;
+.hidden {
+    display: none !important;
 }
 
-#question-display {
-    font-size: 1.35rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    color: var(--text-primary);
+/* --- APP PORTAL STRUCTURAL HEADERS --- */
+header {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-/* ==========================================================================
-   3. INTERACTIVE ELEMENTS (MCQ Options & Buttons)
-   ========================================================================== */
-/* 
-   UX Psychology: Large click targets reduce motor friction. 
-   Removing heavy backgrounds prevents the options from competing 
-   with the actual question text for visual hierarchy.
-*/
-.option-btn {
-    width: 100%;
-    padding: 1rem 1.25rem;
-    margin-bottom: 0.75rem;
-    font-family: var(--font-base);
+header h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary);
+    letter-spacing: -0.03em;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: var(--text-muted);
     font-size: 1rem;
-    color: var(--text-primary);
+    font-weight: 400;
+}
+
+/* --- CORE INPUT FORMS & LAYOUT COMPONENT dropdowns --- */
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.075em;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 14px 18px;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-main);
+    background-color: #f8fafc;
+    border: 1.5px solid var(--border-light);
+    border-radius: var(--radius-md);
+    outline: none;
+    transition: var(--transition);
+    appearance: none;
+}
+
+select {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 18px center;
+    background-size: 14px;
+    padding-right: 48px;
+}
+
+input:focus,
+select:focus {
+    border-color: var(--primary-light);
     background-color: var(--surface);
-    border: 1px solid var(--border-soft);
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+/* --- CONTROL BUTTON LAYER EXECUTIONS --- */
+.btn,
+#start-btn,
+#next-btn,
+#restart-btn {
+    width: 100%;
+    padding: 16px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: var(--primary-light);
+    border: none;
     border-radius: var(--radius-md);
     cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+    text-decoration: none;
+    outline: none;
+}
+
+.btn:hover,
+#start-btn:hover,
+#next-btn:hover,
+#restart-btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(29, 78, 216, 0.3);
+}
+
+.btn:active,
+#start-btn:active,
+#next-btn:active,
+#restart-btn:active {
+    transform: translateY(1px);
+}
+
+/* Theme Modifier Explicit overrides */
+#next-btn {
+    background-color: var(--primary);
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+}
+#next-btn:hover {
+    background-color: #1e293b;
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.25);
+}
+
+#restart-btn {
+    background-color: #f1f5f9;
+    color: var(--text-main);
+    border: 1.5px solid var(--border-light);
+    box-shadow: var(--shadow-sm);
+    margin-top: 24px;
+}
+
+#restart-btn:hover {
+    background-color: #e2e8f0;
+    box-shadow: var(--shadow-md);
+}
+
+/* --- HUD AND LEVEL TIMER INTERFACES --- */
+.exam-header {
+    margin-bottom: 20px;
+}
+
+#exam-timer {
+    font-family: 'Inter', monospace;
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    font-size: 1.15rem;
+    background: #f1f5f9;
+    padding: 6px 14px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-light);
+}
+
+/* --- SYSTEM INTERACTION MULTIPLE CHOICE ENGINE --- */
+#question-display {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 28px;
+    line-height: 1.45;
+    letter-spacing: -0.01em;
+}
+
+#options-display {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Beautiful Interactive Card Choices */
+.option-btn {
+    width: 100%;
+    padding: 18px 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-main) !important;
+    background-color: var(--surface) !important;
+    border: 1.5px solid var(--border-light) !important;
+    border-radius: var(--radius-md) !important;
+    cursor: pointer;
+    transition: var(--transition) !important;
     text-align: left;
-    transition: var(--transition-snappy);
+    box-shadow: var(--shadow-sm);
 }
 
 .option-btn:hover {
-    border-color: var(--accent-blue);
-    background-color: rgba(74, 114, 152, 0.03); /* Subtle blue tint */
-    transform: translateY(-1px);
+    background-color: #f8fafc !important;
+    border-color: #94a3b8 !important;
+    transform: translateX(4px);
+    box-shadow: var(--shadow-md);
 }
 
-/* Action Buttons (Deploy Review Set, Next Item) */
-#start-btn, #next-btn, #auth-submit-btn {
-    width: 100%;
-    padding: 1rem;
-    background-color: var(--accent-blue);
-    color: #FFFFFF;
-    border: none;
-    border-radius: var(--radius-md);
+/* Dynamic State Overrides mapped via execution events */
+.option-btn.correct {
+    background-color: var(--success-light) !important;
+    border-color: var(--success) !important;
+    color: #065f46 !important;
     font-weight: 600;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: var(--transition-snappy);
-    margin-top: 1rem;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.1);
 }
 
-#start-btn:hover, #next-btn:hover {
-    background-color: var(--accent-blue-hover);
+.option-btn.wrong {
+    background-color: var(--error-light) !important;
+    border-color: var(--error) !important;
+    color: #9f1239 !important;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(244, 63, 94, 0.1);
 }
 
-/* ==========================================================================
-   4. SPECIALIZED STUDY UI ELEMENTS
-   ========================================================================== */
-
-/* Concept Cards for definitions or structural knowledge */
-.card-concept {
-    background-color: var(--bg-main);
-    border-left: 4px solid var(--accent-blue);
-    padding: 1.25rem;
-    border-radius: 0 var(--radius-md) var(--radius-md) 0;
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
-}
-
-/* Warning & Note Callouts */
-.callout-note {
-    background-color: rgba(88, 140, 115, 0.1);
-    color: var(--accent-green);
-    padding: 1rem;
-    border-radius: var(--radius-md);
-    font-size: 0.9rem;
-    font-weight: 500;
-}
-
-.callout-warning {
-    background-color: rgba(217, 154, 91, 0.1);
-    color: #9C6B38; /* Darker amber for readable text */
-    padding: 1rem;
-    border-radius: var(--radius-md);
-    font-size: 0.9rem;
-    font-weight: 500;
-}
-
-/* 
-   UX Psychology: Progress bars should track completion without inducing stress. 
-   A sleek, thin profile keeps it informative but peripheral. 
-*/
-.progress-container {
+/* --- HISTORICAL METRIC RECORDS LOGGING ARRAYS (Dashboard Table) --- */
+.metric-table {
     width: 100%;
-    height: 4px; /* Thin profile */
-    background-color: var(--border-soft);
-    border-radius: 4px;
-    margin-bottom: 2rem;
-    overflow: hidden;
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 8px;
 }
 
-#progress-bar {
-    height: 100%;
-    background-color: var(--accent-blue);
-    width: 0%;
-    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+.metric-table th {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    font-weight: 700;
+    padding: 12px 16px;
+    border-bottom: 2px solid var(--border-light);
 }
 
-/* 
-   UX Psychology: Focus mode clears peripheral noise. Applied via JS when 
-   the exam state begins. 
-*/
-.focus-mode header,
-.focus-mode .exam-hud span:not(#exam-timer) {
-    opacity: 0.2;
-    pointer-events: none;
-    filter: blur(2px);
-    transition: var(--transition-snappy);
+.metric-table td {
+    padding: 14px 16px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid var(--border-light);
+    color: var(--text-main);
 }
 
-/* Functional Utility */
-.hidden {
-    display: none !important;
+.metric-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* --- PERFORMANCE DATA ANALYTICS GRAPH MATRIX (Results Display) --- */
+.results-header {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+#score-display {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--primary-light);
+    line-height: 1;
+    margin-bottom: 12px;
+    letter-spacing: -0.04em;
+}
+
+#passing-status {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+/* --- INTEGRATED COMPONENT VIEWPORT CUSTOM SCROLLBARS --- */
+#history-table-wrapper::-webkit-scrollbar,
+.matrix-box::-webkit-scrollbar,
+#performance-matrix::-webkit-scrollbar {
+    width: 6px;
+}
+
+#history-table-wrapper::-webkit-scrollbar-track,
+.matrix-box::-webkit-scrollbar-track,
+#performance-matrix::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#history-table-wrapper::-webkit-scrollbar-thumb,
+.matrix-box::-webkit-scrollbar-thumb,
+#performance-matrix::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 100px;
+}
+
+#history-table-wrapper::-webkit-scrollbar-thumb:hover,
+.matrix-box::-webkit-scrollbar-thumb:hover,
+#performance-matrix::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* --- RESPONSIVE MOBILE SCALING VIEWPORTS --- */
+@media (max-width: 580px) {
+    body {
+        padding: 12px;
+    }
+    .container {
+        padding: 32px 20px;
+        border-radius: var(--radius-md);
+    }
+    header h1 {
+        font-size: 1.65rem;
+    }
+    #question-display {
+        font-size: 1.15rem;
+    }
+    .option-btn {
+        padding: 14px 18px;
+        font-size: 0.95rem;
+    }
+    .metric-table th, 
+    .metric-table td {
+        padding: 10px 8px;
+        font-size: 0.8rem;
+    }
 }
