@@ -173,3 +173,39 @@ app.get('/api/performance/:userId', (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Application actively hosted on port: ${PORT}`));
+
+// API: Simple Login System
+app.post('/api/login', (req, res) => {
+    const { name } = req.body;
+    try {
+        // Look up the user by name (case-insensitive)
+        const stmt = db.prepare(`SELECT * FROM users WHERE name = ? COLLATE NOCASE`);
+        const user = stmt.get(name);
+        
+        if (user) {
+            res.json(user);
+        } else {
+            res.status(404).json({ error: "User not found. Please register." });
+        }
+    } catch (err) {
+        return res.status(500).json({ error: err.message });
+    }
+});
+
+// API: Fetch Exam History for Dashboard
+app.get('/api/history/:userId', (req, res) => {
+    const { userId } = req.params;
+    try {
+        // Grabs all past exams for this user, newest first
+        const stmt = db.prepare(`
+            SELECT exam_type, score, total_questions, date_taken 
+            FROM exam_attempts 
+            WHERE user_id = ? 
+            ORDER BY date_taken DESC
+        `);
+        const history = stmt.all(userId);
+        res.json(history);
+    } catch (err) {
+        return res.status(500).json({ error: err.message });
+    }
+});
