@@ -3,98 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LTO Mock Exam Portal</title>
+    <title>LTO Exam Review Dashboard Portal</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Utility styles to ensure proper page views and layouts */
+        .hidden { display: none !important; }
+        .stage-container { max-width: 650px; margin: 2rem auto; padding: 2rem; background: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        .hero-banner { text-align: center; padding: 1.5rem 0; }
+        .metric-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        .metric-table th, .metric-table td { padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--border); }
+        .metric-table th { background-color: #f8f9fa; font-weight: 600; }
+        .flex-actions { display: flex; gap: 1rem; margin-top: 1.5rem; }
+        .logout-btn { background-color: #6c757d; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; }
+    </style>
 </head>
 <body>
 
-    <div class="container">
-        <header>
-            <h1>LTO Mock Exam Portal</h1>
-            <p class="subtitle">Land Transportation Office Licensing Reviewer</p>
-        </header>
+    <section id="landing-stage" class="stage-container">
+        <div class="hero-banner">
+            <h1>LTO Driver's License Reviewer</h1>
+            <p style="color: #666; margin-top: 0.5rem;">Prepare efficiently for the LTO Comprehensive and Renewal Examinations using our optimized system.</p>
+        </div>
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 1.5rem 0;">
+        <h3 style="margin-bottom: 0.5rem;">Platform Highlights</h3>
+        <ul style="padding-left: 1.25rem; line-height: 1.6;">
+            <li><strong>Official Blueprints:</strong> Aligned precisely with standard LTO question distributions.</li>
+            <li><strong>Dual Language Support:</strong> Seamlessly toggle between English and Tagalog parameters instantly.</li>
+            <li><strong>Weakness Metrics:</strong> Automatically tracks incorrect answers to discover structural knowledge gaps.</li>
+        </ul>
+        <div class="flex-actions">
+            <button id="to-login-btn" class="option-btn" style="background: var(--primary-light); color: white;">Access Dashboard Portfolio ➔</button>
+        </div>
+    </section>
 
-        <section id="auth-stage">
-            <div class="form-group">
-                <label for="username">Full Name</label>
-                <input type="text" id="username" placeholder="e.g., Juan Dela Cruz" required>
-            </div>
-
-            <div class="form-group">
-                <label for="userage">Age</label>
-                <input type="number" id="userage" placeholder="e.g., 25" min="16" required>
-            </div>
-
-            <div class="form-group">
-                <label for="learning-status">Application Type</label>
-                <select id="learning-status">
-                    <option value="student">Student Permit / Non-Professional License (50 Items)</option>
-                    <option value="driver">Professional License / Renewal (25 Items)</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="exam-lang">Preferred Language</label>
-                <select id="exam-lang">
-                    <option value="en">English</option>
-                    <option value="tl">Tagalog (Filipino)</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="exam-topic">Focus Category</label>
-                <select id="exam-topic">
-                    <option value="all">All Topics (Full Balanced Exam)</option>
-                    <option value="Road Signs and Pavement Markings">Road Signs and Pavement Markings</option>
-                    <option value="Road and Traffic Rules">Road and Traffic Rules</option>
-                    <option value="Safe Driving Principles">Safe Driving Principles</option>
-                    <option value="Land Transportation Laws and Violations">Land Transportation Laws and Violations</option>
-                    <option value="Licensing Information and General Knowledge">Licensing Information and General Knowledge</option>
-                    <option value="Vehicle Maintenance and Troubleshooting">Vehicle Maintenance and Troubleshooting</option>
-                </select>
-            </div>
-
-            <button id="start-btn">Initialize Exam Session</button>
-        </section>
-
-        <section id="exam-stage" class="hidden">
-            <div class="progress-container" style="background: var(--border); height: 4px; border-radius: 2px; margin-bottom: 1.5rem; position: relative; overflow: hidden;">
-                <div id="progress-bar" style="background: var(--primary); height: 100%; width: 0%; transition: width 0.3s ease;"></div>
-            </div>
-
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
-                <span id="question-counter" style="font-size: 0.875rem; font-weight: 600; color: var(--text-muted);">Question 1 of --</span>
-                <span id="exam-timer" style="font-size: 0.875rem; font-weight: 700; color: var(--accent);">60:00</span>
-            </div>
-
-            <div class="question-card">
-                <p class="question-text" id="question-display">Loading core validation parameters...</p>
-                
-                <div class="options-list" id="options-display">
-                    </div>
-            </div>
-
-            <button id="next-btn" class="hidden" style="margin-top: 1.5rem; background-color: #007bff; color: white;">Proceed to Next Item</button>
-        </section>
-
-        <section id="results-stage" class="hidden">
-            <div style="text-align: center; margin-bottom: 2rem;">
-                <h2 style="font-size: 2rem; color: var(--primary); margin-bottom: 0.5rem;">Exam Complete</h2>
-                <div style="font-size: 3.5rem; font-weight: 700; color: var(--success); margin: 0 auto; text-align: center;" id="score-display">0/0</div>
-                <p id="passing-status" style="font-weight: 600; margin-top: 0.5rem;"></p>
-            </div>
-
-            <hr style="border: 0; border-top: 1px solid var(--border); margin-bottom: 1.5rem;">
-
+    <section id="auth-stage" class="stage-container hidden">
+        <h2>Driver Profile Access</h2>
+        <p style="color:#666; margin-bottom: 1.5rem;">Enter your name to register a profile or log back into your historical tracking metrics.</p>
+        
+        <div style="display: flex; flex-direction: column; gap: 1rem;">
             <div>
-                <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--primary-light); margin-bottom: 1rem;">Analytical Weakness Matrix</h3>
-                <div id="performance-matrix" style="display: flex; flex-direction: column; gap: 0.75rem;">
-                    </div>
+                <label style="display:block; margin-bottom:0.25rem; font-weight:500;">FullName / Username</label>
+                <input type="text" id="username" placeholder="e.g., Juan Dela Cruz" style="width:100%; padding:0.75rem; border:1px solid var(--border); border-radius:6px;">
+            </div>
+            <div id="age-input-block">
+                <label style="display:block; margin-bottom:0.25rem; font-weight:500;">Age</label>
+                <input type="number" id="userage" placeholder="e.g., 23" min="16" style="width:100%; padding:0.75rem; border:1px solid var(--border); border-radius:6px;">
+            </div>
+        </div>
+
+        <div class="flex-actions" style="justify-content: space-between; align-items: center;">
+            <button id="auth-submit-btn" class="option-btn" style="background: var(--primary-light); color: white; width: auto; padding: 0.75rem 2rem;">Authenticate ➔</button>
+            <button id="auth-toggle-mode" style="background: none; border: none; color: var(--primary-light); cursor: pointer; text-decoration: underline;">Switch to Returning Login</button>
+        </div>
+    </section>
+
+    <section id="dashboard-stage" class="stage-container hidden">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <h2 id="dashboard-welcome">Welcome back, Rider!</h2>
+                <p style="color:#666; font-size:0.9rem;">Review historical metrics or configure your next practice set run.</p>
+            </div>
+            <button id="logout-action-btn" class="logout-btn">Sign Out</button>
+        </div>
+
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 1.5rem 0;">
+
+        <h3>Configure New Examination Set</h3>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
+            <div>
+                <label style="display:block; margin-bottom:0.25rem; font-weight:500;">License Objective Type</label>
+                <select id="learning-status" style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px;">
+                    <option value="student">Student / Non-Professional Pool (GenEx)</option>
+                    <option value="driver">Professional Renewal Applicant (RenEx)</option>
+                </select>
+            </div>
+            <div>
+                <label style="display:block; margin-bottom:0.25rem; font-weight:500;">Preferred Language</label>
+                <select id="exam-lang" style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px;">
+                    <option value="en">English Language Format</option>
+                    <option value="tg">Tagalog Language Format</option>
+                </select>
+            </div>
+        </div>
+        <div style="margin-top: 1rem;">
+            <label style="display:block; margin-bottom:0.25rem; font-weight:500;">Target Training Focus Segment</label>
+            <select id="exam-topic" style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px;">
+                <option value="all">Comprehensive Mock Blueprint Exam (Full Pool)</option>
+                <option value="general">General Knowledge Category</option>
+                <option value="renewal">Renewal Operational Protocol</option>
+                <option value="road signs">Road Signs and Pavement Markings</option>
+                <option value="traffic rules">Traffic Rules and Regulations</option>
+            </select>
+        </div>
+        
+        <button id="start-btn" class="option-btn" style="background: var(--primary-light); color: white; margin-top: 1.25rem;">Deploy Selected Review Set ➔</button>
+
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 2rem 0;">
+
+        <h3>Historical Session Attempts Archive</h3>
+        <div id="history-table-wrapper" style="margin-top: 1rem; max-height: 200px; overflow-y: auto;">
+            <table class="metric-table">
+                <thead>
+                    <tr>
+                        <th>Exam Type Blueprint</th>
+                        <th>Raw Score</th>
+                        <th>Performance Grade</th>
+                        <th>Timestamp Date</th>
+                    </tr>
+                </thead>
+                <tbody id="history-rows-container">
+                    </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="exam-stage" class="stage-container hidden">
+        <div class="exam-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+            <span id="question-counter" style="font-weight: 600; color: var(--primary-light);">Question 0 of 0</span>
+            <div id="exam-timer" style="font-family: monospace; font-size: 1.25rem; font-weight: 700; color: var(--text-main);">00:00</div>
+        </div>
+        
+        <div class="progress-container" style="background: #eef2f3; border-radius: 8px; height: 6px; overflow: hidden; margin-bottom: 1.5rem;">
+            <div id="progress-bar" style="background: var(--primary-light); width: 0%; height: 100%; transition: width 0.3s ease;"></div>
+        </div>
+
+        <h3 id="question-display" style="line-height: 1.5; margin-bottom: 1.5rem;">Loading question telemetry structure...</h3>
+
+        <div id="options-display" style="display: flex; flex-direction: column; gap: 0.75rem;">
             </div>
 
-            <button id="restart-btn" style="margin-top: 2rem;">Return to Dashboard</button>
-        </section>
-    </div>
+        <button id="next-btn" class="hidden" style="margin-top: 1.5rem; background-color: var(--accent); color: white; border: none; padding: 0.85rem 1.5rem; border-radius: 6px; cursor: pointer; font-weight: 600; width: 100%;">
+            Proceed to Next Item ➔
+        </button>
+    </section>
+
+    <section id="results-stage" class="stage-container hidden">
+        <h2 style="text-align: center;">Examination Diagnostic Matrix Summary</h2>
+        <div style="text-align: center; margin: 1.5rem 0;">
+            <div id="score-display" style="font-size: 3rem; font-weight: 800; color: var(--primary-light);">0/0</div>
+            <p id="passing-status" style="font-weight: 700; font-size: 1.1rem; margin-top: 0.5rem;"></p>
+        </div>
+
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 1.5rem 0;">
+
+        <h3 style="margin-bottom: 0.75rem;">Analytical Weakness Groupings</h3>
+        <div id="performance-matrix" style="display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 2rem;">
+            </div>
+
+        <div class="flex-actions">
+            <button id="restart-btn" class="option-btn" style="background: var(--primary-light); color: white;">Return to Dashboard Portfolio</button>
+        </div>
+    </section>
 
     <script src="app.js"></script>
 </body>
