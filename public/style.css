@@ -314,6 +314,31 @@ select:focus {
     }
 }
 
+#next-btn {
+  /* Layout & Sizing */
+  width: 100%;
+  padding: 0.85rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  
+  /* Theme-Driven Colors */
+  background-color: var(--accent);
+  color: var(--accent-text); /* The magic variable */
+  
+  /* Subtle UX polish for a study environment */
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#next-btn:hover {
+  filter: brightness(0.95); /* Soft darken on hover without hardcoding colors */
+}
+
+#next-btn:active {
+  transform: scale(0.98); /* Subtle feedback when clicked */
+}
+
 .hidden {
     display: none !important;
 }
