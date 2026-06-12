@@ -243,7 +243,7 @@ async function initializeSession() {
 // --- RENDER QUESTIONS SYSTEMS ENGINE LOOP ---
 function renderQuestion() {
     const nextBtn = document.getElementById('next-btn');
-    nextBtn.classList.add('hidden');
+    nextBtn.classList.add('hidden'); // Hide the hardcoded button until an answer is clicked
     
     // DYNAMIC TEXT LABELLING: Turns to Submit Exam button if it is the absolute final item
     if (currentSession.currentIndex === currentSession.questions.length - 1) {
@@ -264,6 +264,8 @@ function renderQuestion() {
     document.getElementById('question-display').innerText = q.Question || q.question;
 
     const optionsContainer = document.getElementById('options-display');
+    
+    // SAFE CLEAR: This only clears the options because the Next button is outside this container now!
     optionsContainer.innerHTML = '';
 
     const rawOptions = [
@@ -300,6 +302,7 @@ function renderQuestion() {
                 });
             }
             
+            // Unhide the hardcoded Next button after a selection is made
             nextBtn.classList.remove('hidden');
         });
 

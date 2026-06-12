@@ -57,87 +57,90 @@
         </div>
     </section>
 
-    <section id="dashboard-stage" class="stage-container hidden">
-        <div style="display: flex; justify-content: space-between; align-items: center;">
-            <div>
-                <h2 id="dashboard-welcome">Welcome back, Rider!</h2>
-                <p style="color:#666; font-size:0.9rem;">Review historical metrics or configure your next practice set run.</p>
+            <section id="dashboard-stage" class="stage-container hidden">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <h2 id="dashboard-welcome">Welcome back, Rider!</h2>
+                    <p style="color:#666; font-size:0.9rem;">Configure your training set or review past metrics.</p>
+                </div>
+                <button id="logout-action-btn" class="logout-btn">Sign Out</button>
             </div>
-            <button id="logout-action-btn" class="logout-btn">Sign Out</button>
-        </div>
 
-        <hr style="border: 0; border-top: 1px solid #eee; margin: 1.5rem 0;">
+            <hr style="border: 0; border-top: 1px solid #eee; margin: 1.5rem 0;">
 
-        <h3>Configure New Examination Set</h3>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
-            <div>
-                <label style="display:block; margin-bottom:0.25rem; font-weight:500;">License Objective Type</label>
-                <select id="learning-status" style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px;">
-                    <option value="student">Student / Non-Professional Pool (GenEx)</option>
-                    <option value="driver">Professional Renewal Applicant (RenEx)</option>
-                </select>
+            <h3>Configure Examination</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
+                <div>
+                    <label style="display:block; margin-bottom:0.25rem; font-weight:500;">License Group</label>
+                    <select id="learning-status" style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px; background: white;">
+                        <option value="student">Non-Professional (GenEx)</option>
+                        <option value="driver">Professional (RenEx)</option>
+                    </select>
+                </div>
+                <div>
+                    <label style="display:block; margin-bottom:0.25rem; font-weight:500;">Language</label>
+                    <select id="exam-lang" style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px; background: white;">
+                        <option value="en">English</option>
+                        <option value="tg">Tagalog</option>
+                    </select>
+                </div>
             </div>
-            <div>
-                <label style="display:block; margin-bottom:0.25rem; font-weight:500;">Preferred Language</label>
-                <select id="exam-lang" style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px;">
-                    <option value="en">English Language Format</option>
-                    <option value="tg">Tagalog Language Format</option>
-                </select>
-            </div>
-        </div>
-        <div style="margin-top: 1rem;">
-            <label style="display:block; margin-bottom:0.25rem; font-weight:500;">Target Training Focus Segment</label>
-                <select id="exam-topic" style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px;">
-                    <option value="all">Comprehensive Mock Blueprint Exam (Full Pool)</option>
-                    <option value="Road Signs and Pavement Markings">1) Road Signs and Pavement Markings</option>
-                    <option value="Road and Traffic Rules">2) Road and Traffic Rules</option>
+            
+            <div style="margin-top: 1rem;">
+                <label style="display:block; margin-bottom:0.25rem; font-weight:500;">Target Topic Focus</label>
+                <select id="exam-topic" style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px; background: white;">
+                    <option value="all">Comprehensive Mock Blueprint (Full Pool)</option>
+                    <option value="Road Signs and Pavement Markings">1) Road Signs & Markings</option>
+                    <option value="Road and Traffic Rules">2) Road & Traffic Rules</option>
                     <option value="Safe Driving Principles">3) Safe Driving Principles</option>
-                    <option value="Land Transportation Laws and Violations">4) Land Transportation Laws and Violations</option>
-                    <option value="Licensing Information and General Knowledge">5) Licensing Information and General Knowledge</option>
-                    <option value="Vehicle Maintenance and Troubleshooting">6) Vehicle Maintenance and Troubleshooting</option>
+                    <option value="Land Transportation Laws and Violations">4) LTO Laws & Violations</option>
+                    <option value="Licensing Information and General Knowledge">5) Licensing & General Knowledge</option>
+                    <option value="Vehicle Maintenance and Troubleshooting">6) Maintenance & Troubleshooting</option>
                 </select>
-        </div>
-        
-        <button id="start-btn" class="option-btn" style="background: var(--primary-light); color: white; margin-top: 1.25rem;">Deploy Selected Review Set ➔</button>
+            </div>
+            
+            <button id="start-btn" class="option-btn" style="background: var(--primary-light); color: white; margin-top: 1.25rem;">Deploy Review Set ➔</button>
 
-        <hr style="border: 0; border-top: 1px solid #eee; margin: 2rem 0;">
+            <hr style="border: 0; border-top: 1px solid #eee; margin: 2rem 0;">
 
-        <h3>Historical Session Attempts Archive</h3>
-        <div id="history-table-wrapper" style="margin-top: 1rem; max-height: 200px; overflow-y: auto;">
-            <table class="metric-table">
-                <thead>
-                    <tr>
-                        <th>Exam Type Blueprint</th>
-                        <th>Raw Score</th>
-                        <th>Performance Grade</th>
-                        <th>Timestamp Date</th>
-                    </tr>
-                </thead>
-                <tbody id="history-rows-container">
-                    </tbody>
-            </table>
-        </div>
-    </section>
+            <h3>Historical Session Attempts Archive</h3>
+            <div id="history-table-wrapper" style="margin-top: 1rem; max-height: 200px; overflow-y: auto;">
+                <table class="metric-table">
+                    <thead>
+                        <tr>
+                            <th>Exam Blueprint</th>
+                            <th>Score</th>
+                            <th>Grade</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody id="history-rows-container">
+                        </tbody>
+                </table>
+            </div>
+        </section>
 
-    <section id="exam-stage" class="stage-container hidden">
-        <div class="exam-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
-            <span id="question-counter" style="font-weight: 600; color: var(--primary-light);">Question 0 of 0</span>
-            <div id="exam-timer" style="font-family: monospace; font-size: 1.25rem; font-weight: 700; color: var(--text-main);">00:00</div>
-        </div>
-        
-        <div class="progress-container" style="background: #eef2f3; border-radius: 8px; height: 6px; overflow: hidden; margin-bottom: 1.5rem;">
-            <div id="progress-bar" style="background: var(--primary-light); width: 0%; height: 100%; transition: width 0.3s ease;"></div>
-        </div>
-
-        <h3 id="question-display" style="line-height: 1.5; margin-bottom: 1.5rem;">Loading question telemetry structure...</h3>
-
-        <div id="options-display" style="display: flex; flex-direction: column; gap: 0.75rem;">
+        <section id="exam-stage" class="stage-container hidden">
+            <div class="exam-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <span id="question-counter" style="font-weight: 600; color: var(--primary-light);">Question 0 of 0</span>
+                <div id="exam-timer" style="font-family: monospace; font-size: 1.25rem; font-weight: 700; color: var(--text-main);">00:00</div>
+            </div>
+            
+            <div class="progress-container" style="background: #eef2f3; border-radius: 8px; height: 6px; overflow: hidden; margin-bottom: 1.5rem;">
+                <div id="progress-bar" style="background: var(--primary-light); width: 0%; height: 100%; transition: width 0.3s ease;"></div>
             </div>
 
-        <button id="next-btn" class="hidden" style="margin-top: 1.5rem; background-color: var(--accent); color: white; border: none; padding: 0.85rem 1.5rem; border-radius: 6px; cursor: pointer; font-weight: 600; width: 100%;">
-            Proceed to Next Item ➔
-        </button>
-    </section>
+            <h3 id="question-display" style="line-height: 1.5; margin-bottom: 1.5rem;">Loading question...</h3>
+
+            <div id="options-display" style="display: flex; flex-direction: column; gap: 0.75rem;">
+                </div>
+
+            <div id="action-controls-container" style="margin-top: 1.5rem;">
+                <button id="next-btn" class="hidden" style="background-color: var(--accent); color: white; border: none; padding: 0.85rem 1.5rem; border-radius: 6px; cursor: pointer; font-weight: 600; width: 100%;">
+                    Proceed to Next Item ➔
+                </button>
+            </div>
+        </section>
 
     <section id="results-stage" class="stage-container hidden">
         <h2 style="text-align: center;">Examination Diagnostic Matrix Summary</h2>
