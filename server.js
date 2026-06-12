@@ -64,9 +64,12 @@ app.get('/api/questions', (req, res) => {
         let pool = JSON.parse(data);
         let filtered = pool.filter(q => q.user_type === type);
 
+        // Matches strings accurately regardless of surrounding whitespace variations
         if (topic && topic !== 'all') {
             filtered = filtered.filter(q => q.topic.toLowerCase().trim() === topic.toLowerCase().trim());
-            filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 15);
+            
+            // UPDATED: Capped to exactly 10 questions for focused category selections
+            filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 10);
         } else {
             if (type === 'driver') {
                 filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 25);
