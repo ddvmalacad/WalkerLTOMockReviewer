@@ -222,20 +222,34 @@ select:focus {
     margin-bottom: 32px;
 }
 
+/* --- FORCE-OVERRIDE MCQ BUTTONS --- */
 .option-btn {
     width: 100%;
-    text-align: left;
     padding: 16px 20px;
-    font-family: inherit;
+    margin-bottom: 12px;
+    font-family: 'Inter', sans-serif;
     font-size: 0.95rem;
     font-weight: 500;
-    color: var(--text-main);
-    background-color: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
+    color: #1f2937 !important;
+    background-color: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    border-radius: 10px !important;
     cursor: pointer;
-    transition: var(--transition);
-    outline: none;
+    transition: all 0.25s ease !important;
+    text-align: left;
+}
+
+/* These will now definitely override other styles */
+.option-btn.correct {
+    background-color: #10b981 !important;
+    border-color: #10b981 !important;
+    color: #ffffff !important;
+}
+
+.option-btn.wrong {
+    background-color: #ef4444 !important;
+    border-color: #ef4444 !important;
+    color: #ffffff !important;
 }
 
 .option-btn:hover {

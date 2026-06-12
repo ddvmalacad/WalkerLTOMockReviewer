@@ -152,21 +152,16 @@ function renderQuestion() {
             const isCorrect = checkIsCorrect(option, index, q);
             currentSession.isSelectedAnswerCorrect = isCorrect;
             
+            // USING CSS CLASSES INSTEAD OF INLINE STYLES
             if (isCorrect) {
-                btn.style.backgroundColor = 'var(--success)';
-                btn.style.borderColor = 'var(--success)';
-                btn.style.color = '#ffffff';
+                btn.classList.add('correct');
             } else {
-                btn.style.backgroundColor = 'var(--error)';
-                btn.style.borderColor = 'var(--error)';
-                btn.style.color = '#ffffff';
+                btn.classList.add('wrong');
                 
                 const siblingButtons = optionsContainer.querySelectorAll('.option-btn');
                 siblingButtons.forEach((sibling, sIndex) => {
                     if (checkIsCorrect(sibling.innerText, sIndex, q)) {
-                        sibling.style.backgroundColor = 'var(--success)';
-                        sibling.style.borderColor = 'var(--success)';
-                        sibling.style.color = '#ffffff';
+                        sibling.classList.add('correct');
                     }
                 });
             }
