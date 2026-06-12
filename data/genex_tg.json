@@ -1,0 +1,502 @@
+[
+  {
+    "ID": 1,
+    "Topic": "General",
+    "Question": "Ang pagkakaroon ng lisensya sa pagmamaneho ay isang:",
+    "Option_A": "Karangalan",
+    "Option_B": "Pribilehiyo",
+    "Option_C": "Karapatan",
+    "Option_D": "",
+    "Correct_Answer": "Pribilehiyo"
+  },
+  {
+    "ID": 2,
+    "Topic": "General",
+    "Question": "Ang tamang gulang sa pagkuha ng lisensyang Non-Professional ay:",
+    "Option_A": "16 taong gulang",
+    "Option_B": "17 taong gulang",
+    "Option_C": "18 taong gulang",
+    "Option_D": "",
+    "Correct_Answer": "17 taong gulang"
+  },
+  {
+    "ID": 3,
+    "Topic": "General",
+    "Question": "Ang lisensyang Non-Professional ay para lamang sa:",
+    "Option_A": "Mga pribadong sasakyan",
+    "Option_B": "Pampasaherong sasakyan",
+    "Option_C": "Anumang uri ng sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Mga pribadong sasakyan"
+  },
+  {
+    "ID": 4,
+    "Topic": "General",
+    "Question": "Ang isang drayber ay itinuturing na Professional kung:",
+    "Option_A": "Kaya niyang magmaneho ng kahit anong uri ng sasakyan",
+    "Option_B": "Siya ay inuupahan o binabayaran sa pagmamaneho ng sasakyang pribado o pampasahero",
+    "Option_C": "Siya ay bihasa na sa pagmamaneho",
+    "Option_D": "",
+    "Correct_Answer": "Siya ay inuupahan o binabayaran sa pagmamaneho ng sasakyang pribado o pampasahero"
+  },
+  {
+    "ID": 5,
+    "Topic": "General",
+    "Question": "Ang kailangang gulang ng isang aplikante para sa Professional Driver’s License ay:",
+    "Option_A": "17 taong gulang",
+    "Option_B": "18 taong gulang",
+    "Option_C": "21 taong gulang",
+    "Option_D": "",
+    "Correct_Answer": "18 taong gulang"
+  },
+  {
+    "ID": 6,
+    "Topic": "General",
+    "Question": "Ano ang mga dokumentong dapat dalhin habang nagmamaneho ng sasakyan?",
+    "Option_A": "Lisensya, rehistro, at resibo ng huling pinagbayaran (OR/CR) ng sasakyan sa LTO",
+    "Option_B": "Lisensya lamang",
+    "Option_C": "Lisensya at papel de seguro ng sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Lisensya, rehistro, at resibo ng huling pinagbayaran (OR/CR) ng sasakyan sa LTO"
+  },
+  {
+    "ID": 7,
+    "Topic": "General",
+    "Question": "Ang pagmamaneho nang walang lisensya ay ipinagbabawal ng batas at may parusang:",
+    "Option_A": "Php 500.00",
+    "Option_B": "Php 500.00 at pagka-impound ng sasakyan nang hindi hihigit sa 10 araw",
+    "Option_C": "Php 750.00",
+    "Option_D": "",
+    "Correct_Answer": "Php 500.00 at pagka-impound ng sasakyan nang hindi hihigit sa 10 araw"
+  },
+  {
+    "ID": 8,
+    "Topic": "General",
+    "Question": "Ang isang drayber na may lisensya ay maaari lamang magmaneho nang:",
+    "Option_A": "Kahit anong uri ng sasakyan",
+    "Option_B": "Sasakyang nakasaad sa lisensya o DL Code",
+    "Option_C": "Pampasaherong sasakyan lamang",
+    "Option_D": "",
+    "Correct_Answer": "Sasakyang nakasaad sa lisensya o DL Code"
+  },
+  {
+    "ID": 9,
+    "Topic": "General",
+    "Question": "Ano ang kahulugan ng senyas trapiko na kulay pula na tatsulok ang hugis?",
+    "Option_A": "Nagtatakda",
+    "Option_B": "Nagbibigay babala",
+    "Option_C": "Nagbibigay impormasyon",
+    "Option_D": "",
+    "Correct_Answer": "Nagbibigay babala"
+  },
+  {
+    "ID": 10,
+    "Topic": "General",
+    "Question": "Ano ang kahulugan ng senyas trapiko na kulay asul at puti na parihaba o parisukat ang hugis?",
+    "Option_A": "Nag-uutos ng direksyon",
+    "Option_B": "Nagbibigay babala",
+    "Option_C": "Nagbibigay impormasyon",
+    "Option_D": "",
+    "Correct_Answer": "Nagbibigay impormasyon"
+  },
+  {
+    "ID": 11,
+    "Topic": "General",
+    "Question": "Ano ang kahulugan ng senyas trapiko na kulay pula na pabilog, octagon o baliktad na tatsulok?",
+    "Option_A": "Nagtatakda o nagbabawal",
+    "Option_B": "Nagbibigay babala",
+    "Option_C": "Nag-uutos ng direksyon",
+    "Option_D": "",
+    "Correct_Answer": "Nagtatakda o nagbabawal"
+  },
+  {
+    "ID": 12,
+    "Topic": "General",
+    "Question": "Ano ang kahulugan ng patay-sinding kulay pulang ilaw trapiko?",
+    "Option_A": "Maghintay ng berdeng ilaw",
+    "Option_B": "Bagalan ang takbo at tumuloy nang maingat",
+    "Option_C": "Huminto at magpatuloy kung ligtas",
+    "Option_D": "",
+    "Correct_Answer": "Huminto at magpatuloy kung ligtas"
+  },
+  {
+    "ID": 13,
+    "Topic": "General",
+    "Question": "Ano ang kahulugan ng patay-sinding dilaw na ilaw trapiko?",
+    "Option_A": "Magmarahan at magpatuloy kung walang panganib",
+    "Option_B": "Huminto at hintaying magbago ang ilaw",
+    "Option_C": "Hintayin ang berdeng ilaw",
+    "Option_D": "",
+    "Correct_Answer": "Magmarahan at magpatuloy kung walang panganib"
+  },
+  {
+    "ID": 14,
+    "Topic": "General",
+    "Question": "Ano ang kahulugan ng steady o tuloy-tuloy na dilaw na signal ng trapiko?",
+    "Option_A": "Huminto agad",
+    "Option_B": "Humanda sa paghinto dahil malapit nang sumindi ang ilaw na pula",
+    "Option_C": "Maaari kang tumuloy, bagalan lamang ang pagtakbo",
+    "Option_D": "",
+    "Correct_Answer": "Humanda sa paghinto dahil malapit nang sumindi ang ilaw na pula"
+  },
+  {
+    "ID": 15,
+    "Topic": "General",
+    "Question": "Ano ang ibig sabihin ng berdeng arrow signal sa trapiko?",
+    "Option_A": "Hindi pinapayagan ang pagpasok sa interseksyon",
+    "Option_B": "Nagpapahintulot sa mga sasakyan na kumaliwa o kumanan (depende sa turo ng arrow)",
+    "Option_C": "Nagpapahintulot sa pagtawid ng mga tao",
+    "Option_D": "",
+    "Correct_Answer": "Nagpapahintulot sa mga sasakyan na kumaliwa o kumanan (depende sa turo ng arrow)"
+  },
+  {
+    "ID": 16,
+    "Topic": "General",
+    "Question": "Ano ang kahulugan ng dilaw na arrow signal trapiko?",
+    "Option_A": "Naghuhudyat ng pakanan o pakaliwang direksyon",
+    "Option_B": "Nangangahulugan na ang pulang arrow ay malapit nang sumindi",
+    "Option_C": "Nagpapahintulot sa mga sasakyan na dumiretso",
+    "Option_D": "",
+    "Correct_Answer": "Nangangahulugan na ang pulang arrow ay malapit nang sumindi"
+  },
+  {
+    "ID": 17,
+    "Topic": "General",
+    "Question": "Ano ang kahulugan ng senyas trapiko na \"Bawal Pumasok\" (No Entry)?",
+    "Option_A": "Huminto ka",
+    "Option_B": "Magbigay ka",
+    "Option_C": "Bawal pumasok ang lahat ng klase ng sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Bawal pumasok ang lahat ng klase ng sasakyan"
+  },
+  {
+    "ID": 18,
+    "Topic": "General",
+    "Question": "Ano ang kahulugan ng arrow o palasong nakapinta sa kalsada o linya (lane)?",
+    "Option_A": "Sundin ang direksyong itinuro ng palaso",
+    "Option_B": "Magmarahan",
+    "Option_C": "Maaaring lumipat ng linya (lane) kahit kailan",
+    "Option_D": "",
+    "Correct_Answer": "Sundin ang direksyong itinuro ng palaso"
+  },
+  {
+    "ID": 19,
+    "Topic": "General",
+    "Question": "Ano ang kahulugan ng tuloy-tuloy na guhit na kulay dilaw sa kalsada?",
+    "Option_A": "Maaaring lumusot (overtake)",
+    "Option_B": "Bawal lumusot (overtake)",
+    "Option_C": "Pinapayagan ang pag-overtake basta mabilis",
+    "Option_D": "",
+    "Correct_Answer": "Bawal lumusot (overtake)"
+  },
+  {
+    "ID": 20,
+    "Topic": "General",
+    "Question": "Ang puting linyang putol-putol sa kalsada ay palatandaan na:",
+    "Option_A": "Maaaring lumusot sa pakaliwa o pakanan kung walang peligro",
+    "Option_B": "Ipinagbabawal ang paglusot sa kaliwa",
+    "Option_C": "Ipinagbabawal ang paglusot sa kanan",
+    "Option_D": "",
+    "Correct_Answer": "Maaaring lumusot sa pakaliwa o pakanan kung walang peligro"
+  },
+  {
+    "ID": 21,
+    "Topic": "General",
+    "Question": "Ang dalawang dilaw na linya na tuloy-tuloy ay palatandaan na:",
+    "Option_A": "Maaaring lumusot pakanan",
+    "Option_B": "Peligroso ang lumusot sa pakanan o pakaliwa",
+    "Option_C": "Maaaring lumusot pakaliwa",
+    "Option_D": "",
+    "Correct_Answer": "Peligroso ang lumusot sa pakanan o pakaliwa"
+  },
+  {
+    "ID": 22,
+    "Topic": "General",
+    "Question": "Sa mga rotonda, alin ang may karapatan sa daan (right of way)?",
+    "Option_A": "Ang sasakyang papasok pa lamang sa rotonda",
+    "Option_B": "Ang sasakyang nasa loob o paligid ng rotonda",
+    "Option_C": "Ang sasakyang nakaharap sa berdeng ilaw",
+    "Option_D": "",
+    "Correct_Answer": "Ang sasakyang nasa loob o paligid ng rotonda"
+  },
+  {
+    "ID": 23,
+    "Topic": "General",
+    "Question": "Sa isang sangandaan o interseksyon na walang nakatalagang senyas trapiko (uncontrolled intersection), aling sasakyan ang may karapatan sa daan?",
+    "Option_A": "Ang sasakyang galing sa kanan",
+    "Option_B": "Ang sasakyang unang nagmarahan",
+    "Option_C": "Ang sasakyang galing sa kaliwa",
+    "Option_D": "",
+    "Correct_Answer": "Ang sasakyang galing sa kanan"
+  },
+  {
+    "ID": 24,
+    "Topic": "General",
+    "Question": "Maaari kang lumusot (overtake) sa kanang bahagi ng sasakyan kung:",
+    "Option_A": "Ang highway ay may dalawa o higit pang linya (lane) patungo sa isang direksyon",
+    "Option_B": "Ang kalsada ay salubungang-daan (two-way)",
+    "Option_C": "Malapad ang bangketa",
+    "Option_D": "",
+    "Correct_Answer": "Ang highway ay may dalawa o higit pang linya (lane) patungo sa isang direksyon"
+  },
+  {
+    "ID": 25,
+    "Topic": "General",
+    "Question": "Bakit hindi dapat lumusot (overtake) sa paanan ng tulay?",
+    "Option_A": "Dahil may tumatawid na mga tao",
+    "Option_B": "Dahil mapanganib at hindi nakikita ang kasalubong na sasakyan",
+    "Option_C": "Dahil masyadong makipot ang daan",
+    "Option_D": "",
+    "Correct_Answer": "Dahil mapanganib at hindi nakikita ang kasalubong na sasakyan"
+  },
+  {
+    "ID": 26,
+    "Topic": "General",
+    "Question": "Ang hindi pagsunod sa ilaw trapiko ay:",
+    "Option_A": "Nagpapatunay na mahusay kang drayber",
+    "Option_B": "Maaaring maging sanhi ng aksidente",
+    "Option_C": "Nakakatipid sa gasolina at oras",
+    "Option_D": "",
+    "Correct_Answer": "Maaaring maging sanhi ng aksidente"
+  },
+  {
+    "ID": 27,
+    "Topic": "General",
+    "Question": "Hindi ka pinapayagang tumawid sa kabila ng buong dilaw na guhit maliban kung ikaw ay:",
+    "Option_A": "Palikong pakaliwa",
+    "Option_B": "Palikong pakanan",
+    "Option_C": "Magpapalit ng linya (lane)",
+    "Option_D": "",
+    "Correct_Answer": "Palikong pakaliwa"
+  },
+  {
+    "ID": 28,
+    "Topic": "General",
+    "Question": "Ang dilaw na linyang putol-putol ay palatandaan na:",
+    "Option_A": "Pinapayagan ang paglusot sa kanan",
+    "Option_B": "Ipinagbabawal ang paglusot sa kanan o kaliwa",
+    "Option_C": "Pinapayagan ang paglusot sa kaliwa",
+    "Option_D": "",
+    "Correct_Answer": "Pinapayagan ang paglusot sa kaliwa"
+  },
+  {
+    "ID": 29,
+    "Topic": "General",
+    "Question": "Habang nagmamaneho, dapat kang tumingin sa side at rear view mirror nang:",
+    "Option_A": "Mabilis at madalian",
+    "Option_B": "Hangga't gusto mo",
+    "Option_C": "Hindi kukulangin sa isang minuto",
+    "Option_D": "",
+    "Correct_Answer": "Mabilis at madalian"
+  },
+  {
+    "ID": 30,
+    "Topic": "General",
+    "Question": "Matapos kang lumampas (overtake) at nais mong bumalik sa pinanggalingang linya (lane) nang ligtas, kailangang:",
+    "Option_A": "Tingnan sa rear view mirror ang iyong nilagpasan",
+    "Option_B": "Lumingon sa iyong nilagpasan",
+    "Option_C": "Huminto agad",
+    "Option_D": "",
+    "Correct_Answer": "Tingnan sa rear view mirror ang iyong nilagpasan"
+  },
+  {
+    "ID": 31,
+    "Topic": "General",
+    "Question": "Ano ang dapat gawin bago lumiko sa kanan o kaliwa?",
+    "Option_A": "Biglang lumiko at bumusina",
+    "Option_B": "Magbigay ng hudyat o senyas nang hindi kukulangin sa 30 metro bago lumiko",
+    "Option_C": "Ipagwalang-bahala ang hudyat",
+    "Option_D": "",
+    "Correct_Answer": "Magbigay ng hudyat o senyas nang hindi kukulangin sa 30 metro bago lumiko"
+  },
+  {
+    "ID": 32,
+    "Topic": "General",
+    "Question": "Kung nais mong magpalit ng linya (lane) sa highway, kailangang magbigay ng signal:",
+    "Option_A": "Sampung segundo bago gawin ito",
+    "Option_B": "Limang minuto bago gawin ito",
+    "Option_C": "Isang minuto bago gawin ito",
+    "Option_D": "",
+    "Correct_Answer": "Sampung segundo bago gawin ito"
+  },
+  {
+    "ID": 33,
+    "Topic": "General",
+    "Question": "Ang kailangang ligtas na distansya sa pagitan ng iyong sasakyan at ng sinusundan mo ay:",
+    "Option_A": "Sinlaki ng sukat ng dalawang sasakyan",
+    "Option_B": "Sinlaki ng sukat ng isang sasakyan",
+    "Option_C": "Sinlaki ng sukat ng tatlong sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Sinlaki ng sukat ng isang sasakyan"
+  },
+  {
+    "ID": 34,
+    "Topic": "General",
+    "Question": "Kung ang drayber ng sasakyang nasa unahan mo ay naglabas ng kaliwang kamay at inunat ito nang diretso, siya ay:",
+    "Option_A": "Kakaliwa",
+    "Option_B": "Kakanan",
+    "Option_C": "Hihinto",
+    "Option_D": "",
+    "Correct_Answer": "Kakaliwa"
+  },
+  {
+    "ID": 35,
+    "Topic": "General",
+    "Question": "Kung ang drayber ng sasakyang nasa unahan mo ay naglabas ng kaliwang kamay na nakaturo sa itaas, siya ay:",
+    "Option_A": "Kakanan",
+    "Option_B": "Hihinto",
+    "Option_C": "Kakaliwa",
+    "Option_D": "",
+    "Correct_Answer": "Kakanan"
+  },
+  {
+    "ID": 36,
+    "Topic": "General",
+    "Question": "Kung ang drayber ng sasakyang nasa unahan mo ay naglabas ng kaliwang kamay at itinuro ito sa lupa, siya ay:",
+    "Option_A": "Hihinto",
+    "Option_B": "Kakanan",
+    "Option_C": "Kakaliwa",
+    "Option_D": "",
+    "Correct_Answer": "Hihinto"
+  },
+  {
+    "ID": 37,
+    "Topic": "General",
+    "Question": "Para sa isang naka-motorsiklo na may balak lumiko pakanan, anong senyas ang dapat gamitin?",
+    "Option_A": "Kaliwang kamay na nakataas",
+    "Option_B": "Kanang kamay na diretsong nagtuturo pakanan",
+    "Option_C": "Kanang kamay na nakataas",
+    "Option_D": "",
+    "Correct_Answer": "Kaliwang kamay na nakataas"
+  },
+  {
+    "ID": 38,
+    "Topic": "General",
+    "Question": "Ang pinakaligtas na tulin ng isang sasakyan ay naaayon sa:",
+    "Option_A": "Kondisyon ng kalsada at panahon",
+    "Option_B": "Kakayahan ng sasakyan",
+    "Option_C": "Kakayahang magmaneho ng drayber",
+    "Option_D": "",
+    "Correct_Answer": "Kondisyon ng kalsada at panahon"
+  },
+  {
+    "ID": 39,
+    "Topic": "General",
+    "Question": "Ang mahuhuling nagmamaneho nang lasing sa alak o ipinagbabawal na gamot ay may parusang:",
+    "Option_A": "Php 2,000.00",
+    "Option_B": "Pagkabilanggo ng anim na buwan",
+    "Option_C": "Isang buwan na pagsuspinde ng lisensya",
+    "Option_D": "",
+    "Correct_Answer": "Php 2,000.00"
+  },
+  {
+    "ID": 40,
+    "Topic": "General",
+    "Question": "Ang paggamit ng huwad (fake) na lisensya ay ipinagbabawal at may parusang:",
+    "Option_A": "Php 500.00 at anim na buwan na hindi makakakuha ng lisensya",
+    "Option_B": "Pagkakabilanggo nang hindi hihigit sa anim na buwan",
+    "Option_C": "Php 100.00 lamang",
+    "Option_D": "",
+    "Correct_Answer": "Php 500.00 at anim na buwan na hindi makakakuha ng lisensya"
+  },
+  {
+    "ID": 41,
+    "Topic": "General",
+    "Question": "Kung masangkot sa isang sakuna, kailan ito dapat ipagbigay-alam sa pinakamalapit na himpilan ng pulisya?",
+    "Option_A": "Sa loob ng 72 oras",
+    "Option_B": "Kaagad-agad",
+    "Option_C": "Sa loob ng 48 oras",
+    "Option_D": "",
+    "Correct_Answer": "Kaagad-agad"
+  },
+  {
+    "ID": 42,
+    "Topic": "General",
+    "Question": "Ano ang takdang tulin ng isang sasakyan sa loob ng lugar ng paaralan?",
+    "Option_A": "35 kph",
+    "Option_B": "20 kph",
+    "Option_C": "30 kph",
+    "Option_D": "",
+    "Correct_Answer": "20 kph"
+  },
+  {
+    "ID": 43,
+    "Topic": "General",
+    "Question": "Kung ikaw ay nahuli (apprehended), ilang araw ang palugit upang maayos ang iyong kaso at matubos ang lisensya?",
+    "Option_A": "30 araw",
+    "Option_B": "15 araw",
+    "Option_C": "10 araw",
+    "Option_D": "",
+    "Correct_Answer": "15 araw"
+  },
+  {
+    "ID": 44,
+    "Topic": "General",
+    "Question": "Ano ang dapat mong gawin kung pinapahinto ka ng isang pulis-trapiko?",
+    "Option_A": "Huminto at ibigay ang lisensya at ibang papeles ng sasakyan kung hinihingi",
+    "Option_B": "Huwag pansinin ang pulis at bilisan ang pagtakbo",
+    "Option_C": "Huminto at makipagtalo sa pulis",
+    "Option_D": "",
+    "Correct_Answer": "Huminto at ibigay ang lisensya at ibang papeles ng sasakyan kung hinihingi"
+  },
+  {
+    "ID": 45,
+    "Topic": "General",
+    "Question": "Kailan ka lamang pinapayagang magmaneho nang mabilis ayon sa batas?",
+    "Option_A": "Kapag walang panganib sa paligid",
+    "Option_B": "Kung ito ay naaayon sa takdang bilis o tulin na itinakda ng batas",
+    "Option_C": "Kapag ikaw ay nagmamadali",
+    "Option_D": "",
+    "Correct_Answer": "Kung ito ay naaayon sa takdang bilis o tulin na itinakda ng batas"
+  },
+  {
+    "ID": 46,
+    "Topic": "General",
+    "Question": "Saang lugar mahigpit na ipinagbabawal ang pagpaparada (parking)?",
+    "Option_A": "Sa lugar na tawiran ng tao (pedestrian crossing)",
+    "Option_B": "Sa nakatakdang paradahan",
+    "Option_C": "Sa tapat ng sariling garahe",
+    "Option_D": "",
+    "Correct_Answer": "Sa lugar na tawiran ng tao (pedestrian crossing)"
+  },
+  {
+    "ID": 47,
+    "Topic": "General",
+    "Question": "Ano ang pinakamahalagang dapat ihanda kung magkakaroon ng malayong biyahe?",
+    "Option_A": "Maghanda ng kagamitang pangkumpuni",
+    "Option_B": "Planuhin ang ruta at ikondisyon ang sasakyan (BLOWBAGETS)",
+    "Option_C": "Tama lahat ang nasa itaas",
+    "Option_D": "",
+    "Correct_Answer": "Tama lahat ang nasa itaas"
+  },
+  {
+    "ID": 48,
+    "Topic": "General",
+    "Question": "Ano ang dapat mong gawin upang malabanan ang pagod at antok sa mahabang biyahe?",
+    "Option_A": "Uminom ng alak bago magmaneho",
+    "Option_B": "Huminto paminsan-minsan at magpahinga",
+    "Option_C": "Uminom ng gamot na pampapigil ng antok",
+    "Option_D": "",
+    "Correct_Answer": "Huminto paminsan-minsan at magpahinga"
+  },
+  {
+    "ID": 49,
+    "Topic": "General",
+    "Question": "Kung umilaw ang brake lights ng sasakyang nasa iyong unahan, dapat kang:",
+    "Option_A": "Bumusina nang malakas",
+    "Option_B": "Humanda sa pagpreno",
+    "Option_C": "Lumiko agad sa kanan o kaliwa",
+    "Option_D": "",
+    "Correct_Answer": "Humanda sa pagpreno"
+  },
+  {
+    "ID": 50,
+    "Topic": "General",
+    "Question": "Ang busina ng sasakyan ay ginagamit upang:",
+    "Option_A": "Makalikha ng ingay para mapansin",
+    "Option_B": "Iparinig na maganda ang tunog nito",
+    "Option_C": "Makapagbigay babala para sa kaligtasan o pag-iingat",
+    "Option_D": "",
+    "Correct_Answer": "Makapagbigay babala para sa kaligtasan o pag-iingat"
+  }
+]

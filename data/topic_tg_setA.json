@@ -1,0 +1,1202 @@
+[
+  {
+    "ID": 1,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ano ang kahulugan ng senyas trapikong kulay pula na tatsulok ang hugis?",
+    "Option_A": "Nagtatakda",
+    "Option_B": "Nagbibigay babala",
+    "Option_C": "Nagbibigay impormasyon",
+    "Option_D": "",
+    "Correct_Answer": "Nagbibigay babala"
+  },
+  {
+    "ID": 2,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ano ang kahulugan ng senyas trapiko na kulay asul at puti na parihaba o parisukat ang hugis?",
+    "Option_A": "Nag-uutos ng direksyon",
+    "Option_B": "Nagbibigay babala",
+    "Option_C": "Nagbibigay impormasyon",
+    "Option_D": "",
+    "Correct_Answer": "Nagbibigay impormasyon"
+  },
+  {
+    "ID": 3,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ano ang kahulugan ng senyas trapiko na kulay pula na pabilog, octagon, o baliktad na tatsulok?",
+    "Option_A": "Nagtatakda o nagbabawal",
+    "Option_B": "Nagbibigay babala",
+    "Option_C": "Nag-uutos ng direksyon",
+    "Option_D": "",
+    "Correct_Answer": "Nagtatakda o nagbabawal"
+  },
+  {
+    "ID": 4,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ang tuloy-tuloy na guhit na kulay dilaw sa gitna ng kalsada ay palatandaan na:",
+    "Option_A": "Maaaring lumusot (overtake)",
+    "Option_B": "Bawal lumusot sa anumang oras",
+    "Option_C": "Maaaring lumiko pakanan",
+    "Option_D": "",
+    "Correct_Answer": "Bawal lumusot sa anumang oras"
+  },
+  {
+    "ID": 5,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ang puting linyang putol-putol sa kalsada ay palatandaan na:",
+    "Option_A": "Ipinagbabawal ang paglusot sa kaliwa",
+    "Option_B": "Ipinagbabawal ang paglusot sa kanan",
+    "Option_C": "Maaaring lumusot sa pakaliwa o pakanan kung walang peligro",
+    "Option_D": "",
+    "Correct_Answer": "Maaaring lumusot sa pakaliwa o pakanan kung walang peligro"
+  },
+  {
+    "ID": 6,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ang dilaw na linyang putol-putol ay palatandaan na:",
+    "Option_A": "Pinapayagan ang paglusot sa kanan",
+    "Option_B": "Pinapayagan ang paglusot sa kaliwa",
+    "Option_C": "Ipinagbabawal ang paglusot sa kanan o kaliwa",
+    "Option_D": "",
+    "Correct_Answer": "Pinapayagan ang paglusot sa kaliwa"
+  },
+  {
+    "ID": 7,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ang dalawang dilaw na linya na tuloy-tuloy ay palatandaan na:",
+    "Option_A": "Maaaring lumusot pakanan",
+    "Option_B": "Peligroso ang lumusot sa pakanan o pakaliwa",
+    "Option_C": "Maaaring lumusot pakaliwa",
+    "Option_D": "",
+    "Correct_Answer": "Peligroso ang lumusot sa pakanan o pakaliwa"
+  },
+  {
+    "ID": 8,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ang dalawang dilaw na linya na putol-putol ay palatandaan na:",
+    "Option_A": "Ipinagbabawal ang paglusot sa kaliwa",
+    "Option_B": "Ipinagbabawal ang paglusot sa kanan",
+    "Option_C": "Maaaring lumusot ng pakanan o pakaliwa kung walang peligro",
+    "Option_D": "",
+    "Correct_Answer": "Maaaring lumusot ng pakanan o pakaliwa kung walang peligro"
+  },
+  {
+    "ID": 9,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ano ang kahulugan ng arrow o palasong nakapinta sa kalsada?",
+    "Option_A": "Sundin ang direksyong itinuro ng palaso",
+    "Option_B": "Magmarahan bago lumiko",
+    "Option_C": "Maaaring lumipat ng linya kahit walang signal",
+    "Option_D": "",
+    "Correct_Answer": "Sundin ang direksyong itinuro ng palaso"
+  },
+  {
+    "ID": 10,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ang puting linyang putol-putol sa kalsada ay ginagamit upang:",
+    "Option_A": "Maghiwalay sa trapiko na tumatakbo sa magkasalungat na direksyon",
+    "Option_B": "Maghati sa mga linya (lanes) na tumatakbo sa isang direksyon",
+    "Option_C": "Palatandaan na bawal lumusot",
+    "Option_D": "",
+    "Correct_Answer": "Maghati sa mga linya (lanes) na tumatakbo sa isang direksyon"
+  },
+  {
+    "ID": 11,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Hindi ka pinapayagang tumawid sa kabila ng buong dilaw na guhit maliban kung ikaw ay:",
+    "Option_A": "Palikong pakaliwa",
+    "Option_B": "Palikong pakanan",
+    "Option_C": "Magpapalit ng linya o daan",
+    "Option_D": "",
+    "Correct_Answer": "Palikong pakaliwa"
+  },
+  {
+    "ID": 12,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ano ang ibig sabihin ng senyas na \"Bawal Pumasok\" (Do Not Enter)?",
+    "Option_A": "Pinapayagan ang pagpasok ng mga motorsiklo",
+    "Option_B": "Magbigay ng daan sa kasalubong",
+    "Option_C": "Bawal pumasok ang lahat ng klase ng sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Bawal pumasok ang lahat ng klase ng sasakyan"
+  },
+  {
+    "ID": 13,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Aling senyas ang nagbababala na \"Madulas ang Kalsada\"?",
+    "Option_A": "Tatsulok na may drowing ng kalsadang baku-bako",
+    "Option_B": "Tatsulok na may drowing ng sasakyang gumigewang ang marka ng gulong",
+    "Option_C": "Tatsulok na may drowing ng kalsadang papaliit",
+    "Option_D": "",
+    "Correct_Answer": "Tatsulok na may drowing ng sasakyang gumigewang ang marka ng gulong"
+  },
+  {
+    "ID": 14,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ang senyas na octagon ang hugis at kulay pula ay nangangahulugang:",
+    "Option_A": "Magbigay daan (Give Way)",
+    "Option_B": "Huminto (Stop)",
+    "Option_C": "Bawal pumasok",
+    "Option_D": "",
+    "Correct_Answer": "Huminto (Stop)"
+  },
+  {
+    "ID": 15,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ang senyas na baliktad ang tatsulok at may pulang gilid ay:",
+    "Option_A": "Huminto",
+    "Option_B": "Magbigay daan (Give Way)",
+    "Option_C": "Bawal pumasok",
+    "Option_D": "",
+    "Correct_Answer": "Magbigay daan (Give Way)"
+  },
+  {
+    "ID": 16,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ano ang kahulugan ng senyas na may drowing ng tren sa loob ng isang tatsulok?",
+    "Option_A": "Daang tren",
+    "Option_B": "Bawal dumaan ang tren",
+    "Option_C": "Interseksyon para sa tren",
+    "Option_D": "",
+    "Correct_Answer": "Daang tren"
+  },
+  {
+    "ID": 17,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ano ang kahulugan ng senyas na may drowing ng bata na naglalakad?",
+    "Option_A": "Hospital zone",
+    "Option_B": "Palaruan",
+    "Option_C": "School zone",
+    "Option_D": "",
+    "Correct_Answer": "School zone"
+  },
+  {
+    "ID": 18,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ang senyas na may drowing ng usa o hayop ay nangangahulugang:",
+    "Option_A": "Tawiran ng hayop",
+    "Option_B": "Bawal ang hayop sa kalsada",
+    "Option_C": "Kulungan ng hayop sa unahan",
+    "Option_D": "",
+    "Correct_Answer": "Tawiran ng hayop"
+  },
+  {
+    "ID": 19,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ang senyas na may \"2m\" sa loob ng bilog na pula ay nangangahulugang:",
+    "Option_A": "Bawal ang sasakyang may 2 pasahero",
+    "Option_B": "Bawal pumasok ang sasakyang hihigit sa 2 metro ang luwang",
+    "Option_C": "Bawal pumasok ang sasakyang 2 metro ang haba",
+    "Option_D": "",
+    "Correct_Answer": "Bawal pumasok ang sasakyang hihigit sa 2 metro ang luwang"
+  },
+  {
+    "ID": 20,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Ano ang kahulugan ng senyas na may drowing ng kalsadang papaliit ang dulo?",
+    "Option_A": "Madulas ang kalsada",
+    "Option_B": "Baku-bakong kalsada",
+    "Option_C": "Papaliit ang kalsada",
+    "Option_D": "",
+    "Correct_Answer": "Papaliit ang kalsada"
+  },
+  {
+    "ID": 21,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Sa isang interseksyon na may STOP sign, ano ang dapat mong gawin?",
+    "Option_A": "Magmarahan at magpatuloy kung walang panganib",
+    "Option_B": "Huminto at magpatuloy kung ligtas na",
+    "Option_C": "Magbigay daan sa mga sasakyan mula sa kanan o kaliwa at huwag nang huminto",
+    "Option_D": "",
+    "Correct_Answer": "Huminto at magpatuloy kung ligtas na"
+  },
+  {
+    "ID": 22,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Ang sasakyan ay itinuturing na nakaparada (parked) kung:",
+    "Option_A": "Nakatigil ng matagal at patay ang makina",
+    "Option_B": "Nakatigil ng matagal at nagsasakay ng pasahero",
+    "Option_C": "Nakatigil ng matagal at nagbababa ng pasahero",
+    "Option_D": "",
+    "Correct_Answer": "Nakatigil ng matagal at patay ang makina"
+  },
+  {
+    "ID": 23,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Ano ang kahulugan ng patay-sinding kulay pulang ilaw trapiko?",
+    "Option_A": "Bagalan ang takbo at tumuloy ng maingat",
+    "Option_B": "Maghintay ng berdeng ilaw bago tumakbo",
+    "Option_C": "Huminto at magpatuloy kung ligtas",
+    "Option_D": "",
+    "Correct_Answer": "Huminto at magpatuloy kung ligtas"
+  },
+  {
+    "ID": 24,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Sa mga rotonda, aling sasakyan ang may karapatan sa daan (right of way)?",
+    "Option_A": "Ang sasakyang nasa loob o paligid ng rotonda",
+    "Option_B": "Ang sasakyang papasok pa lamang sa rotonda",
+    "Option_C": "Ang sasakyang pinakamabilis ang takbo",
+    "Option_D": "",
+    "Correct_Answer": "Ang sasakyang nasa loob o paligid ng rotonda"
+  },
+  {
+    "ID": 25,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Maaari kang lumusot (overtake) sa kanang bahagi ng sasakyan kung:",
+    "Option_A": "Ang highway ay may dalawa o higit pang linya patungo sa isang direksyon",
+    "Option_B": "Ang kalsada ay salubungang-daan (two-way)",
+    "Option_C": "Malapad ang bangketa ng kalsada",
+    "Option_D": "",
+    "Correct_Answer": "Ang highway ay may dalawa o higit pang linya patungo sa isang direksyon"
+  },
+  {
+    "ID": 26,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Ayon sa batas, hindi ka maaaring magmaneho nang matulin maliban kung:",
+    "Option_A": "Naaayon sa takdang bilis o tulin",
+    "Option_B": "Walang panganib sa paligid",
+    "Option_C": "Nagmamadali ang drayber",
+    "Option_D": "",
+    "Correct_Answer": "Naaayon sa takdang bilis o tulin"
+  },
+  {
+    "ID": 27,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Saang lugar ipinagbabawal ang paglusot (overtaking)?",
+    "Option_A": "Sa mga sangandaan o interseksyon",
+    "Option_B": "Sa paanan ng tulay",
+    "Option_C": "Tama lahat ang sagot",
+    "Option_D": "",
+    "Correct_Answer": "Tama lahat ang sagot"
+  },
+  {
+    "ID": 28,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Sa isang sangandaan na walang senyas trapiko, dalawang sasakyan ang dumarating nang sabay mula sa magkabilang kalye, alin ang dapat magbigay?",
+    "Option_A": "Ang unang dumating sa sangandaan",
+    "Option_B": "Ang sasakyang galing sa kaliwa ay dapat magbigay sa galing sa kanan",
+    "Option_C": "Ang sasakyang mas malaki ang sukat",
+    "Option_D": "",
+    "Correct_Answer": "Ang sasakyang galing sa kaliwa ay dapat magbigay sa galing sa kanan"
+  },
+  {
+    "ID": 29,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Ano ang itinakdang tulin ng isang sasakyan sa lugar ng paaralan?",
+    "Option_A": "30 kph",
+    "Option_B": "35 kph",
+    "Option_C": "20 kph",
+    "Option_D": "",
+    "Correct_Answer": "20 kph"
+  },
+  {
+    "ID": 30,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Sa highway, kung nais mong magpatakbo ng mas mabagal kaysa sa iba, saang linya ka dapat gumawi?",
+    "Option_A": "Kanang linya",
+    "Option_B": "Kaliwang linya",
+    "Option_C": "Gitnang linya",
+    "Option_D": "",
+    "Correct_Answer": "Kanang linya"
+  },
+  {
+    "ID": 31,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Kung ikaw ay nasa expressway at magpapatakbo ng mabagal, dapat kang manatili sa:",
+    "Option_A": "Kaliwang linya",
+    "Option_B": "Kanang linya",
+    "Option_C": "Gitnang linya",
+    "Option_D": "",
+    "Correct_Answer": "Kanang linya"
+  },
+  {
+    "ID": 32,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Ano ang kahulugan ng patay-sinding dilaw na ilaw trapiko?",
+    "Option_A": "Huminto at hintayin magbago ang ilaw",
+    "Option_B": "Hintayin ang berdeng ilaw bago tumuloy",
+    "Option_C": "Magmarahan at magpatuloy kung walang panganib",
+    "Option_D": "",
+    "Correct_Answer": "Magmarahan at magpatuloy kung walang panganib"
+  },
+  {
+    "ID": 33,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Kailan ka maaaring lumusot sa highway na may dalawang guhit sa gitna?",
+    "Option_A": "Kung sa iyong panig ay may putol-putol na dilaw na guhit",
+    "Option_B": "Kung sa iyong panig ay may tuloy-tuloy na dilaw na guhit",
+    "Option_C": "Kung ang guhit ay puting tuloy-tuloy",
+    "Option_D": "",
+    "Correct_Answer": "Kung sa iyong panig ay may putol-putol na dilaw na guhit"
+  },
+  {
+    "ID": 34,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Ang berdeng arrow signal na sumindi ay nangangahulugang:",
+    "Option_A": "Huminto muna bago lumiko sa itinuturo nito",
+    "Option_B": "Nagpapahintulot sa pagliko sa direksyong itinuturo ng arrow",
+    "Option_C": "Bawal pumasok sa interseksyong iyon",
+    "Option_D": "",
+    "Correct_Answer": "Nagpapahintulot sa pagliko sa direksyong itinuturo ng arrow"
+  },
+  {
+    "ID": 35,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Ang dilaw na signal ng trapiko ay nangangahulugan na:",
+    "Option_A": "Humanda sa paghinto dahil malapit nang sumindi ang pulang ilaw",
+    "Option_B": "Bilisan ang takbo upang makaabot sa interseksyon",
+    "Option_C": "Maaaring tumuloy kahit mabilis ang takbo",
+    "Option_D": "",
+    "Correct_Answer": "Humanda sa paghinto dahil malapit nang sumindi ang pulang ilaw"
+  },
+  {
+    "ID": 36,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Alin sa mga sumusunod ang tamang kahulugan ng berdeng signal ng trapiko?",
+    "Option_A": "Maghanda sa paghinto",
+    "Option_B": "Huminto at magbigay daan sa mga tatawid",
+    "Option_C": "Maaari nang patakbuhin ang sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Maaari nang patakbuhin ang sasakyan"
+  },
+  {
+    "ID": 37,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Saang lugar mahigpit na ipinagbabawal ang pagparada?",
+    "Option_A": "Sa loob ng itinalagang paradahan",
+    "Option_B": "Sa lugar na tawiran ng tao (pedestrian lane)",
+    "Option_C": "Sa gilid ng kalsada na walang \"No Parking\" sign",
+    "Option_D": "",
+    "Correct_Answer": "Sa lugar na tawiran ng tao (pedestrian lane)"
+  },
+  {
+    "ID": 38,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Bakit hindi dapat lumusot (overtake) sa paanan ng tulay?",
+    "Option_A": "Dahil hindi nakikita ang kasalubong na sasakyan",
+    "Option_B": "Dahil laging may tumatawid doon",
+    "Option_C": "Dahil masyadong madulas ang kalsada",
+    "Option_D": "",
+    "Correct_Answer": "Dahil hindi nakikita ang kasalubong na sasakyan"
+  },
+  {
+    "ID": 39,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Ang hindi pagsunod sa mga ilaw trapiko ay:",
+    "Option_A": "Nakakatipid sa oras at gasolina",
+    "Option_B": "Nagpapatunay na ikaw ay bihasang drayber",
+    "Option_C": "Maaaring magsanhi ng aksidente o sakuna",
+    "Option_D": "",
+    "Correct_Answer": "Maaaring magsanhi ng aksidente o sakuna"
+  },
+  {
+    "ID": 40,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Sa isang sangandaan na walang nakatalagang senyas trapiko, sino ang may karapatan sa daan?",
+    "Option_A": "Ang sasakyang unang nagmarahan",
+    "Option_B": "Ang sasakyang galing sa kaliwa",
+    "Option_C": "Ang sasakyang galing sa kanan",
+    "Option_D": "",
+    "Correct_Answer": "Ang sasakyang galing sa kanan"
+  },
+  {
+    "ID": 41,
+    "Topic": "Safe Driving Principles",
+    "Question": "Habang nagmamaneho, dapat mong suriin ang iyong side at rear view mirror nang:",
+    "Option_A": "Hanggang kailan mo gusto",
+    "Option_B": "Mabilis o madalian lamang",
+    "Option_C": "Hindi kukulangin sa minuto",
+    "Option_D": "",
+    "Correct_Answer": "Mabilis o madalian lamang"
+  },
+  {
+    "ID": 42,
+    "Topic": "Safe Driving Principles",
+    "Question": "Ano ang pinakaunang dapat gawin bago umalis sa isang paradahan?",
+    "Option_A": "Magpatakbo agad ng mabilis",
+    "Option_B": "Suriin ang paligid bago magpatakbo",
+    "Option_C": "Bumusina nang paulit-ulit",
+    "Option_D": "",
+    "Correct_Answer": "Suriin ang paligid bago magpatakbo"
+  },
+  {
+    "ID": 43,
+    "Topic": "Safe Driving Principles",
+    "Question": "Matapos lumusot sa isa pang sasakyan, kailan ang pinakaligtas na oras para bumalik sa dating linya?",
+    "Option_A": "Kapag nakita mo na sa rear view mirror ang iyong nilagpasan",
+    "Option_B": "Kapag lumingon ka sa iyong nilagpasan",
+    "Option_C": "Agad-agad pagkalagpas sa sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Kapag nakita mo na sa rear view mirror ang iyong nilagpasan"
+  },
+  {
+    "ID": 44,
+    "Topic": "Safe Driving Principles",
+    "Question": "Sa pagliko sa kanan o kaliwa, kailan dapat magbigay ng hudyat o senyas?",
+    "Option_A": "Habang lumiliko na ang sasakyan",
+    "Option_B": "Hindi kukulangin sa 30 meters bago lumiko",
+    "Option_C": "5 metro bago ang kanto",
+    "Option_D": "",
+    "Correct_Answer": "Hindi kukulangin sa 30 meters bago lumiko"
+  },
+  {
+    "ID": 45,
+    "Topic": "Safe Driving Principles",
+    "Question": "Ano ang dapat gawin sa paglipat-lipat ng linya bukod sa pagtingin sa mirror at pag-signal?",
+    "Option_A": "Tingnan kung may parating na sasakyan sa iyong \"blind spot",
+    "Option_B": "Bumusina nang malakas",
+    "Option_C": "Sindihan ang headlight ng sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Tingnan kung may parating na sasakyan sa iyong \"blind spot"
+  },
+  {
+    "ID": 46,
+    "Topic": "Safe Driving Principles",
+    "Question": "Bilang defensive driver, ano ang pinakaligtas na gawin kahit ikaw ang may karapatan sa daan?",
+    "Option_A": "Laging ipilit ang iyong karapatan",
+    "Option_B": "Bumusina nang paulit-ulit hanggang tumabi ang iba",
+    "Option_C": "Huwag ipilit ang karapatan para makaiwas sa gulo",
+    "Option_D": "",
+    "Correct_Answer": "Huwag ipilit ang karapatan para makaiwas sa gulo"
+  },
+  {
+    "ID": 47,
+    "Topic": "Safe Driving Principles",
+    "Question": "Kung ang nakasalubong mo ay may nakakasilaw na ilaw, ano ang tamang reaksyon?",
+    "Option_A": "Titigan ang nakakasilaw na ilaw ng kasalubong",
+    "Option_B": "Tumingin nang bahagya sa gawing kanan ng kalsada",
+    "Option_C": "Silawin din ang nakasalubong gamit ang high beam",
+    "Option_D": "",
+    "Correct_Answer": "Tumingin nang bahagya sa gawing kanan ng kalsada"
+  },
+  {
+    "ID": 48,
+    "Topic": "Safe Driving Principles",
+    "Question": "Paano ang tamang pag-atake sa isang kurbada sa kalsada?",
+    "Option_A": "Bilisan ang takbo habang nasa gitna ng kurbada",
+    "Option_B": "Magpreno nang bigla habang tumatakbo sa loob ng kurbada",
+    "Option_C": "Magmarahan o bagalan ang takbo bago pa dumating sa kurbada",
+    "Option_D": "",
+    "Correct_Answer": "Magmarahan o bagalan ang takbo bago pa dumating sa kurbada"
+  },
+  {
+    "ID": 49,
+    "Topic": "Safe Driving Principles",
+    "Question": "Kung ang drayber sa unahan mo ay naglabas ng kaliwang kamay at inunat ito nang diretso, siya ay:",
+    "Option_A": "Hihinto",
+    "Option_B": "Kakaliwa",
+    "Option_C": "Kakanan",
+    "Option_D": "",
+    "Correct_Answer": "Kakaliwa"
+  },
+  {
+    "ID": 50,
+    "Topic": "Safe Driving Principles",
+    "Question": "Sa isang naka-motorsiklo, ano ang ibig sabihin kung ang kanyang kaliwang kamay ay nakataas?",
+    "Option_A": "Siya ay kakanan",
+    "Option_B": "Siya ay kakaliwa",
+    "Option_C": "Siya ay hihinto",
+    "Option_D": "",
+    "Correct_Answer": "Siya ay kakanan"
+  },
+  {
+    "ID": 51,
+    "Topic": "Safe Driving Principles",
+    "Question": "Ano ang tamang distansya sa pagitan mo at ng sinusundang sasakyan?",
+    "Option_A": "Isang metro lamang para hindi masingitan",
+    "Option_B": "Sinlaki ng sukat ng isang sasakyan (one car length)",
+    "Option_C": "Sinlaki ng sukat ng dalawang sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Sinlaki ng sukat ng isang sasakyan (one car length)"
+  },
+  {
+    "ID": 52,
+    "Topic": "Safe Driving Principles",
+    "Question": "Kung biglang umilaw ang brake lights ng sasakyang nasa unahan mo, dapat kang:",
+    "Option_A": "Lumiko agad sa kaliwa",
+    "Option_B": "Humanda sa pagpreno",
+    "Option_C": "Bumusina para hindi siya huminto",
+    "Option_D": "",
+    "Correct_Answer": "Humanda sa pagpreno"
+  },
+  {
+    "ID": 53,
+    "Topic": "Safe Driving Principles",
+    "Question": "Sa anong sitwasyon dapat gamitin ang busina ng sasakyan?",
+    "Option_A": "Upang makapagbigay babala ng kaligtasan o pag-iingat",
+    "Option_B": "Upang iparinig na maganda ang tunog nito",
+    "Option_C": "Upang makalikha ng ingay sa kalsada",
+    "Option_D": "",
+    "Correct_Answer": "Upang makapagbigay babala ng kaligtasan o pag-iingat"
+  },
+  {
+    "ID": 54,
+    "Topic": "Safe Driving Principles",
+    "Question": "Ano ang pinakamabisang paraan upang malabanan ang pagod at antok sa mahabang biyahe?",
+    "Option_A": "Uminom ng gamot na pampapigil ng antok",
+    "Option_B": "Uminom ng alak bago ang biyahe",
+    "Option_C": "Huminto paminsan-minsan sa ligtas na lugar at magpahinga",
+    "Option_D": "",
+    "Correct_Answer": "Huminto paminsan-minsan sa ligtas na lugar at magpahinga"
+  },
+  {
+    "ID": 55,
+    "Topic": "Safe Driving Principles",
+    "Question": "Ang pinakaligtas na bilis o tulin ng isang sasakyan ay nakadepende sa:",
+    "Option_A": "Kakayahan ng sasakyan na tumakbo ng mabilis",
+    "Option_B": "Kondisyon ng kalsada at ng panahon",
+    "Option_C": "Pagmamadali ng drayber na makarating sa destinasyon",
+    "Option_D": "",
+    "Correct_Answer": "Kondisyon ng kalsada at ng panahon"
+  },
+  {
+    "ID": 56,
+    "Topic": "Safe Driving Principles",
+    "Question": "Kung ang drayber sa unahan ay naglabas ng kaliwang kamay na nakaturo sa lupa, siya ay:",
+    "Option_A": "Kakaliwa",
+    "Option_B": "Kakanan",
+    "Option_C": "Hihinto",
+    "Option_D": "",
+    "Correct_Answer": "Hihinto"
+  },
+  {
+    "ID": 57,
+    "Topic": "Safe Driving Principles",
+    "Question": "Ano ang dapat gawin kung ang sasakyan sa iyong likuran ay nagpahiwatig na gustong lumusot?",
+    "Option_A": "Huwag itong pansinin at manatili sa bilis",
+    "Option_B": "Magmarahan, gumawi sa kanan at bayaan itong lumagpas",
+    "Option_C": "Bilisan ang takbo upang hindi siya makalusot",
+    "Option_D": "",
+    "Correct_Answer": "Magmarahan, gumawi sa kanan at bayaan itong lumagpas"
+  },
+  {
+    "ID": 58,
+    "Topic": "Safe Driving Principles",
+    "Question": "Sa paglipat ng linya sa highway, kailangan mag-signal nang hindi kukulangin sa:",
+    "Option_A": "Sampung segundo bago gawin ito",
+    "Option_B": "Isang minuto bago gawin ito",
+    "Option_C": "Limang minuto bago gawin ito",
+    "Option_D": "",
+    "Correct_Answer": "Sampung segundo bago gawin ito"
+  },
+  {
+    "ID": 59,
+    "Topic": "Safe Driving Principles",
+    "Question": "Bakit mas itinuturing na mapanganib ang palikong kaliwa kaysa sa pakanan?",
+    "Option_A": "Dahil kailangang maging listo sa mga sasakyang nagmumula sa kaliwa at kanan",
+    "Option_B": "Dahil mas mabilis ang mga sasakyang galing sa kaliwa",
+    "Option_C": "Dahil laging mas marami ang linya sa kaliwang bahagi",
+    "Option_D": "",
+    "Correct_Answer": "Dahil kailangang maging listo sa mga sasakyang nagmumula sa kaliwa at kanan"
+  },
+  {
+    "ID": 60,
+    "Topic": "Safe Driving Principles",
+    "Question": "Kailan dapat gumawa ng desisyon ang isang drayber sa kalsada?",
+    "Option_A": "Pagkatapos na mangyari ang aksidente",
+    "Option_B": "Kung kailan buhol-buhol na ang daloy ng trapiko",
+    "Option_C": "Habang siya ay kasalukuyang nagmamaneho",
+    "Option_D": "",
+    "Correct_Answer": "Habang siya ay kasalukuyang nagmamaneho"
+  },
+  {
+    "ID": 61,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ano ang parusa sa mahuhuling nagmamaneho na lasing sa alak o ipinagbabawal na gamot ayon sa Manual?",
+    "Option_A": "Php 500.00",
+    "Option_B": "Php 2,000.00",
+    "Option_C": "Isang linggong pagkakabilanggo lamang",
+    "Option_D": "",
+    "Correct_Answer": "Isang linggong pagkakabilanggo lamang"
+  },
+  {
+    "ID": 62,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ang paggamit ng huwad o pekeng lisensya ay may parusang:",
+    "Option_A": "Php 100.00",
+    "Option_B": "Pagsabihan lang ng LTO officer",
+    "Option_C": "Php 500.00 at anim na buwan na hindi makakakuha ng lisensya",
+    "Option_D": "",
+    "Correct_Answer": "Php 500.00 at anim na buwan na hindi makakakuha ng lisensya"
+  },
+  {
+    "ID": 63,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ano ang tamang asal kung pinapahinto ka ng isang pulis-trapiko?",
+    "Option_A": "Huminto at ibigay ang lisensya at papeles kung hinihingi",
+    "Option_B": "Makipagtalo sa pulis para hindi mahulihan",
+    "Option_C": "Huwag pansinin at bilisan ang takbo ng sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Huminto at ibigay ang lisensya at papeles kung hinihingi"
+  },
+  {
+    "ID": 64,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Kung masangkot sa isang sakuna, kailan mo dapat itong ipagbigay-alam sa pinakamalapit na himpilan ng pulisya?",
+    "Option_A": "Sa loob ng 72 oras",
+    "Option_B": "Kaagad-agad",
+    "Option_C": "Pagkalipas ng isang linggo",
+    "Option_D": "",
+    "Correct_Answer": "Kaagad-agad"
+  },
+  {
+    "ID": 65,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ilang araw ang palugit upang ayusin ang iyong kaso at matubos ang lisensya matapos kang mahuli?",
+    "Option_A": "15 araw",
+    "Option_B": "5 araw",
+    "Option_C": "30 araw",
+    "Option_D": "",
+    "Correct_Answer": "15 araw"
+  },
+  {
+    "ID": 66,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ang pagmamaneho nang walang lisensya ay may parusang multa na Php 500.00 at:",
+    "Option_A": "Pagka-impound ng sasakyan nang hindi hihigit sa 10 araw",
+    "Option_B": "Pagkakabilanggo ng tatlong taon",
+    "Option_C": "Wala nang ibang parusa",
+    "Option_D": "",
+    "Correct_Answer": "Pagka-impound ng sasakyan nang hindi hihigit sa 10 araw"
+  },
+  {
+    "ID": 67,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ayon sa demerit point system, ilang puntos ang ibinibigay para sa \"Grave Violations\"?",
+    "Option_A": "1 punto",
+    "Option_B": "3 puntos",
+    "Option_C": "5 puntos",
+    "Option_D": "",
+    "Correct_Answer": "5 puntos"
+  },
+  {
+    "ID": 68,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ilang demerit points ang katumbas ng bawat \"Less Grave Violation\"?",
+    "Option_A": "3 puntos",
+    "Option_B": "5 puntos",
+    "Option_C": "1 punto",
+    "Option_D": "",
+    "Correct_Answer": "3 puntos"
+  },
+  {
+    "ID": 69,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Para sa lahat ng iba pang paglabag na itinuturing na \"Light Violations,\" ilang demerit points ang ibinibigay?",
+    "Option_A": "3 puntos",
+    "Option_B": "1 punto",
+    "Option_C": "2 puntos",
+    "Option_D": "",
+    "Correct_Answer": "1 punto"
+  },
+  {
+    "ID": 70,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ano ang mangyayari sa lisensya ng isang drayber na naka-ipon ng 40 o higit pang demerit points?",
+    "Option_A": "Sususpindihin nang isang buwan",
+    "Option_B": "Babawiin (revoked) ang lisensya nang hindi kukulangin sa 2 taon",
+    "Option_C": "Pagmumultahin lamang ng Php 1,000.00",
+    "Option_D": "",
+    "Correct_Answer": "Babawiin (revoked) ang lisensya nang hindi kukulangin sa 2 taon"
+  },
+  {
+    "ID": 71,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ang isang Student-Driver Permit (SP) holder na nakakuha ng 5 demerit points ay papatawan ng:",
+    "Option_A": "Babala mula sa LTO",
+    "Option_B": "Multa na Php 10,000.00",
+    "Option_C": "Pagkumpiska at pagbawi (revocation) ng SP at hindi makaka-apply sa loob ng isang taon",
+    "Option_D": "",
+    "Correct_Answer": "Pagkumpiska at pagbawi (revocation) ng SP at hindi makaka-apply sa loob ng isang taon"
+  },
+  {
+    "ID": 72,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Sa ikatlong pagkakataon na ang lisensya ay mabawi (revoke), ano ang magiging parusa?",
+    "Option_A": "Perpetual revocation (habambuhay na hindi na makakakuha ng lisensya)",
+    "Option_B": "Isang taon na suspensyon lamang",
+    "Option_C": "Pagbabayad ng Php 5,000 fine",
+    "Option_D": "",
+    "Correct_Answer": "Perpetual revocation (habambuhay na hindi na makakakuha ng lisensya)"
+  },
+  {
+    "ID": 73,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Para sa mga drayber ng Public Utility Vehicles (PUV), ano ang epekto ng bawat traffic violation?",
+    "Option_A": "Kalahati lang ang puntos na ibinibigay",
+    "Option_B": "Doble ang demerit points para sa bawat paglabag",
+    "Option_C": "Walang demerit points na ibinibigay",
+    "Option_D": "",
+    "Correct_Answer": "Doble ang demerit points para sa bawat paglabag"
+  },
+  {
+    "ID": 74,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Sino ang kailangang sumailalim sa Driving Enhancement Program (DEP) bago ang initial renewal ng lisensya?",
+    "Option_A": "Ang mga drayber na may traffic violation lamang",
+    "Option_B": "Ang mga senior citizen lamang",
+    "Option_C": "Lahat ng drayber bago ang initial renewal ng 5-year license",
+    "Option_D": "",
+    "Correct_Answer": "Lahat ng drayber bago ang initial renewal ng 5-year license"
+  },
+  {
+    "ID": 75,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Kung ang isang drayber ay may 10 o higit pang demerit points, ano ang kailangan bago mag-renew?",
+    "Option_A": "DEP at Theoretical Examination",
+    "Option_B": "Pambayad lamang ng multa",
+    "Option_C": "Pagkuha ng bagong Student Permit",
+    "Option_D": "",
+    "Correct_Answer": "DEP at Theoretical Examination"
+  },
+  {
+    "ID": 76,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ang pagmamaneho ng pribadong sasakyan bilang PUV nang walang awtoridad mula sa LTFRB ay may parusang:",
+    "Option_A": "Light violation demerit points",
+    "Option_B": "Doble ang demerit points (PUV violation rules)",
+    "Option_C": "Wala itong demerit points",
+    "Option_D": "",
+    "Correct_Answer": "Doble ang demerit points (PUV violation rules)"
+  },
+  {
+    "ID": 77,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Kapag ang isang drayber ay hindi nakatapos ng itinakdang intervention program sa loob ng 30 araw:",
+    "Option_A": "Dodoblehin ang kanyang multa",
+    "Option_B": "Babawiin ang rehistro ng kanyang sasakyan",
+    "Option_C": "Sususpindihin ang kanyang lisensya hanggang sa matapos ang kurso",
+    "Option_D": "",
+    "Correct_Answer": "Sususpindihin ang kanyang lisensya hanggang sa matapos ang kurso"
+  },
+  {
+    "ID": 78,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ayon sa R.A. 4136, ang lisensya sa pagmamaneho ay:",
+    "Option_A": "Isang karapatan ng bawat mamamayang Pilipino",
+    "Option_B": "Isang pribilehiyo at hindi isang karapatan",
+    "Option_C": "Isang palamuti lamang sa pitaka",
+    "Option_D": "",
+    "Correct_Answer": "Isang pribilehiyo at hindi isang karapatan"
+  },
+  {
+    "ID": 79,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ang pagdadala ng kargada na lumalampas sa likuran ng sasakyan nang walang pulang bandera o ilaw ay:",
+    "Option_A": "Isang paglabag sa batas trapiko",
+    "Option_B": "Pinapayagan kung malapit lang ang pupuntahan",
+    "Option_C": "Hindi pinapansin ng mga operatiba ng LTO",
+    "Option_D": "",
+    "Correct_Answer": "Isang paglabag sa batas trapiko"
+  },
+  {
+    "ID": 80,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Ano ang parusa sa pagpapatakbo ng sasakyang hindi rehistrado sa LTO?",
+    "Option_A": "Babala lang ang ibibigay",
+    "Option_B": "Walang anumang parusa ayon sa manual",
+    "Option_C": "Multa at posibleng pag-impound ng sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Multa at posibleng pag-impound ng sasakyan"
+  },
+  {
+    "ID": 81,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Ano ang pinakamababang edad para sa isang Pilipino upang makakuha ng Student-Driver's Permit (SP)?",
+    "Option_A": "17 taong gulang",
+    "Option_B": "16 taong gulang",
+    "Option_C": "18 taong gulang",
+    "Option_D": "",
+    "Correct_Answer": "16 taong gulang"
+  },
+  {
+    "ID": 82,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Para sa mga nagnanais kumuha ng Non-Professional Driver’s License (NPDL), ano ang edad na kinakailangan?",
+    "Option_A": "16 taong gulang",
+    "Option_B": "18 taong gulang",
+    "Option_C": "17 taong gulang",
+    "Option_D": "",
+    "Correct_Answer": "17 taong gulang"
+  },
+  {
+    "ID": 83,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Para sa Professional Driver’s License (PDL), ano ang pinakamababang edad na itinakda?",
+    "Option_A": "18 taong gulang",
+    "Option_B": "17 taong gulang",
+    "Option_C": "21 taong gulang",
+    "Option_D": "",
+    "Correct_Answer": "18 taong gulang"
+  },
+  {
+    "ID": 84,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Ang lisensyang Non-Professional ay itinakda lamang para sa pagmamaneho ng:",
+    "Option_A": "Anumang uri ng sasakyan kasama ang mga bus",
+    "Option_B": "Mga pribadong sasakyan",
+    "Option_C": "Pampaseherong sasakyan (for hire)",
+    "Option_D": "",
+    "Correct_Answer": "Mga pribadong sasakyan"
+  },
+  {
+    "ID": 85,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Sino ang tinuturing na isang Professional Driver ayon sa batas?",
+    "Option_A": "Ang drayber na matagal na sa kalsada at bihasa na",
+    "Option_B": "Ang drayber na may sariling sasakyang ginagamit sa personal na biyahe",
+    "Option_C": "Ang sinumang binabayaran o inuupahan sa pagmamaneho ng sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Ang sinumang binabayaran o inuupahan sa pagmamaneho ng sasakyan"
+  },
+  {
+    "ID": 86,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Sa unang pagkakataon na mabigyan ng Driver’s License, gaano ito katagal may bisa (validity)?",
+    "Option_A": "10 taon",
+    "Option_B": "5 taon",
+    "Option_C": "1 taon",
+    "Option_D": "",
+    "Correct_Answer": "5 taon"
+  },
+  {
+    "ID": 87,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Sa anong kondisyon maaaring ma-renew ang isang lisensya nang may 10-year validity?",
+    "Option_A": "Kung ang drayber ay walang anumang traffic violation sa nakaraang 5 taon",
+    "Option_B": "Kung ang drayber ay isang Professional License holder",
+    "Option_C": "Kung ang drayber ay magbabayad ng double fee",
+    "Option_D": "",
+    "Correct_Answer": "Kung ang drayber ay walang anumang traffic violation sa nakaraang 5 taon"
+  },
+  {
+    "ID": 88,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Gaano katagal ang bisa (validity) ng isang Student-Driver’s Permit?",
+    "Option_A": "Limang (5) taon",
+    "Option_B": "Anim na buwan lamang",
+    "Option_C": "Isang (1) taon",
+    "Option_D": "",
+    "Correct_Answer": "Isang (1) taon"
+  },
+  {
+    "ID": 89,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Anong DL Code ang dapat nakasaad sa lisensya upang ikaw ay makapagmaneho ng motorsiklo?",
+    "Option_A": "DL Code B",
+    "Option_B": "DL Code A",
+    "Option_C": "DL Code C",
+    "Option_D": "",
+    "Correct_Answer": "DL Code A"
+  },
+  {
+    "ID": 90,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Ang DL Code B ay inilaan para sa mga sasakyang may:",
+    "Option_A": "Gross Vehicle Weight (GVW) na hanggang 5000kg at may 8 upuan",
+    "Option_B": "GVW na higit sa 5000kg at pampaseherong bus",
+    "Option_C": "Dalawang gulong lamang (motorsiklo)",
+    "Option_D": "",
+    "Correct_Answer": "Gross Vehicle Weight (GVW) na hanggang 5000kg at may 8 upuan"
+  },
+  {
+    "ID": 91,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Aling DL Code ang kinakailangan para sa pagmamaneho ng tricycle?",
+    "Option_A": "DL Code A",
+    "Option_B": "DL Code A1",
+    "Option_C": "DL Code B2",
+    "Option_D": "",
+    "Correct_Answer": "DL Code A1"
+  },
+  {
+    "ID": 92,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Kung ang isang drayber ay may Condition Code 1 sa kanyang lisensya, ano ang dapat niyang gawin?",
+    "Option_A": "Gumamit ng hearing aid habang nagmamaneho",
+    "Option_B": "Magmaneho lamang sa mga lugar na may liwanag",
+    "Option_C": "Magmaneho nang may suot na corrective lenses (salamin sa mata)",
+    "Option_D": "",
+    "Correct_Answer": "Magmaneho nang may suot na corrective lenses (salamin sa mata)"
+  },
+  {
+    "ID": 93,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Ano ang ibig sabihin ng Condition Code 4 sa lisensya?",
+    "Option_A": "Daylight driving only (pagmamaneho sa may liwanag lang)",
+    "Option_B": "Hearing aid required",
+    "Option_C": "Drive customized motor vehicle only",
+    "Option_D": "",
+    "Correct_Answer": "Daylight driving only (pagmamaneho sa may liwanag lang)"
+  },
+  {
+    "ID": 94,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Ang mga drayber na may driving conditions 2, 3, 4, o 5 ay:",
+    "Option_A": "Malayang makakapag-drive ng anumang Public Utility Vehicle (PUV)",
+    "Option_B": "Hindi pinapayagang magmaneho ng PUV o For-Hire vehicles",
+    "Option_C": "Hindi na kailangan pang mag-renew ng lisensya",
+    "Option_D": "",
+    "Correct_Answer": "Hindi pinapayagang magmaneho ng PUV o For-Hire vehicles"
+  },
+  {
+    "ID": 95,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Anong karagdagang dokumento ang kailangan kung ang aplikante ng NPDL ay 17 taong gulang?",
+    "Option_A": "Marriage Contract",
+    "Option_B": "Barangay Clearance mula sa pinanggalingan",
+    "Option_C": "Parental o Guardian’s Consent na may kalakip na valid ID",
+    "Option_D": "",
+    "Correct_Answer": "Parental o Guardian’s Consent na may kalakip na valid ID"
+  },
+  {
+    "ID": 96,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Ang isang SP holder ay pinapayagang magmaneho kung may kasamang:",
+    "Option_A": "Kahit sinong marunong magmaneho",
+    "Option_B": "Lisensyadong drayber na may kaukulang DL Code bilang driving instructor",
+    "Option_C": "Sinumang kamag-anak na nasa wastong gulang",
+    "Option_D": "",
+    "Correct_Answer": "Lisensyadong drayber na may kaukulang DL Code bilang driving instructor"
+  },
+  {
+    "ID": 97,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Sa pagkuha ng PDL Code C (Heavy Commercial), ano ang kailangang karanasan?",
+    "Option_A": "Hawak na NPDL/PDL Code B2 nang hindi kukulangin sa 4 na taon",
+    "Option_B": "Isang buwan na karanasan gamit ang Student Permit",
+    "Option_C": "Hawak na PDL Code A nang 2 taon",
+    "Option_D": "",
+    "Correct_Answer": "Hawak na NPDL/PDL Code B2 nang hindi kukulangin sa 4 na taon"
+  },
+  {
+    "ID": 98,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Ano ang kahulugan ng terminong \"DL Code\" sa bagong sistema ng LTO?",
+    "Option_A": "Address ng drayber na nakatala sa computer system",
+    "Option_B": "Kolektibong code para sa kategorya ng sasakyan na pwedeng imaneho",
+    "Option_C": "Password ng drayber para sa kanyang online portal",
+    "Option_D": "",
+    "Correct_Answer": "Kolektibong code para sa kategorya ng sasakyan na pwedeng imaneho"
+  },
+  {
+    "ID": 99,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Kung ang drayber ay may Manual Transmission (MT) Clutch Code sa lisensya:",
+    "Option_A": "Pinapayagang magmaneho ng parehong Manual at Automatic na sasakyan",
+    "Option_B": "Bawal siyang magmaneho ng Automatic na sasakyan",
+    "Option_C": "Pwedeng mag-Automatic lang pero bawal ang Manual",
+    "Option_D": "",
+    "Correct_Answer": "Pinapayagang magmaneho ng parehong Manual at Automatic na sasakyan"
+  },
+  {
+    "ID": 100,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Ang lisensya sa pagmamaneho ay pag-aari ng:",
+    "Option_A": "Ng drayber dahil siya ang nagbayad ng fee",
+    "Option_B": "Ng driving school na nag-isyu ng certificate",
+    "Option_C": "Pamahalaan (ito ay isang privilege na binibigay ng estado)",
+    "Option_D": "",
+    "Correct_Answer": "Pamahalaan (ito ay isang privilege na binibigay ng estado)"
+  },
+  {
+    "ID": 101,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ano ang pinaka-importanteng hakbang bago simulan ang isang biyahe?",
+    "Option_A": "Painitin ang makina ng sasakyan nang isang oras",
+    "Option_B": "Suriin ang paligid at kondisyon ng sasakyan (BLOWBAGETS check-up)",
+    "Option_C": "Sumakay at umalis agad para hindi mahuli sa appointment",
+    "Option_D": "",
+    "Correct_Answer": "Suriin ang paligid at kondisyon ng sasakyan (BLOWBAGETS check-up)"
+  },
+  {
+    "ID": 102,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ano ang tamang paghahanda kung balak magbiyahe sa malayong lugar?",
+    "Option_A": "Magdala lamang ng sapat na pagkain at tubig",
+    "Option_B": "Planuhin ang ruta at tiyaking nasa maayos na kondisyon ang sasakyan",
+    "Option_C": "Huwag nang suriin ang sasakyan basta't bago pa ito",
+    "Option_D": "",
+    "Correct_Answer": "Planuhin ang ruta at tiyaking nasa maayos na kondisyon ang sasakyan"
+  },
+  {
+    "ID": 103,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Bakit mapanganib ang pagbiyahe kung ang brake lights ng sasakyan ay hindi gumagana?",
+    "Option_A": "Dahil hindi malalaman ng nasa likuran kung ikaw ay hihinto o magbabagal",
+    "Option_B": "Dahil huhulihin ka agad ng pulis kahit umaga",
+    "Option_C": "Dahil mas mabilis maubos ang baterya ng sasakyan",
+    "Option_D": "",
+    "Correct_Answer": "Dahil hindi malalaman ng nasa likuran kung ikaw ay hihinto o magbabagal"
+  },
+  {
+    "ID": 104,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ang sasakyan na nasa ilalim ng kategoryang N1 ay:",
+    "Option_A": "Motorsiklo na may tatlong gulong",
+    "Option_B": "Sasakyang pang-kargamento na may GVW na hindi hihigit sa 3500kg",
+    "Option_C": "Malaking trailer na may kargang mabigat",
+    "Option_D": "",
+    "Correct_Answer": "Sasakyang pang-kargamento na may GVW na hindi hihigit sa 3500kg"
+  },
+  {
+    "ID": 105,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ang kategoryang M1 ay para sa mga sasakyang pampasahero na may:",
+    "Option_A": "Hindi hihigit sa 8 upuan (bukod sa drayber) at GVW na hanggang 5000kg",
+    "Option_B": "Higit sa 20 upuan at tumatakbo bilang bus",
+    "Option_C": "Tatlong gulong lamang para sa maikling distansya",
+    "Option_D": "",
+    "Correct_Answer": "Hindi hihigit sa 8 upuan (bukod sa drayber) at GVW na hanggang 5000kg"
+  },
+  {
+    "ID": 106,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ano ang dapat gawin kung ang dala mong kargada ay lalampas ng higit sa isang metro mula sa likuran ng sasakyan?",
+    "Option_A": "Maglagay ng puting tela sa dulo",
+    "Option_B": "Magkabit ng pulang bandera sa araw o pulang ilaw sa gabi sa dulo ng kargada",
+    "Option_C": "Wala, basta't dahan-dahan lang ang takbo",
+    "Option_D": "",
+    "Correct_Answer": "Magkabit ng pulang bandera sa araw o pulang ilaw sa gabi sa dulo ng kargada"
+  },
+  {
+    "ID": 107,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Sa kategorya ng sasakyan, ano ang timbang ng mga trailer na nasa kategoryang O1?",
+    "Option_A": "Higit sa 10,000kg",
+    "Option_B": "3500kg hanggang 10000kg",
+    "Option_C": "Gross Vehicle Weight (GVW) na hindi hihigit sa 750kg",
+    "Option_D": "",
+    "Correct_Answer": "Gross Vehicle Weight (GVW) na hindi hihigit sa 750kg"
+  },
+  {
+    "ID": 108,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ang mga sasakyang nasa kategoryang L1, L2, at L3 ay tumutukoy sa mga:",
+    "Option_A": "Two-wheeled o three-wheeled na sasakyan (motorsiklo o tricycle)",
+    "Option_B": "Malalaking truck na pangkargamento",
+    "Option_C": "Mga trailer na walang sariling makina",
+    "Option_D": "",
+    "Correct_Answer": "Two-wheeled o three-wheeled na sasakyan (motorsiklo o tricycle)"
+  },
+  {
+    "ID": 109,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ang kategoryang M3 ay para sa mga sasakyang pampasahero na may higit sa 8 upuan at:",
+    "Option_A": "GVW na hindi hihigit sa 5000kg",
+    "Option_B": "GVW na higit sa 5000kg (mga malalaking bus)",
+    "Option_C": "GVW na hindi hihigit sa 750kg",
+    "Option_D": "",
+    "Correct_Answer": "GVW na higit sa 5000kg (mga malalaking bus)"
+  },
+  {
+    "ID": 110,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Bakit kinakailangang laging may dalang mga kagamitang pangkumpuni (tools) sa loob ng sasakyan?",
+    "Option_A": "Para magkaroon ng sapat na timbang ang likuran ng sasakyan",
+    "Option_B": "Upang magamit kung sakaling magkaroon ng mekanikal na problema sa daan",
+    "Option_C": "Bilang palamuti o requirement lamang sa rehistro",
+    "Option_D": "",
+    "Correct_Answer": "Upang magamit kung sakaling magkaroon ng mekanikal na problema sa daan"
+  },
+  {
+    "ID": 111,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ang drayber ng isang ambulansya o Special-purpose Vehicle (SV) ay dapat:",
+    "Option_A": "May certificate of training mula sa TESDA o kaukulang ahensya",
+    "Option_B": "Pulis o bumbero lamang",
+    "Option_C": "Kahit sinong drayber na may Non-Professional license",
+    "Option_D": "",
+    "Correct_Answer": "May certificate of training mula sa TESDA o kaukulang ahensya"
+  },
+  {
+    "ID": 112,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ano ang ibig sabihin ng \"GVW\" sa usapin ng kategorya ng sasakyan?",
+    "Option_A": "Great Vehicle Wheel",
+    "Option_B": "General Vehicle Warning",
+    "Option_C": "Gross Vehicle Weight (kabuuang timbang ng sasakyan at karga)",
+    "Option_D": "",
+    "Correct_Answer": "Gross Vehicle Weight (kabuuang timbang ng sasakyan at karga)"
+  },
+  {
+    "ID": 113,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Aling kategorya ang para sa mga trailer na may timbang na 750kg hanggang 3500kg?",
+    "Option_A": "O1",
+    "Option_B": "O2",
+    "Option_C": "O4",
+    "Option_D": "",
+    "Correct_Answer": "O2"
+  },
+  {
+    "ID": 114,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ang isang drayber ng firetruck ay kinakailangang may training mula sa:",
+    "Option_A": "National Fire Training Institute",
+    "Option_B": "Local Government Unit (LGU) lamang",
+    "Option_C": "Barangay Fire Brigade",
+    "Option_D": "",
+    "Correct_Answer": "National Fire Training Institute"
+  },
+  {
+    "ID": 115,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ang mga sasakyang pangkargamento na nasa ilalim ng kategoryang N2 ay may timbang na:",
+    "Option_A": "Higit sa 3500kg ngunit hindi lalampas sa 12000kg",
+    "Option_B": "Hindi hihigit sa 750kg",
+    "Option_C": "Higit sa 12000kg",
+    "Option_D": "",
+    "Correct_Answer": "Higit sa 3500kg ngunit hindi lalampas sa 12000kg"
+  },
+  {
+    "ID": 116,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ano ang pangunahing dahilan kung bakit dapat suriin ang mga gulong bago magmaneho?",
+    "Option_A": "Upang makita kung ito ay bago pa at makintab",
+    "Option_B": "Upang maiwasan ang panganib ng flat tire o pagsabog ng gulong sa biyahe",
+    "Option_C": "Upang malaman kung ito ay mamahaling brand",
+    "Option_D": "",
+    "Correct_Answer": "Upang maiwasan ang panganib ng flat tire o pagsabog ng gulong sa biyahe"
+  },
+  {
+    "ID": 117,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ang pagkakaroon ng maayos at gumaganang signal lights ay:",
+    "Option_A": "Opsyonal lamang sa mga lumang sasakyan",
+    "Option_B": "Responsibilidad ng drayber para sa ligtas na pakikipag-ugnayan sa kalsada",
+    "Option_C": "Para lamang sa pagmamaneho tuwing gabi",
+    "Option_D": "",
+    "Correct_Answer": "Responsibilidad ng drayber para sa ligtas na pakikipag-ugnayan sa kalsada"
+  },
+  {
+    "ID": 118,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ano ang dapat gawin kung mapansin mong tumataas ang temperatura ng makina (overheating)?",
+    "Option_A": "Buhusan agad ng yelo ang mainit na makina",
+    "Option_B": "Itabi ang sasakyan sa ligtas na lugar at hayaang lumamig bago suriin",
+    "Option_C": "Patuloy lang sa pagtakbo hanggang makarating sa destinasyon",
+    "Option_D": "",
+    "Correct_Answer": "Itabi ang sasakyan sa ligtas na lugar at hayaang lumamig bago suriin"
+  },
+  {
+    "ID": 119,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ang kategoryang L4 ay tumutukoy sa anong uri ng sasakyan?",
+    "Option_A": "Motorsiklong may sidecar (asymmetrically arranged wheels)",
+    "Option_B": "Isang uri ng pampasaherong bus",
+    "Option_C": "Trailer na may apat na gulong",
+    "Option_D": "",
+    "Correct_Answer": "Motorsiklong may sidecar (asymmetrically arranged wheels)"
+  },
+  {
+    "ID": 120,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Ang drayber ng isang \"School Service\" ay kailangang may kaukulang training mula sa:",
+    "Option_A": "Principal ng paaralan",
+    "Option_B": "Magulang ng mga bata",
+    "Option_C": "LTO o LTFRB",
+    "Option_D": "",
+    "Correct_Answer": "LTO o LTFRB"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "ID": 1,
+    "Topic": "General",
+    "Question": "What is the minimum age requirement to apply for a Non-Professional Driver's License (NPDL)?",
+    "Option_A": "16 years old",
+    "Option_B": "17 years old",
+    "Option_C": "18 years old",
+    "Option_D": "",
+    "Correct_Answer": "17 years old"
+  },
+  {
+    "ID": 2,
+    "Topic": "General",
+    "Question": "How long is a Student-Driver's Permit (SP) valid from the date of issuance?",
+    "Option_A": "Six months",
+    "Option_B": "One year",
+    "Option_C": "Two years",
+    "Option_D": "",
+    "Correct_Answer": "One year"
+  },
+  {
+    "ID": 3,
+    "Topic": "General",
+    "Question": "What is the primary difference between a Professional and a Non-Professional Driver's License?",
+    "Option_A": "A Professional license is only for heavy trucks, while Non-Professional is for cars.",
+    "Option_B": "A Non-Professional license is for private vehicles, while a Professional license is for those paid or hired to drive.",
+    "Option_C": "There is no difference; both allow for the operation of any vehicle type.",
+    "Option_D": "",
+    "Correct_Answer": "A Non-Professional license is for private vehicles, while a Professional license is for those paid or hired to drive."
+  },
+  {
+    "ID": 4,
+    "Topic": "General",
+    "Question": "According to the Land Transportation Office, a driver's license is:",
+    "Option_A": "A right for every citizen",
+    "Option_B": "A privilege, not a right",
+    "Option_C": "A permanent identification card",
+    "Option_D": "",
+    "Correct_Answer": "A privilege, not a right"
+  },
+  {
+    "ID": 5,
+    "Topic": "General",
+    "Question": "If a driver's license has \"Condition Code 1\" indicated, what must the driver do?",
+    "Option_A": "Drive only during daylight hours",
+    "Option_B": "Drive only with corrective lenses",
+    "Option_C": "Drive only vehicles with automatic transmission",
+    "Option_D": "",
+    "Correct_Answer": "Drive only with corrective lenses"
+  },
+  {
+    "ID": 6,
+    "Topic": "General",
+    "Question": "A Non-Professional Driver's License (NPDL) allows a person to operate:",
+    "Option_A": "Any type of vehicle, including public utility jeeps",
+    "Option_B": "Private motor vehicles only",
+    "Option_C": "Public utility vehicles for hire",
+    "Option_D": "",
+    "Correct_Answer": "Private motor vehicles only"
+  },
+  {
+    "ID": 7,
+    "Topic": "General",
+    "Question": "What is the standard validity period for a new Conductor's License?",
+    "Option_A": "Three years",
+    "Option_B": "Five years",
+    "Option_C": "Ten years",
+    "Option_D": "",
+    "Correct_Answer": "Five years"
+  },
+  {
+    "ID": 8,
+    "Topic": "General",
+    "Question": "If a driver is restricted to \"Condition Code 4,\" what requirement must be met?",
+    "Option_A": "The driver must wear a hearing aid",
+    "Option_B": "The driver is only allowed to drive during daylight",
+    "Option_C": "The driver must use special equipment for limbs",
+    "Option_D": "",
+    "Correct_Answer": "The driver is only allowed to drive during daylight"
+  },
+  {
+    "ID": 9,
+    "Topic": "General",
+    "Question": "What is the primary meaning of a red triangle road sign?",
+    "Option_A": "It provides information or directions",
+    "Option_B": "It gives a warning",
+    "Option_C": "It indicates a prohibition or regulation",
+    "Option_D": "",
+    "Correct_Answer": "It gives a warning"
+  },
+  {
+    "ID": 10,
+    "Topic": "General",
+    "Question": "What is the meaning of a blue rectangular or circular sign?",
+    "Option_A": "Warning",
+    "Option_B": "Informative or directional",
+    "Option_C": "Regulatory or restrictive",
+    "Option_D": "",
+    "Correct_Answer": "Informative or directional"
+  },
+  {
+    "ID": 11,
+    "Topic": "General",
+    "Question": "What does a single continuous solid yellow line on the road indicate?",
+    "Option_A": "You are allowed to overtake at any time",
+    "Option_B": "Overtaking is prohibited",
+    "Option_C": "You may park on that side of the road",
+    "Option_D": "",
+    "Correct_Answer": "Overtaking is prohibited"
+  },
+  {
+    "ID": 12,
+    "Topic": "General",
+    "Question": "What do broken white lines on a highway signify?",
+    "Option_A": "Overtaking or changing lanes is permitted if the road is clear",
+    "Option_B": "Do not cross the lines under any circumstances",
+    "Option_C": "The road is strictly for one-way traffic",
+    "Option_D": "",
+    "Correct_Answer": "Overtaking or changing lanes is permitted if the road is clear"
+  },
+  {
+    "ID": 13,
+    "Topic": "General",
+    "Question": "Which sign shape is specifically used for a \"STOP\" sign?",
+    "Option_A": "Triangle",
+    "Option_B": "Circle",
+    "Option_C": "Octagon",
+    "Option_D": "",
+    "Correct_Answer": "Octagon"
+  },
+  {
+    "ID": 14,
+    "Topic": "General",
+    "Question": "What is the meaning of an inverted triangle sign?",
+    "Option_A": "Stop",
+    "Option_B": "Give Way",
+    "Option_C": "No Entry",
+    "Option_D": "",
+    "Correct_Answer": "Give Way"
+  },
+  {
+    "ID": 15,
+    "Topic": "General",
+    "Question": "Two continuous solid yellow lines on the pavement indicate that:",
+    "Option_A": "Overtaking is allowed on the right side",
+    "Option_B": "It is dangerous and prohibited to overtake",
+    "Option_C": "You may cross to the other side to make a U-turn",
+    "Option_D": "",
+    "Correct_Answer": "It is dangerous and prohibited to overtake"
+  },
+  {
+    "ID": 16,
+    "Topic": "General",
+    "Question": "What should a driver do when seeing painted arrows on the road?",
+    "Option_A": "Follow the direction indicated by the arrows",
+    "Option_B": "Ignore them if there are no traffic lights",
+    "Option_C": "Only follow them during heavy traffic",
+    "Option_D": "",
+    "Correct_Answer": "Follow the direction indicated by the arrows"
+  },
+  {
+    "ID": 17,
+    "Topic": "General",
+    "Question": "A circular red sign with a white horizontal bar in the middle means:",
+    "Option_A": "No Parking",
+    "Option_B": "No Entry",
+    "Option_C": "Stop",
+    "Option_D": "",
+    "Correct_Answer": "No Entry"
+  },
+  {
+    "ID": 18,
+    "Topic": "General",
+    "Question": "A broken yellow line on your side of the road means:",
+    "Option_A": "You are prohibited from overtaking",
+    "Option_B": "You are permitted to overtake on the left side",
+    "Option_C": "You must stop and wait for a signal",
+    "Option_D": "",
+    "Correct_Answer": "You are permitted to overtake on the left side"
+  },
+  {
+    "ID": 19,
+    "Topic": "General",
+    "Question": "At an intersection without traffic signs or signals, if two vehicles arrive at the same time from different directions, which one should give way?",
+    "Option_A": "The vehicle on the right",
+    "Option_B": "The vehicle that arrived last",
+    "Option_C": "The faster vehicle",
+    "Option_D": "",
+    "Correct_Answer": "The vehicle that arrived last"
+  },
+  {
+    "ID": 20,
+    "Topic": "General",
+    "Question": "Who has the right-of-way in a roundabout (rotunda)?",
+    "Option_A": "The vehicle about to enter the rotunda",
+    "Option_B": "The vehicle already within the rotunda",
+    "Option_C": "The vehicle that honks its horn first",
+    "Option_D": "",
+    "Correct_Answer": "The vehicle already within the rotunda"
+  },
+  {
+    "ID": 21,
+    "Topic": "General",
+    "Question": "At what minimum distance should you signal before making a turn?",
+    "Option_A": "15 meters",
+    "Option_B": "30 meters",
+    "Option_C": "60 meters",
+    "Option_D": "",
+    "Correct_Answer": "30 meters"
+  },
+  {
+    "ID": 22,
+    "Topic": "General",
+    "Question": "What does a steady red traffic light mean?",
+    "Option_A": "Stop at the designated line",
+    "Option_B": "Slow down and proceed with caution",
+    "Option_C": "Stop and then proceed if there is no traffic",
+    "Option_D": "",
+    "Correct_Answer": "Stop at the designated line"
+  },
+  {
+    "ID": 23,
+    "Topic": "General",
+    "Question": "What is the meaning of a flashing red traffic light?",
+    "Option_A": "Wait for the green light",
+    "Option_B": "Slow down and proceed with caution",
+    "Option_C": "Stop, then proceed only when it is safe to do so",
+    "Option_D": "",
+    "Correct_Answer": "Stop, then proceed only when it is safe to do so"
+  },
+  {
+    "ID": 24,
+    "Topic": "General",
+    "Question": "What does a flashing yellow traffic light signify?",
+    "Option_A": "Prepare to stop as the light is about to turn red",
+    "Option_B": "Proceed with caution and slow down",
+    "Option_C": "Stop and wait for the light to change to green",
+    "Option_D": "",
+    "Correct_Answer": "Proceed with caution and slow down"
+  },
+  {
+    "ID": 25,
+    "Topic": "General",
+    "Question": "When is overtaking on the right side of a vehicle permitted?",
+    "Option_A": "On a highway with two or more lanes moving in the same direction",
+    "Option_B": "When the road is narrow",
+    "Option_C": "It is never permitted under any circumstances",
+    "Option_D": "",
+    "Correct_Answer": "On a highway with two or more lanes moving in the same direction"
+  },
+  {
+    "ID": 26,
+    "Topic": "General",
+    "Question": "Why is it prohibited to overtake at the foot of a bridge?",
+    "Option_A": "Because there are always pedestrians crossing",
+    "Option_B": "Because the bridge is too narrow",
+    "Option_C": "Because it is dangerous and oncoming vehicles cannot be seen",
+    "Option_D": "",
+    "Correct_Answer": "Because it is dangerous and oncoming vehicles cannot be seen"
+  },
+  {
+    "ID": 27,
+    "Topic": "General",
+    "Question": "What is the safest mindset regarding the right-of-way?",
+    "Option_A": "Always insist on your right-of-way",
+    "Option_B": "Do not force your right-of-way even if you are legally entitled to it",
+    "Option_C": "Only give way if the other vehicle is larger than yours",
+    "Option_D": "",
+    "Correct_Answer": "Do not force your right-of-way even if you are legally entitled to it"
+  },
+  {
+    "ID": 28,
+    "Topic": "General",
+    "Question": "According to the law, a driver may not drive at high speeds unless:",
+    "Option_A": "There are no other cars on the road",
+    "Option_B": "It is safe and within the prescribed speed limit",
+    "Option_C": "The driver is in a hurry for an appointment",
+    "Option_D": "",
+    "Correct_Answer": "It is safe and within the prescribed speed limit"
+  },
+  {
+    "ID": 29,
+    "Topic": "General",
+    "Question": "How often should you check your side and rear-view mirrors while driving?",
+    "Option_A": "Regularly and quickly",
+    "Option_B": "Only when you intend to stop",
+    "Option_C": "Only when another vehicle honks at you",
+    "Option_D": "",
+    "Correct_Answer": "Regularly and quickly"
+  },
+  {
+    "ID": 30,
+    "Topic": "General",
+    "Question": "What should you do if the vehicle behind you wants to overtake?",
+    "Option_A": "Speed up so they cannot pass",
+    "Option_B": "Slow down, move to the right, and let them pass",
+    "Option_C": "Stay in your lane and honk your horn",
+    "Option_D": "",
+    "Correct_Answer": "Slow down, move to the right, and let them pass"
+  },
+  {
+    "ID": 31,
+    "Topic": "General",
+    "Question": "What is the best way to combat fatigue and drowsiness during a long trip?",
+    "Option_A": "Take medicine to stay awake",
+    "Option_B": "Stop occasionally to rest and stretch",
+    "Option_C": "Drive faster to reach the destination sooner",
+    "Option_D": "",
+    "Correct_Answer": "Stop occasionally to rest and stretch"
+  },
+  {
+    "ID": 32,
+    "Topic": "General",
+    "Question": "What is the maximum allowable speed for a vehicle in a school zone?",
+    "Option_A": "20 kph",
+    "Option_B": "30 kph",
+    "Option_C": "35 kph",
+    "Option_D": "",
+    "Correct_Answer": "20 kph"
+  },
+  {
+    "ID": 33,
+    "Topic": "General",
+    "Question": "What is the recommended safe following distance between your vehicle and the one ahead?",
+    "Option_A": "One car length",
+    "Option_B": "Two car lengths",
+    "Option_C": "Three car lengths",
+    "Option_D": "",
+    "Correct_Answer": "One car length"
+  },
+  {
+    "ID": 34,
+    "Topic": "General",
+    "Question": "What should a driver do when approaching a curve?",
+    "Option_A": "Speed up to maintain momentum",
+    "Option_B": "Brake suddenly while in the middle of the curve",
+    "Option_C": "Slow down before reaching the curve",
+    "Option_D": "",
+    "Correct_Answer": "Slow down before reaching the curve"
+  },
+  {
+    "ID": 35,
+    "Topic": "General",
+    "Question": "If you are blinded by the bright headlights of an oncoming vehicle, you should:",
+    "Option_A": "Turn on your high beams as well",
+    "Option_B": "Look slightly toward the right side of the road",
+    "Option_C": "Stare directly at the lights to adjust your eyes",
+    "Option_D": "",
+    "Correct_Answer": "Look slightly toward the right side of the road"
+  },
+  {
+    "ID": 36,
+    "Topic": "General",
+    "Question": "When should a driver make important driving decisions?",
+    "Option_A": "Only when traffic is at a standstill",
+    "Option_B": "Continuously while driving",
+    "Option_C": "Only after an accident has occurred",
+    "Option_D": "",
+    "Correct_Answer": "Continuously while driving"
+  },
+  {
+    "ID": 37,
+    "Topic": "General",
+    "Question": "Before leaving a parking space, what is the first thing a driver should do?",
+    "Option_A": "Honk the horn",
+    "Option_B": "Check the surroundings before moving",
+    "Option_C": "Accelerate immediately to merge with traffic",
+    "Option_D": "",
+    "Correct_Answer": "Check the surroundings before moving"
+  },
+  {
+    "ID": 38,
+    "Topic": "General",
+    "Question": "If you wish to drive slower than other vehicles on a highway, which lane should you use?",
+    "Option_A": "The left lane",
+    "Option_B": "The center lane",
+    "Option_C": "The right lane",
+    "Option_D": "",
+    "Correct_Answer": "The right lane"
+  },
+  {
+    "ID": 39,
+    "Topic": "General",
+    "Question": "Under the LTO system, how many demerit points are assigned for a \"Grave Violation\"?",
+    "Option_A": "1 point",
+    "Option_B": "3 points",
+    "Option_C": "5 points",
+    "Option_D": "",
+    "Correct_Answer": "5 points"
+  },
+  {
+    "ID": 40,
+    "Topic": "General",
+    "Question": "How many demerit points are assigned for a \"Less Grave Violation\"?",
+    "Option_A": "1 point",
+    "Option_B": "3 points",
+    "Option_C": "5 points",
+    "Option_D": "",
+    "Correct_Answer": "3 points"
+  },
+  {
+    "ID": 41,
+    "Topic": "General",
+    "Question": "What is the penalty for using a fake driver's license?",
+    "Option_A": "A fine of Php 500.00 and a six-month disqualification from getting a license",
+    "Option_B": "Imprisonment for one year",
+    "Option_C": "A fine of Php 100.00",
+    "Option_D": "",
+    "Correct_Answer": "A fine of Php 500.00 and a six-month disqualification from getting a license"
+  },
+  {
+    "ID": 42,
+    "Topic": "General",
+    "Question": "In the event of a traffic accident, how soon must it be reported to the nearest police station?",
+    "Option_A": "Within 48 hours",
+    "Option_B": "Within 72 hours",
+    "Option_C": "Immediately",
+    "Option_D": "",
+    "Correct_Answer": "Immediately"
+  },
+  {
+    "ID": 43,
+    "Topic": "General",
+    "Question": "A Student Permit holder is prohibited from driving unless:",
+    "Option_A": "They are driving during daylight",
+    "Option_B": "They are accompanied by a duly licensed driver",
+    "Option_C": "They are driving a motorcycle",
+    "Option_D": "",
+    "Correct_Answer": "They are accompanied by a duly licensed driver"
+  },
+  {
+    "ID": 44,
+    "Topic": "General",
+    "Question": "What is the penalty for driving without a valid license?",
+    "Option_A": "A fine of Php 500.00",
+    "Option_B": "A fine of Php 500.00 and vehicle impoundment for up to 10 days",
+    "Option_C": "A fine of Php 750.00",
+    "Option_D": "",
+    "Correct_Answer": "A fine of Php 500.00 and vehicle impoundment for up to 10 days"
+  },
+  {
+    "ID": 45,
+    "Topic": "General",
+    "Question": "How many days does a driver have to settle a case and redeem their license after being apprehended?",
+    "Option_A": "10 days",
+    "Option_B": "15 days",
+    "Option_C": "30 days",
+    "Option_D": "",
+    "Correct_Answer": "15 days"
+  },
+  {
+    "ID": 46,
+    "Topic": "General",
+    "Question": "What happens to a Student Permit holder who accumulates 5 demerit points?",
+    "Option_A": "The permit is revoked, and the holder may only reapply after one year",
+    "Option_B": "The holder must pay a fine of Php 2,000.00",
+    "Option_C": "The permit is suspended for one month",
+    "Option_D": "",
+    "Correct_Answer": "The permit is revoked, and the holder may only reapply after one year"
+  },
+  {
+    "ID": 47,
+    "Topic": "General",
+    "Question": "What is the most important preparation before embarking on a long trip?",
+    "Option_A": "Checking the car's radio and entertainment system",
+    "Option_B": "Planning the route and ensuring the vehicle is in good condition with necessary tools",
+    "Option_C": "Ensuring you have enough snacks for the trip",
+    "Option_D": "",
+    "Correct_Answer": "Planning the route and ensuring the vehicle is in good condition with necessary tools"
+  },
+  {
+    "ID": 48,
+    "Topic": "General",
+    "Question": "What is the primary purpose of using the vehicle horn?",
+    "Option_A": "To create noise and get attention",
+    "Option_B": "To signal friends on the road",
+    "Option_C": "To give a safety warning or alert others of your presence",
+    "Option_D": "",
+    "Correct_Answer": "To give a safety warning or alert others of your presence"
+  },
+  {
+    "ID": 49,
+    "Topic": "General",
+    "Question": "What should you do if the brake lights of the vehicle in front of you illuminate?",
+    "Option_A": "Honk your horn",
+    "Option_B": "Prepare to brake",
+    "Option_C": "Change lanes immediately",
+    "Option_D": "",
+    "Correct_Answer": "Prepare to brake"
+  },
+  {
+    "ID": 50,
+    "Topic": "General",
+    "Question": "If a load projects beyond the rear of a vehicle by more than one meter, what is required?",
+    "Option_A": "A red flag or a red light must be attached to the end of the load",
+    "Option_B": "A white flag must be attached",
+    "Option_C": "No special marking is required as long as it is daytime",
+    "Option_D": "",
+    "Correct_Answer": "A red flag or a red light must be attached to the end of the load"
+  }
+]

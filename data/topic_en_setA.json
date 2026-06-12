@@ -1,0 +1,1202 @@
+[
+  {
+    "ID": 1,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Pursuant to LTO regulations, identify the regulatory implication of a continuous yellow line on the roadway.",
+    "Option_A": "Overtaking maneuvers are permitted with caution",
+    "Option_B": "Overtaking maneuvers are strictly prohibited",
+    "Option_C": "Designated parking zone for emergency vehicles",
+    "Option_D": "",
+    "Correct_Answer": "Overtaking maneuvers are strictly prohibited"
+  },
+  {
+    "ID": 2,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the classification of a traffic sign characterized by a red triangular border.",
+    "Option_A": "Regulatory or mandatory instruction",
+    "Option_B": "Warning or cautionary alert",
+    "Option_C": "Informational or service-related guidance",
+    "Option_D": "",
+    "Correct_Answer": "Warning or cautionary alert"
+  },
+  {
+    "ID": 3,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the primary hazard factor associated with a circular red sign featuring a white horizontal bar.",
+    "Option_A": "Yield to oncoming traffic",
+    "Option_B": "Absolute prohibition of entry",
+    "Option_C": "Temporary stoppage for pedestrians",
+    "Option_D": "",
+    "Correct_Answer": "Absolute prohibition of entry"
+  },
+  {
+    "ID": 4,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A circular white sign with a red border containing the numeral \"30\" signifies:",
+    "Option_A": "The proximity to the next intersection is 30 kilometers",
+    "Option_B": "The prescribed maximum vehicle length is 30 meters",
+    "Option_C": "The maximum allowable speed limit in kilometers per hour",
+    "Option_D": "",
+    "Correct_Answer": "The maximum allowable speed limit in kilometers per hour"
+  },
+  {
+    "ID": 5,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the warning sign depicting a vehicle tilted on a downward slope.",
+    "Option_A": "Slippery road surface ahead",
+    "Option_B": "Steep descent requiring gear reduction",
+    "Option_C": "Approaching a low-clearance bridge",
+    "Option_D": "",
+    "Correct_Answer": "Steep descent requiring gear reduction"
+  },
+  {
+    "ID": 6,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the warning sign depicting a vehicle falling into a body of water.",
+    "Option_A": "Slippery road surface",
+    "Option_B": "Riverbank or quayside hazard",
+    "Option_C": "Potential for flash flooding",
+    "Option_D": "",
+    "Correct_Answer": "Riverbank or quayside hazard"
+  },
+  {
+    "ID": 7,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the regulatory implication of a circular red sign with a trumpet icon and a diagonal slash.",
+    "Option_A": "Use of horn is mandatory for safety",
+    "Option_B": "Use of horn is prohibited except in emergencies",
+    "Option_C": "Use of horn is permitted only during daylight hours",
+    "Option_D": "",
+    "Correct_Answer": "Use of horn is prohibited except in emergencies"
+  },
+  {
+    "ID": 8,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "What is the technical definition of a warning sign featuring two lines that converge at the top?",
+    "Option_A": "Dual-lane highway ahead",
+    "Option_B": "Road narrows or reduction in lane width",
+    "Option_C": "Approaching an expressway entrance",
+    "Option_D": "",
+    "Correct_Answer": "Road narrows or reduction in lane width"
+  },
+  {
+    "ID": 9,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the warning sign featuring a locomotive or steam engine silhouette.",
+    "Option_A": "Industrial zone crossing",
+    "Option_B": "Railroad crossing ahead",
+    "Option_C": "Heavy machinery crossing",
+    "Option_D": "",
+    "Correct_Answer": "Railroad crossing ahead"
+  },
+  {
+    "ID": 10,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A warning sign depicting two silhouettes of children carrying bags signifies:",
+    "Option_A": "Designated playground area",
+    "Option_B": "Proximity to a school zone or pedestrian crossing",
+    "Option_C": "Residential area with high population density",
+    "Option_D": "",
+    "Correct_Answer": "Proximity to a school zone or pedestrian crossing"
+  },
+  {
+    "ID": 11,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the warning sign depicting an S-shaped black arrow.",
+    "Option_A": "Winding road for the next 5 kilometers",
+    "Option_B": "Double curve ahead, first to the left or right",
+    "Option_C": "Sharp U-turn maneuver required",
+    "Option_D": "",
+    "Correct_Answer": "Double curve ahead, first to the left or right"
+  },
+  {
+    "ID": 12,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the prohibitive sign featuring the silhouette of a heavy truck with a red diagonal slash.",
+    "Option_A": "Commercial vehicles must yield",
+    "Option_B": "No entry for trucks or heavy goods vehicles",
+    "Option_C": "Weight limit of 5000kg GVW",
+    "Option_D": "",
+    "Correct_Answer": "No entry for trucks or heavy goods vehicles"
+  },
+  {
+    "ID": 13,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the warning sign featuring a black cross (+) or plus sign.",
+    "Option_A": "Medical clinic or hospital ahead",
+    "Option_B": "Standard four-way intersection ahead",
+    "Option_C": "Railroad crossing without gates",
+    "Option_D": "",
+    "Correct_Answer": "Standard four-way intersection ahead"
+  },
+  {
+    "ID": 14,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the warning sign depicting rocks falling from a cliff side.",
+    "Option_A": "Mountainous terrain hazard",
+    "Option_B": "Falling rocks or landslide-prone area",
+    "Option_C": "Rough road surface",
+    "Option_D": "",
+    "Correct_Answer": "Falling rocks or landslide-prone area"
+  },
+  {
+    "ID": 15,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the warning sign depicting a vehicle with wavy tracks trailing behind it.",
+    "Option_A": "Unpaved road surface",
+    "Option_B": "Slippery road surface when wet",
+    "Option_C": "Vehicle experiencing mechanical failure",
+    "Option_D": "",
+    "Correct_Answer": "Slippery road surface when wet"
+  },
+  {
+    "ID": 16,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the regulatory sign featuring a vertical white arrow on a blue background.",
+    "Option_A": "Mandatory straight-ahead direction",
+    "Option_B": "One-way traffic flow",
+    "Option_C": "Priority over oncoming traffic",
+    "Option_D": "",
+    "Correct_Answer": "One-way traffic flow"
+  },
+  {
+    "ID": 17,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "What is the implication of double continuous yellow lines on a highway?",
+    "Option_A": "Overtaking is permitted on the right side only",
+    "Option_B": "Overtaking is strictly prohibited on both sides as it is extremely hazardous",
+    "Option_C": "Overtaking is permitted during off-peak hours",
+    "Option_D": "",
+    "Correct_Answer": "Overtaking is strictly prohibited on both sides as it is extremely hazardous"
+  },
+  {
+    "ID": 18,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A broken yellow line on the left side of your lane indicates:",
+    "Option_A": "Overtaking is permitted if the road is clear",
+    "Option_B": "Overtaking is prohibited due to poor visibility",
+    "Option_C": "Lane-splitting for motorcycles is mandatory",
+    "Option_D": "",
+    "Correct_Answer": "Overtaking is permitted if the road is clear"
+  },
+  {
+    "ID": 19,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the significance of a red octagon sign.",
+    "Option_A": "Yield to all approaching traffic",
+    "Option_B": "Mandatory stop at the designated line or before the intersection",
+    "Option_C": "Proceed with caution at 20 kph",
+    "Option_D": "",
+    "Correct_Answer": "Mandatory stop at the designated line or before the intersection"
+  },
+  {
+    "ID": 20,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Identify the implication of an arrow painted on the road surface.",
+    "Option_A": "Recommended speed for the specific lane",
+    "Option_B": "Mandatory adherence to the direction indicated",
+    "Option_C": "Optional lane for turning or going straight",
+    "Option_D": "",
+    "Correct_Answer": "Mandatory adherence to the direction indicated"
+  },
+  {
+    "ID": 21,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Identify the statutory condition under which overtaking on the right side of a vehicle is permitted.",
+    "Option_A": "On highways with two or more lanes of traffic moving in the same direction",
+    "Option_B": "When the vehicle in front is moving slower than 40 kph",
+    "Option_C": "When the road shoulder is paved and free of obstructions",
+    "Option_D": "",
+    "Correct_Answer": "On highways with two or more lanes of traffic moving in the same direction"
+  },
+  {
+    "ID": 22,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Pursuant to R.A. 4136, a motor vehicle is legally considered \"parked\" when:",
+    "Option_A": "It is stopped for the purpose of loading or unloading passengers for less than 5 minutes",
+    "Option_B": "It is brought to a stop on the shoulder with the hazard lights activated",
+    "Option_C": "It remains stationary for a period of time with the engine deactivated",
+    "Option_D": "",
+    "Correct_Answer": "It remains stationary for a period of time with the engine deactivated"
+  },
+  {
+    "ID": 23,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Before executing a turning maneuver, a driver must signal their intention at a minimum distance of:",
+    "Option_A": "15 meters",
+    "Option_B": "60 meters",
+    "Option_C": "30 meters",
+    "Option_D": "",
+    "Correct_Answer": "30 meters"
+  },
+  {
+    "ID": 24,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Identify the primary hazard factor associated with left-turn maneuvers at uncontrolled intersections.",
+    "Option_A": "Oncoming vehicles from the left typically maintain higher speeds",
+    "Option_B": "The driver must simultaneously monitor traffic from both left and right directions",
+    "Option_C": "The turning radius for a left turn is naturally wider and less stable",
+    "Option_D": "",
+    "Correct_Answer": "The driver must simultaneously monitor traffic from both left and right directions"
+  },
+  {
+    "ID": 25,
+    "Topic": "Road and Traffic Rules",
+    "Question": "At a roundabout (rotunda), which vehicle maintains the statutory right-of-way?",
+    "Option_A": "The vehicle attempting to enter the intersection",
+    "Option_B": "The vehicle already navigating within the roundabout",
+    "Option_C": "The vehicle with the highest Gross Vehicle Weight (GVW)",
+    "Option_D": "",
+    "Correct_Answer": "The vehicle already navigating within the roundabout"
+  },
+  {
+    "ID": 26,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Overtaking is strictly prohibited at the foot of a bridge because:",
+    "Option_A": "High-speed winds may destabilize the vehicle",
+    "Option_B": "The driver's line of sight is obstructed, preventing a clear view of oncoming traffic",
+    "Option_C": "Bridge surfaces are generally narrower than standard roadways",
+    "Option_D": "",
+    "Correct_Answer": "The driver's line of sight is obstructed, preventing a clear view of oncoming traffic"
+  },
+  {
+    "ID": 27,
+    "Topic": "Road and Traffic Rules",
+    "Question": "When approaching a curve, the safest technical procedure is to:",
+    "Option_A": "Decelerate to a safe speed before entering the curve",
+    "Option_B": "Maintain a constant speed and apply brakes at the apex",
+    "Option_C": "Accelerate slightly to maintain traction through the turn",
+    "Option_D": "",
+    "Correct_Answer": "Decelerate to a safe speed before entering the curve"
+  },
+  {
+    "ID": 28,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Identify the manual hand signal for a right-hand turn.",
+    "Option_A": "Left arm extended horizontally outward",
+    "Option_B": "Left arm extended upward at a 90-degree angle",
+    "Option_C": "Left arm extended downward toward the ground",
+    "Option_D": "",
+    "Correct_Answer": "Left arm extended upward at a 90-degree angle"
+  },
+  {
+    "ID": 29,
+    "Topic": "Road and Traffic Rules",
+    "Question": "When executing a lane change on a highway, the driver should activate the signal at least:",
+    "Option_A": "10 seconds before the maneuver",
+    "Option_B": "60 seconds before the maneuver",
+    "Option_C": "5 meters before the maneuver",
+    "Option_D": "",
+    "Correct_Answer": "10 seconds before the maneuver"
+  },
+  {
+    "ID": 30,
+    "Topic": "Road and Traffic Rules",
+    "Question": "At an intersection with no traffic signals or signs, if two vehicles arrive simultaneously from different streets, which driver must yield?",
+    "Option_A": "The driver of the vehicle on the right side",
+    "Option_B": "The driver of the vehicle on the left side",
+    "Option_C": "The driver of the vehicle with the smaller engine displacement",
+    "Option_D": "",
+    "Correct_Answer": "The driver of the vehicle on the left side"
+  },
+  {
+    "ID": 31,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Identify the manual hand signal signifying an intention to stop or decelerate suddenly.",
+    "Option_A": "Left arm extended horizontally",
+    "Option_B": "Left arm pointed toward the ground",
+    "Option_C": "Left arm pointed toward the sky",
+    "Option_D": "",
+    "Correct_Answer": "Left arm pointed toward the ground"
+  },
+  {
+    "ID": 32,
+    "Topic": "Road and Traffic Rules",
+    "Question": "What is the prescribed maximum speed limit when traversing a designated school zone?",
+    "Option_A": "35 kph",
+    "Option_B": "20 kph",
+    "Option_C": "30 kph",
+    "Option_D": "",
+    "Correct_Answer": "20 kph"
+  },
+  {
+    "ID": 33,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Parking is strictly prohibited in which of the following locations?",
+    "Option_A": "Within a designated pedestrian crosswalk",
+    "Option_B": "Within 10 meters of a fire hydrant",
+    "Option_C": "Both a and b are correct",
+    "Option_D": "",
+    "Correct_Answer": "Both a and b are correct"
+  },
+  {
+    "ID": 34,
+    "Topic": "Road and Traffic Rules",
+    "Question": "On a multi-lane highway, a driver intending to travel slower than the flow of traffic should occupy the:",
+    "Option_A": "Extreme right lane",
+    "Option_B": "Extreme left lane",
+    "Option_C": "Center lane",
+    "Option_D": "",
+    "Correct_Answer": "Extreme right lane"
+  },
+  {
+    "ID": 35,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Identify the manual hand signal for a left-hand turn.",
+    "Option_A": "Left arm pointed toward the sky",
+    "Option_B": "Left arm extended horizontally outward",
+    "Option_C": "Left arm pointed toward the ground",
+    "Option_D": "",
+    "Correct_Answer": "Left arm extended horizontally outward"
+  },
+  {
+    "ID": 36,
+    "Topic": "Road and Traffic Rules",
+    "Question": "At a four-way intersection without traffic controls, the right-of-way is generally accorded to:",
+    "Option_A": "The vehicle coming from the right",
+    "Option_B": "The vehicle coming from the left",
+    "Option_C": "The vehicle that arrives last",
+    "Option_D": "",
+    "Correct_Answer": "The vehicle coming from the right"
+  },
+  {
+    "ID": 37,
+    "Topic": "Road and Traffic Rules",
+    "Question": "When may a driver cross a solid yellow line?",
+    "Option_A": "To execute a legal left turn into a driveway or side road",
+    "Option_B": "To overtake a slow-moving agricultural vehicle",
+    "Option_C": "To change lanes for a faster exit",
+    "Option_D": "",
+    "Correct_Answer": "To execute a legal left turn into a driveway or side road"
+  },
+  {
+    "ID": 38,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Identify the correct procedure when a police officer signals you to stop despite a green traffic light.",
+    "Option_A": "Prioritize the green traffic light as it is a mechanical control",
+    "Option_B": "Follow the instructions of the police officer immediately",
+    "Option_C": "Proceed with caution and stop at the next intersection",
+    "Option_D": "",
+    "Correct_Answer": "Follow the instructions of the police officer immediately"
+  },
+  {
+    "ID": 39,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Overtaking is prohibited in which of the following scenarios?",
+    "Option_A": "On a curve where the view is obstructed within 150 meters",
+    "Option_B": "When approaching the crest of a grade",
+    "Option_C": "Both a and b are correct",
+    "Option_D": "",
+    "Correct_Answer": "Both a and b are correct"
+  },
+  {
+    "ID": 40,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Under what condition is driving at high speeds legally permissible?",
+    "Option_A": "When the driver is in a state of emergency",
+    "Option_B": "Only when it is within the prescribed speed limit and road conditions are safe",
+    "Option_C": "When the roadway is clear of other motor vehicles",
+    "Option_D": "",
+    "Correct_Answer": "Only when it is within the prescribed speed limit and road conditions are safe"
+  },
+  {
+    "ID": 41,
+    "Topic": "Safe Driving Principles",
+    "Question": "To maintain optimal situational awareness, a driver should monitor the side and rear-view mirrors:",
+    "Option_A": "Briefly and frequently at regular intervals",
+    "Option_B": "Only when preparing for a lane change",
+    "Option_C": "Once every five minutes of continuous driving",
+    "Option_D": "",
+    "Correct_Answer": "Briefly and frequently at regular intervals"
+  },
+  {
+    "ID": 42,
+    "Topic": "Safe Driving Principles",
+    "Question": "Before exiting a parked position, the driver must perform a \"360-degree check,\" which involves:",
+    "Option_A": "Activating the hazard lights for 30 seconds",
+    "Option_B": "Inspecting the vehicle’s surroundings for obstacles or pedestrians",
+    "Option_C": "Sounding the horn twice to alert nearby residents",
+    "Option_D": "",
+    "Correct_Answer": "Inspecting the vehicle’s surroundings for obstacles or pedestrians"
+  },
+  {
+    "ID": 43,
+    "Topic": "Safe Driving Principles",
+    "Question": "After an overtaking maneuver, what is the technical indicator that it is safe to return to the original lane?",
+    "Option_A": "When you can see the headlights of the overtaken vehicle in your rear-view mirror",
+    "Option_B": "When you are at least 5 meters ahead of the other vehicle",
+    "Option_C": "When the other driver flashes their high beams",
+    "Option_D": "",
+    "Correct_Answer": "When you can see the headlights of the overtaken vehicle in your rear-view mirror"
+  },
+  {
+    "ID": 44,
+    "Topic": "Safe Driving Principles",
+    "Question": "When parking on an uphill grade with a curb, the front wheels should be positioned:",
+    "Option_A": "Parallel to the curb",
+    "Option_B": "Turned away from the curb",
+    "Option_C": "Turned toward the curb",
+    "Option_D": "",
+    "Correct_Answer": "Turned away from the curb"
+  },
+  {
+    "ID": 45,
+    "Topic": "Safe Driving Principles",
+    "Question": "Identify the mandatory response to a flashing yellow traffic signal.",
+    "Option_A": "Complete stop and wait for the light to turn green",
+    "Option_B": "Decelerate and proceed through the intersection with extreme caution",
+    "Option_C": "Accelerate to clear the intersection before it turns red",
+    "Option_D": "",
+    "Correct_Answer": "Decelerate and proceed through the intersection with extreme caution"
+  },
+  {
+    "ID": 46,
+    "Topic": "Safe Driving Principles",
+    "Question": "Pursuant to defensive driving principles, the \"one vehicle length\" rule refers to:",
+    "Option_A": "The maximum distance allowed between vehicles in a funeral cortege",
+    "Option_B": "The minimum recommended following distance for every 10 kph of speed",
+    "Option_C": "The required distance when parking behind a stationary vehicle",
+    "Option_D": "",
+    "Correct_Answer": "The minimum recommended following distance for every 10 kph of speed"
+  },
+  {
+    "ID": 47,
+    "Topic": "Safe Driving Principles",
+    "Question": "Identify the appropriate defensive action when confronted by a vehicle with blinding high-beam headlights.",
+    "Option_A": "Activate your own high beams to neutralize the glare",
+    "Option_B": "Direct your gaze slightly toward the right-side white shoulder line",
+    "Option_C": "Bring the vehicle to an immediate stop on the roadway",
+    "Option_D": "",
+    "Correct_Answer": "Direct your gaze slightly toward the right-side white shoulder line"
+  },
+  {
+    "ID": 48,
+    "Topic": "Safe Driving Principles",
+    "Question": "At what stage of operation must a driver engage in active decision-making?",
+    "Option_A": "Only during hazardous weather conditions",
+    "Option_B": "Continuously throughout the entire duration of the driving task",
+    "Option_C": "Only when navigating unfamiliar urban intersections",
+    "Option_D": "",
+    "Correct_Answer": "Continuously throughout the entire duration of the driving task"
+  },
+  {
+    "ID": 49,
+    "Topic": "Safe Driving Principles",
+    "Question": "Identify the primary purpose of the motor vehicle’s horn.",
+    "Option_A": "To signal arrival at a specific destination",
+    "Option_B": "To provide a safety warning or alert other road users to your presence",
+    "Option_C": "To express frustration regarding traffic congestion",
+    "Option_D": "",
+    "Correct_Answer": "To provide a safety warning or alert other road users to your presence"
+  },
+  {
+    "ID": 50,
+    "Topic": "Safe Driving Principles",
+    "Question": "To mitigate the risks of fatigue and drowsiness during extended transit, a driver should:",
+    "Option_A": "Consume caffeinated beverages exclusively",
+    "Option_B": "Schedule periodic rest stops to rejuvenate and stretch",
+    "Option_C": "Increase vehicle speed to reach the destination faster",
+    "Option_D": "",
+    "Correct_Answer": "Schedule periodic rest stops to rejuvenate and stretch"
+  },
+  {
+    "ID": 51,
+    "Topic": "Safe Driving Principles",
+    "Question": "Identify the essential components of long-trip preparation.",
+    "Option_A": "Comprehensive pre-trip inspection and planning of the intended route",
+    "Option_B": "Ensuring all repair tools and a spare tire are in functional condition",
+    "Option_C": "All of the above",
+    "Option_D": "",
+    "Correct_Answer": "All of the above"
+  },
+  {
+    "ID": 52,
+    "Topic": "Safe Driving Principles",
+    "Question": "If a following vehicle signals an intent to execute an overtaking maneuver, the defensive driver should:",
+    "Option_A": "Accelerate to prevent the maneuver if it seems unsafe",
+    "Option_B": "Decelerate slightly and move toward the right to facilitate a safe pass",
+    "Option_C": "Maintain speed and occupy the center of the lane",
+    "Option_D": "",
+    "Correct_Answer": "Decelerate slightly and move toward the right to facilitate a safe pass"
+  },
+  {
+    "ID": 53,
+    "Topic": "Safe Driving Principles",
+    "Question": "A defensive driver is technically defined as one who:",
+    "Option_A": "Anticipates the potential errors of other road users and adjusts accordingly",
+    "Option_B": "Drives aggressively to avoid being caught in traffic clusters",
+    "Option_C": "Prioritizes speed over road markings to reach a destination",
+    "Option_D": "",
+    "Correct_Answer": "Anticipates the potential errors of other road users and adjusts accordingly"
+  },
+  {
+    "ID": 54,
+    "Topic": "Safe Driving Principles",
+    "Question": "Hazard management in driving fundamentally requires:",
+    "Option_A": "Early identification of potential risks and proactive reaction",
+    "Option_B": "Driving only in the center lane of an expressway",
+    "Option_C": "Avoiding nighttime driving in all circumstances",
+    "Option_D": "",
+    "Correct_Answer": "Early identification of potential risks and proactive reaction"
+  },
+  {
+    "ID": 55,
+    "Topic": "Safe Driving Principles",
+    "Question": "The safest operating speed for any motor vehicle is primarily determined by:",
+    "Option_A": "The maximum speed indicated on the vehicle's speedometer",
+    "Option_B": "Current road, traffic, and meteorological conditions",
+    "Option_C": "The driver's personal level of urgency",
+    "Option_D": "",
+    "Correct_Answer": "Current road, traffic, and meteorological conditions"
+  },
+  {
+    "ID": 56,
+    "Topic": "Safe Driving Principles",
+    "Question": "When changing lanes, the \"Mirror-Signal-Maneuver\" (MSM) sequence must also include:",
+    "Option_A": "A quick check of the vehicle’s blind spots",
+    "Option_B": "Flashing the high beams to alert oncoming traffic",
+    "Option_C": "Deactivating the air conditioning to increase engine power",
+    "Option_D": "",
+    "Correct_Answer": "A quick check of the vehicle’s blind spots"
+  },
+  {
+    "ID": 57,
+    "Topic": "Safe Driving Principles",
+    "Question": "If the brake lights of the lead vehicle illuminate, your immediate reaction should be:",
+    "Option_A": "Execute an immediate lane change to avoid deceleration",
+    "Option_B": "Prepare to apply the brakes and increase the following distance",
+    "Option_C": "Sound the horn to alert the lead driver",
+    "Option_D": "",
+    "Correct_Answer": "Prepare to apply the brakes and increase the following distance"
+  },
+  {
+    "ID": 58,
+    "Topic": "Safe Driving Principles",
+    "Question": "The \"Right-of-Way\" should be treated by a responsible driver as:",
+    "Option_A": "A statutory right that must be insisted upon at all times",
+    "Option_B": "Something to be yielded if it prevents a potential collision",
+    "Option_C": "A secondary concern compared to vehicle speed",
+    "Option_D": "",
+    "Correct_Answer": "Something to be yielded if it prevents a potential collision"
+  },
+  {
+    "ID": 59,
+    "Topic": "Safe Driving Principles",
+    "Question": "Identify the hazard associated with driving too closely to the vehicle in front (tailgating).",
+    "Option_A": "Reduced fuel efficiency due to drafting",
+    "Option_B": "Insufficient reaction time in the event of sudden braking",
+    "Option_C": "Increased wear on the vehicle’s transmission",
+    "Option_D": "",
+    "Correct_Answer": "Insufficient reaction time in the event of sudden braking"
+  },
+  {
+    "ID": 60,
+    "Topic": "Safe Driving Principles",
+    "Question": "When navigating a curve, what is the primary physical force a driver must counteract?",
+    "Option_A": "Centripetal force pulling the vehicle toward the center",
+    "Option_B": "Centrifugal force tending to push the vehicle toward the outside of the curve",
+    "Option_C": "Gravitational force affecting the braking distance",
+    "Option_D": "",
+    "Correct_Answer": "Centrifugal force tending to push the vehicle toward the outside of the curve"
+  },
+  {
+    "ID": 61,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Which Republic Act is officially recognized as the Land Transportation and Traffic Code?",
+    "Option_A": "R.A. 4136",
+    "Option_B": "R.A. 8750",
+    "Option_C": "R.A. 10586",
+    "Option_D": "",
+    "Correct_Answer": "R.A. 4136"
+  },
+  {
+    "ID": 62,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Identify the legislation that mandates the use of seat belt devices in all motor vehicles.",
+    "Option_A": "R.A. 8749",
+    "Option_B": "R.A. 8750",
+    "Option_C": "R.A. 10913",
+    "Option_D": "",
+    "Correct_Answer": "R.A. 8750"
+  },
+  {
+    "ID": 63,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "The \"Anti-Distracted Driving Act,\" which prohibits the use of mobile devices while driving, is:",
+    "Option_A": "R.A. 10913",
+    "Option_B": "R.A. 10666",
+    "Option_C": "R.A. 11229",
+    "Option_D": "",
+    "Correct_Answer": "R.A. 10913"
+  },
+  {
+    "ID": 64,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Under the LTO Demerit Point System, a \"Grave Violation\" is assigned a value of:",
+    "Option_A": "1 demerit point",
+    "Option_B": "3 demerit points",
+    "Option_C": "5 demerit points",
+    "Option_D": "",
+    "Correct_Answer": "5 demerit points"
+  },
+  {
+    "ID": 65,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "A \"Less Grave Violation\" is assigned a demerit value of:",
+    "Option_A": "3 demerit points",
+    "Option_B": "1 demerit point",
+    "Option_C": "5 demerit points",
+    "Option_D": "",
+    "Correct_Answer": "3 demerit points"
+  },
+  {
+    "ID": 66,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Violations not classified as Grave or Less Grave are deemed \"Light Violations\" and carry:",
+    "Option_A": "2 demerit points",
+    "Option_B": "1 demerit point",
+    "Option_C": "0 demerit points",
+    "Option_D": "",
+    "Correct_Answer": "1 demerit point"
+  },
+  {
+    "ID": 67,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Identify the penalty for the use of a falsified or fake driver's license.",
+    "Option_A": "A fine and a six-month disqualification from license acquisition",
+    "Option_B": "Immediate imprisonment for a minimum of one year",
+    "Option_C": "An administrative warning and a 100-peso fine",
+    "Option_D": "",
+    "Correct_Answer": "A fine and a six-month disqualification from license acquisition"
+  },
+  {
+    "ID": 68,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Driving a motor vehicle without a valid license is punishable by a fine and:",
+    "Option_A": "Permanent revocation of the vehicle's registration",
+    "Option_B": "Impounding of the motor vehicle for a period not exceeding ten (10) days",
+    "Option_C": "Immediate forfeiture of the vehicle to the state",
+    "Option_D": "",
+    "Correct_Answer": "Impounding of the motor vehicle for a period not exceeding ten (10) days"
+  },
+  {
+    "ID": 69,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "In the event of a road traffic incident (accident), the driver must report the event to the nearest police station:",
+    "Option_A": "Within 72 hours of the occurrence",
+    "Option_B": "Immediately, unless physically incapacitated",
+    "Option_C": "Within 48 hours of the occurrence",
+    "Option_D": "",
+    "Correct_Answer": "Immediately, unless physically incapacitated"
+  },
+  {
+    "ID": 70,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Pursuant to the Motorcycle Crime Prevention Act (R.A. 11235), failure to report a lost number plate may result in:",
+    "Option_A": "A simple administrative fine",
+    "Option_B": "Fines and potential imprisonment as prescribed by the act",
+    "Option_C": "No penalty if the license is still valid",
+    "Option_D": "",
+    "Correct_Answer": "Fines and potential imprisonment as prescribed by the act"
+  },
+  {
+    "ID": 71,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Identify the act that regulates the safety of children aboard motor vehicles (Child Safety in Motor Vehicles Act).",
+    "Option_A": "R.A. 11229",
+    "Option_B": "R.A. 10666",
+    "Option_C": "R.A. 10054",
+    "Option_D": "",
+    "Correct_Answer": "R.A. 11229"
+  },
+  {
+    "ID": 72,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "A Student Permit holder who accumulates five (5) demerit points will face:",
+    "Option_A": "A mandatory 10-year suspension of driving privileges",
+    "Option_B": "Immediate confiscation and revocation of the Student Permit",
+    "Option_C": "A double fine upon the next application for a Non-Professional license",
+    "Option_D": "",
+    "Correct_Answer": "Immediate confiscation and revocation of the Student Permit"
+  },
+  {
+    "ID": 73,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Drivers of Public Utility Vehicles (PUVs) are subject to what demerit policy for violations committed while operating for-hire?",
+    "Option_A": "Half the standard demerit points",
+    "Option_B": "Double the standard demerit points",
+    "Option_C": "Demerit points are waived if the driver attends a seminar",
+    "Option_D": "",
+    "Correct_Answer": "Double the standard demerit points"
+  },
+  {
+    "ID": 74,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "A driver who accumulates ten (10) or more demerit points is required to complete:",
+    "Option_A": "The Driving Enhancement Program (DEP) only",
+    "Option_B": "The DEP plus a successful retake of the Theoretical Examination",
+    "Option_C": "A 30-day community service program",
+    "Option_D": "",
+    "Correct_Answer": "The DEP plus a successful retake of the Theoretical Examination"
+  },
+  {
+    "ID": 75,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Identify the statutory period allowed to settle a traffic case and redeem a license after apprehension.",
+    "Option_A": "30 days",
+    "Option_B": "15 days",
+    "Option_C": "10 days",
+    "Option_D": "",
+    "Correct_Answer": "15 days"
+  },
+  {
+    "ID": 76,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "The Anti-Drunk and Drugged Driving Act of 2013 is officially known as:",
+    "Option_A": "R.A. 10586",
+    "Option_B": "R.A. 9165",
+    "Option_C": "R.A. 8750",
+    "Option_D": "",
+    "Correct_Answer": "R.A. 10586"
+  },
+  {
+    "ID": 77,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "A driver's license may be revoked for a minimum of two (2) years if the driver accumulates:",
+    "Option_A": "20 demerit points",
+    "Option_B": "30 demerit points",
+    "Option_C": "40 or more demerit points",
+    "Option_D": "",
+    "Correct_Answer": "40 or more demerit points"
+  },
+  {
+    "ID": 78,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "If a driver fails to complete a required intervention program within 30 days of notice, the result is:",
+    "Option_A": "Permanent revocation of the license",
+    "Option_B": "Suspension of the license until the program is completed",
+    "Option_C": "Forfeiture of the motor vehicle",
+    "Option_D": "",
+    "Correct_Answer": "Suspension of the license until the program is completed"
+  },
+  {
+    "ID": 79,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Pursuant to LTO policy, accumulated demerit points shall revert to zero (0) upon:",
+    "Option_A": "The completion of one calendar year without a violation",
+    "Option_B": "The successful renewal of the driver's license",
+    "Option_C": "The payment of all outstanding administrative fines",
+    "Option_D": "",
+    "Correct_Answer": "The successful renewal of the driver's license"
+  },
+  {
+    "ID": 80,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Under R.A. 10666, children are prohibited from being transported on motorcycles on public roads unless:",
+    "Option_A": "Their feet can reach the foot pegs and they can reach around the driver’s waist",
+    "Option_B": "They are wearing a standard protective helmet",
+    "Option_C": "Both a and b are correct",
+    "Option_D": "",
+    "Correct_Answer": "Both a and b are correct"
+  },
+  {
+    "ID": 81,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Identify the minimum age requirement for an applicant of a Student-Driver’s Permit.",
+    "Option_A": "18 years old",
+    "Option_B": "16 years old",
+    "Option_C": "17 years old",
+    "Option_D": "",
+    "Correct_Answer": "16 years old"
+  },
+  {
+    "ID": 82,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "The minimum age for a Non-Professional Driver’s License (NPDL) applicant is:",
+    "Option_A": "18 years old",
+    "Option_B": "16 years old",
+    "Option_C": "17 years old",
+    "Option_D": "",
+    "Correct_Answer": "17 years old"
+  },
+  {
+    "ID": 83,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "To qualify for a Professional Driver’s License (PDL), an applicant must be at least:",
+    "Option_A": "18 years old",
+    "Option_B": "21 years old",
+    "Option_C": "19 years old",
+    "Option_D": "",
+    "Correct_Answer": "18 years old"
+  },
+  {
+    "ID": 84,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Identify the validity period of a newly issued Student-Driver’s Permit.",
+    "Option_A": "Six (6) months",
+    "Option_B": "One (1) year",
+    "Option_C": "Two (2) years",
+    "Option_D": "",
+    "Correct_Answer": "One (1) year"
+  },
+  {
+    "ID": 85,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "A driver's license holder with no traffic violations during the 5-year validity period is entitled to a renewal valid for:",
+    "Option_A": "10 years",
+    "Option_B": "7 years",
+    "Option_C": "5 years",
+    "Option_D": "",
+    "Correct_Answer": "10 years"
+  },
+  {
+    "ID": 86,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Identify the driving restriction for a licensee with Condition Code 1.",
+    "Option_A": "Limited to daylight driving only",
+    "Option_B": "Mandatory use of corrective lenses while operating a vehicle",
+    "Option_C": "Requirement to use a hearing aid",
+    "Option_D": "",
+    "Correct_Answer": "Mandatory use of corrective lenses while operating a vehicle"
+  },
+  {
+    "ID": 87,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Condition Code 2 on a driver's license indicates the driver is restricted to:",
+    "Option_A": "Operating vehicles with automatic transmission only",
+    "Option_B": "Operating vehicles equipped with special devices for upper or lower limbs",
+    "Option_C": "Operating customized motor vehicles only",
+    "Option_D": "",
+    "Correct_Answer": "Operating vehicles equipped with special devices for upper or lower limbs"
+  },
+  {
+    "ID": 88,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Identify the vehicle classification associated with DL Code B.",
+    "Option_A": "Motorcycles or motorized tricycles",
+    "Option_B": "Passenger cars with a GVW not exceeding 5000kg and up to 8 seats",
+    "Option_C": "Heavy commercial trucks exceeding 3500kg GVW",
+    "Option_D": "",
+    "Correct_Answer": "Passenger cars with a GVW not exceeding 5000kg and up to 8 seats"
+  },
+  {
+    "ID": 89,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "DL Code B1 is technically required for the operation of:",
+    "Option_A": "Passenger vans or jeepneys with more than 8 seats but not exceeding 5000kg GVW",
+    "Option_B": "Light articulated vehicles",
+    "Option_C": "Heavy passenger buses exceeding 5000kg GVW",
+    "Option_D": "",
+    "Correct_Answer": "Passenger vans or jeepneys with more than 8 seats but not exceeding 5000kg GVW"
+  },
+  {
+    "ID": 90,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Identify the requirement for a holder of an \"Automatic Transmission (AT)\" license code to operate a \"Manual Transmission (MT)\" vehicle.",
+    "Option_A": "They may do so provided they have 5 years of driving experience",
+    "Option_B": "They must take and pass the practical driving test for MT",
+    "Option_C": "No additional requirement is necessary; AT covers MT",
+    "Option_D": "",
+    "Correct_Answer": "They must take and pass the practical driving test for MT"
+  },
+  {
+    "ID": 91,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "A Non-Professional Driver's License is legally restricted to the operation of:",
+    "Option_A": "Private motor vehicles only",
+    "Option_B": "Public Utility Vehicles (PUVs) such as taxis or buses",
+    "Option_C": "Any vehicle as long as the driver is not being paid",
+    "Option_D": "",
+    "Correct_Answer": "Private motor vehicles only"
+  },
+  {
+    "ID": 92,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "A Professional Driver's License is mandatory for any individual who:",
+    "Option_A": "Operates a motor vehicle for hire or is paid for driving",
+    "Option_B": "Operates a vehicle with a GVW exceeding 3000kg",
+    "Option_C": "Drives more than 100 kilometers per day",
+    "Option_D": "",
+    "Correct_Answer": "Operates a motor vehicle for hire or is paid for driving"
+  },
+  {
+    "ID": 93,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Identify the validity period for a Medical Certificate used in a license application.",
+    "Option_A": "30 days",
+    "Option_B": "60 days",
+    "Option_C": "90 days",
+    "Option_D": "",
+    "Correct_Answer": "60 days"
+  },
+  {
+    "ID": 94,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "A Student Permit holder is legally authorized to drive only when accompanied by:",
+    "Option_A": "Any person over the age of 21",
+    "Option_B": "A duly licensed driver acting as an instructor with the appropriate license codes",
+    "Option_C": "A family member with a valid government ID",
+    "Option_D": "",
+    "Correct_Answer": "A duly licensed driver acting as an instructor with the appropriate license codes"
+  },
+  {
+    "ID": 95,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Foreigners applying for a Philippine Driver's License must have stayed in the country for at least:",
+    "Option_A": "One (1) month, with proof of stay/visa for at least six (6) months",
+    "Option_B": "Six (6) months, with a valid working permit",
+    "Option_C": "One (1) year of continuous residency",
+    "Option_D": "",
+    "Correct_Answer": "One (1) month, with proof of stay/visa for at least six (6) months"
+  },
+  {
+    "ID": 96,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "DL Code C is specifically designated for the operation of:",
+    "Option_A": "Motorcycles with sidecars",
+    "Option_B": "Heavy commercial vehicles (Goods) with a GVW exceeding 3500kg",
+    "Option_C": "Articulated vehicles with a combined GVW exceeding 7500kg",
+    "Option_D": "",
+    "Correct_Answer": "Heavy commercial vehicles (Goods) with a GVW exceeding 3500kg"
+  },
+  {
+    "ID": 97,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "What is the consequence if a driver's license is not renewed for more than two (2) years?",
+    "Option_A": "Payment of the basic renewal fee and a late penalty",
+    "Option_B": "Mandatory retaking of both the theoretical and practical examinations",
+    "Option_C": "Permanent cancellation of the license number",
+    "Option_D": "",
+    "Correct_Answer": "Mandatory retaking of both the theoretical and practical examinations"
+  },
+  {
+    "ID": 98,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Identify the classification for a vehicle used for the carriage of goods with a GVW not exceeding 3500kg.",
+    "Option_A": "Category M1",
+    "Option_B": "Category N1",
+    "Option_C": "Category L7",
+    "Option_D": "",
+    "Correct_Answer": "Category N1"
+  },
+  {
+    "ID": 99,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Holders of DL codes with a \"Manual Transmission\" (MT) designation are permitted to drive:",
+    "Option_A": "Manual Transmission vehicles only",
+    "Option_B": "Both Manual and Automatic Transmission vehicles",
+    "Option_C": "Automatic Transmission vehicles only if they have no violations",
+    "Option_D": "",
+    "Correct_Answer": "Both Manual and Automatic Transmission vehicles"
+  },
+  {
+    "ID": 100,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "To upgrade from DL Code B2 to Code C (Heavy Commercial), a driver must have held the B2 code for at least:",
+    "Option_A": "One (1) year",
+    "Option_B": "Four (4) years",
+    "Option_C": "Two (2) years",
+    "Option_D": "",
+    "Correct_Answer": "Four (4) years"
+  },
+  {
+    "ID": 101,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Prior to embarking on a long-distance transit, identify the most critical pre-departure routine.",
+    "Option_A": "Verifying the fuel level only",
+    "Option_B": "Planning the route and conducting a comprehensive vehicle condition check",
+    "Option_C": "Ensuring the vehicle’s exterior is clean for better visibility",
+    "Option_D": "",
+    "Correct_Answer": "Planning the route and conducting a comprehensive vehicle condition check"
+  },
+  {
+    "ID": 102,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Which documents are mandatory to be carried within the vehicle at all times while operating on public roads?",
+    "Option_A": "Driver's License, Original Receipt (OR), and Certificate of Registration (CR)",
+    "Option_B": "Driver's License and Insurance Policy only",
+    "Option_C": "Valid ID and a copy of the deed of sale",
+    "Option_D": "",
+    "Correct_Answer": "Driver's License, Original Receipt (OR), and Certificate of Registration (CR)"
+  },
+  {
+    "ID": 103,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "A red flag (daylight) or red light (nighttime) is required if a load protrudes from the rear of the vehicle by more than:",
+    "Option_A": "One (1) meter",
+    "Option_B": "Two (2) meters",
+    "Option_C": "Three (3) meters",
+    "Option_D": "",
+    "Correct_Answer": "One (1) meter"
+  },
+  {
+    "ID": 104,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Identify the appropriate technical response if the vehicle's braking system fails while in motion.",
+    "Option_A": "Deactivate the ignition immediately to stop the fuel flow",
+    "Option_B": "Rapidly pump the brake pedal and gradually engage the handbrake/parking brake",
+    "Option_C": "Shift the transmission into \"Neutral\" and steer toward an embankment",
+    "Option_D": "",
+    "Correct_Answer": "Rapidly pump the brake pedal and gradually engage the handbrake/parking brake"
+  },
+  {
+    "ID": 105,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Identify the primary institution responsible for the specialized training of Ambulance drivers.",
+    "Option_A": "TESDA or LTO-Accredited TESDA Training Centers",
+    "Option_B": "National Fire Training Institute (NFTI)",
+    "Option_C": "Department of Health (DOH) Central Office",
+    "Option_D": "",
+    "Correct_Answer": "TESDA or LTO-Accredited TESDA Training Centers"
+  },
+  {
+    "ID": 106,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Drivers of Firetrucks are required to undergo specialized training conducted by the:",
+    "Option_A": "Armored Services Association",
+    "Option_B": "National Fire Training Institute (NFTI)",
+    "Option_C": "LTO Traffic Safety Division",
+    "Option_D": "",
+    "Correct_Answer": "National Fire Training Institute (NFTI)"
+  },
+  {
+    "ID": 107,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Identify the mandatory training requirement for drivers of School Service vehicles.",
+    "Option_A": "Training from the Department of Education",
+    "Option_B": "Certification from the LTO or the LTFRB",
+    "Option_C": "Red Cross First Aid Certification",
+    "Option_D": "",
+    "Correct_Answer": "Certification from the LTO or the LTFRB"
+  },
+  {
+    "ID": 108,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "A driver of a Special-purpose Vehicle (SV) must hold which type of license?",
+    "Option_A": "A Non-Professional Driver's License",
+    "Option_B": "A Professional Driver's License corresponding to the specific vehicle category",
+    "Option_C": "A Student Permit with an SV endorsement",
+    "Option_D": "",
+    "Correct_Answer": "A Professional Driver's License corresponding to the specific vehicle category"
+  },
+  {
+    "ID": 109,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "The Medical Certificate for drivers of special-purpose vehicles must be renewed:",
+    "Option_A": "Every 60 days",
+    "Option_B": "Upon every renewal of the Driver's License",
+    "Option_C": "Only if the driver is over 60 years old",
+    "Option_D": "",
+    "Correct_Answer": "Upon every renewal of the Driver's License"
+  },
+  {
+    "ID": 110,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Regularly monitoring and maintaining proper tire pressure is essential for:",
+    "Option_A": "Enhancing fuel efficiency and ensuring optimal road grip/safety",
+    "Option_B": "Increasing the maximum speed capability of the vehicle",
+    "Option_C": "Changing the vehicle's classification category",
+    "Option_D": "",
+    "Correct_Answer": "Enhancing fuel efficiency and ensuring optimal road grip/safety"
+  },
+  {
+    "ID": 111,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Identify the essential tool kit for long-distance travel.",
+    "Option_A": "Tire jack, lug wrench, spare tire, and basic hand tools",
+    "Option_B": "Portable GPS and a mobile phone charger",
+    "Option_C": "First-aid kit and emergency food supply only",
+    "Option_D": "",
+    "Correct_Answer": "Tire jack, lug wrench, spare tire, and basic hand tools"
+  },
+  {
+    "ID": 112,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "What is the first safety action to take if the engine begins to overheat?",
+    "Option_A": "Immediately pour cold water over the engine block",
+    "Option_B": "Pull over safely, deactivate the engine, and allow it to cool before inspection",
+    "Option_C": "Continue driving at low speed to a service station",
+    "Option_D": "",
+    "Correct_Answer": "Pull over safely, deactivate the engine, and allow it to cool before inspection"
+  },
+  {
+    "ID": 113,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Vehicle Category M1 is technically defined as:",
+    "Option_A": "A two-wheeled vehicle with a speed exceeding 50 kph",
+    "Option_B": "A passenger vehicle with no more than 8 seats (excluding the driver) and GVW ≤ 5000kg",
+    "Option_C": "A heavy goods vehicle with GVW exceeding 12000kg",
+    "Option_D": "",
+    "Correct_Answer": "A passenger vehicle with no more than 8 seats (excluding the driver) and GVW ≤ 5000kg"
+  },
+  {
+    "ID": 114,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Carriers of Hazardous Cargo must be duly trained and certified by:",
+    "Option_A": "The Department of Energy",
+    "Option_B": "TESDA or Accredited TESDA Training Centers",
+    "Option_C": "The National Bureau of Investigation",
+    "Option_D": "",
+    "Correct_Answer": "TESDA or Accredited TESDA Training Centers"
+  },
+  {
+    "ID": 115,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Identify the significance of Condition Code 5 on a license.",
+    "Option_A": "Requirement to drive only with a hearing aid",
+    "Option_B": "Requirement to drive only during daylight hours",
+    "Option_C": "Requirement to drive a vehicle with a specialized steering system",
+    "Option_D": "",
+    "Correct_Answer": "Requirement to drive only during daylight hours"
+  },
+  {
+    "ID": 116,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Before exiting a parking slot, identify the necessary safety check.",
+    "Option_A": "Sound the horn to notify other drivers",
+    "Option_B": "Inspect the surroundings for pedestrians, children, or low-lying obstacles",
+    "Option_C": "Rev the engine to ensure it is at operating temperature",
+    "Option_D": "",
+    "Correct_Answer": "Inspect the surroundings for pedestrians, children, or low-lying obstacles"
+  },
+  {
+    "ID": 117,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "If the brake lights of the lead vehicle activate, you must:",
+    "Option_A": "Prepare to decelerate or stop to maintain a safe following distance",
+    "Option_B": "Overtake the vehicle to avoid being slowed down",
+    "Option_C": "Toggle your hazard lights to warn the vehicle behind you",
+    "Option_D": "",
+    "Correct_Answer": "Prepare to decelerate or stop to maintain a safe following distance"
+  },
+  {
+    "ID": 118,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "The technical term for a vehicle with a GVW exceeding 3500kg used for goods is:",
+    "Option_A": "Category N1",
+    "Option_B": "Category N2 or N3 (Heavy Commercial)",
+    "Option_C": "Category M3",
+    "Option_D": "",
+    "Correct_Answer": "Category N2 or N3 (Heavy Commercial)"
+  },
+  {
+    "ID": 119,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Pursuant to LTO standards, how many days is a Medical Certificate valid for from the date of issuance?",
+    "Option_A": "15 days",
+    "Option_B": "60 days",
+    "Option_C": "30 days",
+    "Option_D": "",
+    "Correct_Answer": "30 days"
+  },
+  {
+    "ID": 120,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Identify the primary reason for checking the engine oil level regularly.",
+    "Option_A": "To ensure proper lubrication of internal components and prevent engine seizure",
+    "Option_B": "To increase the octane rating of the fuel",
+    "Option_C": "To improve the vehicle’s aerodynamic performance",
+    "Option_D": "",
+    "Correct_Answer": "To ensure proper lubrication of internal components and prevent engine seizure"
+  }
+]

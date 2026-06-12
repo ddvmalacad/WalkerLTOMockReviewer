@@ -1,0 +1,1202 @@
+[
+  {
+    "ID": 1,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "What does a red circular traffic sign usually indicate?",
+    "Option_A": "Information and direction",
+    "Option_B": "Warning or hazard ahead",
+    "Option_C": "Regulatory or prohibitory mandates",
+    "Option_D": "",
+    "Correct_Answer": "Regulatory or prohibitory mandates"
+  },
+  {
+    "ID": 2,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "What is the primary purpose of a blue and white rectangular or square sign?",
+    "Option_A": "Warning sign",
+    "Option_B": "Informative sign",
+    "Option_C": "Mandatory instruction sign",
+    "Option_D": "",
+    "Correct_Answer": "Informative sign"
+  },
+  {
+    "ID": 3,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A red triangle-shaped sign is used to:",
+    "Option_A": "Provide information",
+    "Option_B": "Give a warning",
+    "Option_C": "Indicate a prohibition",
+    "Option_D": "",
+    "Correct_Answer": "Give a warning"
+  },
+  {
+    "ID": 4,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "What is the meaning of a single solid yellow line on the road?",
+    "Option_A": "Overtaking is allowed at any time",
+    "Option_B": "Overtaking is strictly prohibited",
+    "Option_C": "You may cross it for a U-turn only",
+    "Option_D": "",
+    "Correct_Answer": "Overtaking is strictly prohibited"
+  },
+  {
+    "ID": 5,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "Two solid yellow lines painted together indicate:",
+    "Option_A": "It is extremely dangerous to overtake; do not cross",
+    "Option_B": "Overtaking is allowed on the right side",
+    "Option_C": "The road is under construction",
+    "Option_D": "",
+    "Correct_Answer": "It is extremely dangerous to overtake; do not cross"
+  },
+  {
+    "ID": 6,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A broken white line on a multi-lane road indicates:",
+    "Option_A": "You are prohibited from changing lanes",
+    "Option_B": "You may change lanes if it is safe to do so",
+    "Option_C": "Only public utility vehicles may use this lane",
+    "Option_D": "",
+    "Correct_Answer": "You may change lanes if it is safe to do so"
+  },
+  {
+    "ID": 7,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "What does a broken yellow line indicate?",
+    "Option_A": "Overtaking is allowed on the side where the line is broken",
+    "Option_B": "Overtaking is prohibited on both sides",
+    "Option_C": "The road is for emergency vehicles only",
+    "Option_D": "",
+    "Correct_Answer": "Overtaking is allowed on the side where the line is broken"
+  },
+  {
+    "ID": 8,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "If you see two broken yellow lines on the pavement, it means:",
+    "Option_A": "Overtaking is strictly prohibited for all vehicles",
+    "Option_B": "You may overtake on either the left or right side if there is no danger",
+    "Option_C": "One-way traffic only",
+    "Option_D": "",
+    "Correct_Answer": "You may overtake on either the left or right side if there is no danger"
+  },
+  {
+    "ID": 9,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "What is the meaning of an arrow painted on the pavement?",
+    "Option_A": "It is a decorative marker for the lane",
+    "Option_B": "Follow the direction indicated by the arrow",
+    "Option_C": "You may ignore it if there is no oncoming traffic",
+    "Option_D": "",
+    "Correct_Answer": "Follow the direction indicated by the arrow"
+  },
+  {
+    "ID": 10,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A sign with the text \"No Entry\" (Bawal Pumasok) means:",
+    "Option_A": "Only cars can enter",
+    "Option_B": "All vehicles are prohibited from entering",
+    "Option_C": "Only residents can enter",
+    "Option_D": "",
+    "Correct_Answer": "All vehicles are prohibited from entering"
+  },
+  {
+    "ID": 11,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A warning sign showing a car on a wavy path (Madulas ang kalsada) means:",
+    "Option_A": "The road is under repair",
+    "Option_B": "The road is slippery",
+    "Option_C": "Fast driving is encouraged",
+    "Option_D": "",
+    "Correct_Answer": "The road is slippery"
+  },
+  {
+    "ID": 12,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A sign showing falling rocks (Panganib sa nahuhulog na bato) warns of:",
+    "Option_A": "Steep cliffs",
+    "Option_B": "Landslide or falling debris hazard",
+    "Option_C": "Rough road surface",
+    "Option_D": "",
+    "Correct_Answer": "Landslide or falling debris hazard"
+  },
+  {
+    "ID": 13,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A sign showing a steep downward slope indicates:",
+    "Option_A": "Steep descent",
+    "Option_B": "Steep ascent",
+    "Option_C": "Road ends ahead",
+    "Option_D": "",
+    "Correct_Answer": "Steep descent"
+  },
+  {
+    "ID": 14,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A sign showing the road narrowing (Papaliit ang kalsada) means:",
+    "Option_A": "The road is widening",
+    "Option_B": "The road narrows ahead",
+    "Option_C": "End of the highway",
+    "Option_D": "",
+    "Correct_Answer": "The road narrows ahead"
+  },
+  {
+    "ID": 15,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A sign with a \"No Parking\" (Bawal pumarada) symbol means:",
+    "Option_A": "You can park for a maximum of 5 minutes",
+    "Option_B": "You are not allowed to park in that area",
+    "Option_C": "Only motorcycles are permitted to park",
+    "Option_D": "",
+    "Correct_Answer": "You are not allowed to park in that area"
+  },
+  {
+    "ID": 16,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A sign showing a red circle with a \"U\" and a slash (Bawal ang likong pabalik) means:",
+    "Option_A": "No left turn",
+    "Option_B": "No U-turn",
+    "Option_C": "No right turn",
+    "Option_D": "",
+    "Correct_Answer": "No U-turn"
+  },
+  {
+    "ID": 17,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A sign depicting a train (Daang tren) indicates:",
+    "Option_A": "A bus terminal",
+    "Option_B": "A railroad crossing",
+    "Option_C": "A construction zone",
+    "Option_D": "",
+    "Correct_Answer": "A railroad crossing"
+  },
+  {
+    "ID": 18,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A sign showing a person walking (Tawiran ng tao) indicates:",
+    "Option_A": "A park nearby",
+    "Option_B": "A pedestrian crossing",
+    "Option_C": "No walking allowed on the pavement",
+    "Option_D": "",
+    "Correct_Answer": "A pedestrian crossing"
+  },
+  {
+    "ID": 19,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A sign with a number inside a red circle (e.g., 60) refers to:",
+    "Option_A": "Minimum speed limit",
+    "Option_B": "Maximum speed limit",
+    "Option_C": "Distance to the next city in kilometers",
+    "Option_D": "",
+    "Correct_Answer": "Maximum speed limit"
+  },
+  {
+    "ID": 20,
+    "Topic": "Road Signs and Pavement Markings",
+    "Question": "A sign showing a red circle with a slash over a horn (Bawal bumusina) means:",
+    "Option_A": "Use your horn frequently to alert others",
+    "Option_B": "No blowing of horn",
+    "Option_C": "Siren-only zone",
+    "Option_D": "",
+    "Correct_Answer": "No blowing of horn"
+  },
+  {
+    "ID": 21,
+    "Topic": "Road and Traffic Rules",
+    "Question": "When is it permissible to overtake a vehicle on the right side?",
+    "Option_A": "If the highway has two or more lanes moving in one direction",
+    "Option_B": "If the road is a narrow two-way street",
+    "Option_C": "If the sidewalk is wide enough to fit your vehicle",
+    "Option_D": "",
+    "Correct_Answer": "If the highway has two or more lanes moving in one direction"
+  },
+  {
+    "ID": 22,
+    "Topic": "Road and Traffic Rules",
+    "Question": "When approaching an intersection with a \"STOP\" sign, you must:",
+    "Option_A": "Slow down and proceed if you see no danger",
+    "Option_B": "Stop completely and proceed only when it is safe to do so",
+    "Option_C": "Give way only to vehicles coming from the right",
+    "Option_D": "",
+    "Correct_Answer": "Stop completely and proceed only when it is safe to do so"
+  },
+  {
+    "ID": 23,
+    "Topic": "Road and Traffic Rules",
+    "Question": "What does a flashing red traffic light mean?",
+    "Option_A": "Wait for the green light before moving",
+    "Option_B": "Slow down and proceed with caution",
+    "Option_C": "Stop completely and proceed only when it is safe, similar to a stop sign",
+    "Option_D": "",
+    "Correct_Answer": "Stop completely and proceed only when it is safe, similar to a stop sign"
+  },
+  {
+    "ID": 24,
+    "Topic": "Road and Traffic Rules",
+    "Question": "At what minimum distance should you give a signal before turning?",
+    "Option_A": "15 meters",
+    "Option_B": "30 meters",
+    "Option_C": "60 meters",
+    "Option_D": "",
+    "Correct_Answer": "30 meters"
+  },
+  {
+    "ID": 25,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Before changing lanes, a driver should signal, check the rearview mirror, and:",
+    "Option_A": "Check for oncoming or approaching vehicles in the target lane",
+    "Option_B": "Blow the horn to warn others",
+    "Option_C": "Turn on the high beam headlights",
+    "Option_D": "",
+    "Correct_Answer": "Check for oncoming or approaching vehicles in the target lane"
+  },
+  {
+    "ID": 26,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Why is a left turn generally considered more dangerous than a right turn?",
+    "Option_A": "Vehicles from the left are always traveling faster",
+    "Option_B": "You must be alert for vehicles coming from both the left and right directions",
+    "Option_C": "There are more lanes to cross in a single maneuver",
+    "Option_D": "",
+    "Correct_Answer": "You must be alert for vehicles coming from both the left and right directions"
+  },
+  {
+    "ID": 27,
+    "Topic": "Road and Traffic Rules",
+    "Question": "In a roundabout (rotonda), which vehicle has the legal right-of-way?",
+    "Option_A": "The vehicle about to enter the rotonda",
+    "Option_B": "The vehicle already within the rotonda",
+    "Option_C": "The vehicle with the loudest horn",
+    "Option_D": "",
+    "Correct_Answer": "The vehicle already within the rotonda"
+  },
+  {
+    "ID": 28,
+    "Topic": "Road and Traffic Rules",
+    "Question": "What does a flashing yellow traffic light mean?",
+    "Option_A": "Stop and wait for the light to change to green",
+    "Option_B": "Proceed with caution and slow down",
+    "Option_C": "Speed up to cross the intersection quickly",
+    "Option_D": "",
+    "Correct_Answer": "Proceed with caution and slow down"
+  },
+  {
+    "ID": 29,
+    "Topic": "Road and Traffic Rules",
+    "Question": "A steady green light means:",
+    "Option_A": "You may proceed unless there is a pedestrian or vehicle in the path",
+    "Option_B": "Stop at the designated stop line",
+    "Option_C": "You must slow down and wait for the yellow light",
+    "Option_D": "",
+    "Correct_Answer": "You may proceed unless there is a pedestrian or vehicle in the path"
+  },
+  {
+    "ID": 30,
+    "Topic": "Road and Traffic Rules",
+    "Question": "A steady yellow light indicates:",
+    "Option_A": "Prepare to stop as the light is about to turn red",
+    "Option_B": "Speed up to beat the red light",
+    "Option_C": "You may continue at the same speed regardless of the change",
+    "Option_D": "",
+    "Correct_Answer": "Prepare to stop as the light is about to turn red"
+  },
+  {
+    "ID": 31,
+    "Topic": "Road and Traffic Rules",
+    "Question": "What is the meaning of a green arrow signal?",
+    "Option_A": "Entry to the intersection is prohibited for all",
+    "Option_B": "It permits vehicles to turn in the direction the arrow points",
+    "Option_C": "Pedestrians may cross the street in front of you",
+    "Option_D": "",
+    "Correct_Answer": "It permits vehicles to turn in the direction the arrow points"
+  },
+  {
+    "ID": 32,
+    "Topic": "Road and Traffic Rules",
+    "Question": "If a driver extends their left arm straight out the window, what does it mean?",
+    "Option_A": "The driver is turning right",
+    "Option_B": "The driver is turning left",
+    "Option_C": "The driver is stopping",
+    "Option_D": "",
+    "Correct_Answer": "The driver is turning left"
+  },
+  {
+    "ID": 33,
+    "Topic": "Road and Traffic Rules",
+    "Question": "If a driver extends their left arm upward, what does it indicate?",
+    "Option_A": "The driver is turning right",
+    "Option_B": "The driver is stopping",
+    "Option_C": "The driver is turning left",
+    "Option_D": "",
+    "Correct_Answer": "The driver is turning right"
+  },
+  {
+    "ID": 34,
+    "Topic": "Road and Traffic Rules",
+    "Question": "If a driver extends their left arm downward, what does it indicate?",
+    "Option_A": "The driver is stopping or slowing down",
+    "Option_B": "The driver is turning right",
+    "Option_C": "The driver is turning left",
+    "Option_D": "",
+    "Correct_Answer": "The driver is stopping or slowing down"
+  },
+  {
+    "ID": 35,
+    "Topic": "Road and Traffic Rules",
+    "Question": "At an intersection with no traffic signals, if two vehicles arrive at the same time, which has the right-of-way?",
+    "Option_A": "The vehicle coming from the left",
+    "Option_B": "The vehicle coming from the right",
+    "Option_C": "The larger vehicle",
+    "Option_D": "",
+    "Correct_Answer": "The vehicle coming from the right"
+  },
+  {
+    "ID": 36,
+    "Topic": "Road and Traffic Rules",
+    "Question": "If you want to drive slower than other vehicles on a multi-lane highway, you should stay in the:",
+    "Option_A": "Left lane",
+    "Option_B": "Right lane",
+    "Option_C": "Middle lane",
+    "Option_D": "",
+    "Correct_Answer": "Right lane"
+  },
+  {
+    "ID": 37,
+    "Topic": "Road and Traffic Rules",
+    "Question": "You are not allowed to cross a solid yellow line except when:",
+    "Option_A": "Overtaking a slower vehicle",
+    "Option_B": "Making a left turn into a driveway or side street",
+    "Option_C": "Changing lanes for a faster exit",
+    "Option_D": "",
+    "Correct_Answer": "Making a left turn into a driveway or side street"
+  },
+  {
+    "ID": 38,
+    "Topic": "Road and Traffic Rules",
+    "Question": "Overtaking is prohibited at the foot of a bridge because:",
+    "Option_A": "The bridge surface is usually too narrow",
+    "Option_B": "Visibility is limited and you cannot see oncoming vehicles",
+    "Option_C": "There are usually many pedestrians on bridges",
+    "Option_D": "",
+    "Correct_Answer": "Visibility is limited and you cannot see oncoming vehicles"
+  },
+  {
+    "ID": 39,
+    "Topic": "Road and Traffic Rules",
+    "Question": "What is the maximum speed limit in a school zone?",
+    "Option_A": "35 kph",
+    "Option_B": "20 kph",
+    "Option_C": "30 kph",
+    "Option_D": "",
+    "Correct_Answer": "20 kph"
+  },
+  {
+    "ID": 40,
+    "Topic": "Road and Traffic Rules",
+    "Question": "If a police officer signals you to stop, you should:",
+    "Option_A": "Ignore the officer and speed away",
+    "Option_B": "Stop and provide your license and vehicle documents if requested",
+    "Option_C": "Stop and argue with the officer regarding the reason",
+    "Option_D": "",
+    "Correct_Answer": "Stop and provide your license and vehicle documents if requested"
+  },
+  {
+    "ID": 41,
+    "Topic": "Safe Driving Principles",
+    "Question": "How often should you check your side and rearview mirrors?",
+    "Option_A": "Quickly and frequently",
+    "Option_B": "Only when you feel like a vehicle is nearby",
+    "Option_C": "At least every minute",
+    "Option_D": "",
+    "Correct_Answer": "Quickly and frequently"
+  },
+  {
+    "ID": 42,
+    "Topic": "Safe Driving Principles",
+    "Question": "Before leaving a parking space, you must:",
+    "Option_A": "Check your surroundings and blind spots before moving",
+    "Option_B": "Blow your horn twice",
+    "Option_C": "Accelerate immediately to merge with traffic",
+    "Option_D": "",
+    "Correct_Answer": "Check your surroundings and blind spots before moving"
+  },
+  {
+    "ID": 43,
+    "Topic": "Safe Driving Principles",
+    "Question": "After overtaking, what is the safest way to return to your original lane?",
+    "Option_A": "Check your rearview mirror to see the front of the vehicle you passed",
+    "Option_B": "Look back over your shoulder at the vehicle you passed",
+    "Option_C": "Stop immediately to ensure the lane is clear",
+    "Option_D": "",
+    "Correct_Answer": "Check your rearview mirror to see the front of the vehicle you passed"
+  },
+  {
+    "ID": 44,
+    "Topic": "Safe Driving Principles",
+    "Question": "What should you do to prepare for a long trip?",
+    "Option_A": "Only check the fuel level",
+    "Option_B": "Plan your route and ensure the vehicle is in good mechanical condition",
+    "Option_C": "Just drive and address issues as they arise",
+    "Option_D": "",
+    "Correct_Answer": "Plan your route and ensure the vehicle is in good mechanical condition"
+  },
+  {
+    "ID": 45,
+    "Topic": "Safe Driving Principles",
+    "Question": "When parking uphill with a curb, you should turn your front wheels:",
+    "Option_A": "Toward the curb",
+    "Option_B": "Away from the curb",
+    "Option_C": "Straight ahead",
+    "Option_D": "",
+    "Correct_Answer": "Away from the curb"
+  },
+  {
+    "ID": 46,
+    "Topic": "Safe Driving Principles",
+    "Question": "According to the LTO manual, having a driver's license is considered a:",
+    "Option_A": "Constitutional Right",
+    "Option_B": "Civil Honor",
+    "Option_C": "Privilege",
+    "Option_D": "",
+    "Correct_Answer": "Privilege"
+  },
+  {
+    "ID": 47,
+    "Topic": "Safe Driving Principles",
+    "Question": "What is the safest rule regarding right-of-way?",
+    "Option_A": "Always insist on your right-of-way to teach others",
+    "Option_B": "Do not insist on your right-of-way if it prevents an accident",
+    "Option_C": "Blow your horn continuously to claim your right-of-way",
+    "Option_D": "",
+    "Correct_Answer": "Do not insist on your right-of-way if it prevents an accident"
+  },
+  {
+    "ID": 48,
+    "Topic": "Safe Driving Principles",
+    "Question": "If an oncoming vehicle has blinding high beam headlights, you should:",
+    "Option_A": "Turn on your high beams to blind them back",
+    "Option_B": "Look slightly toward the right side of the road or the white line",
+    "Option_C": "Stare directly at the lights to gauge the vehicle's position",
+    "Option_D": "",
+    "Correct_Answer": "Look slightly toward the right side of the road or the white line"
+  },
+  {
+    "ID": 49,
+    "Topic": "Safe Driving Principles",
+    "Question": "When approaching a curve, you should:",
+    "Option_A": "Slow down before entering the curve",
+    "Option_B": "Speed up while in the curve to maintain traction",
+    "Option_C": "Brake suddenly while in the middle of the curve",
+    "Option_D": "",
+    "Correct_Answer": "Slow down before entering the curve"
+  },
+  {
+    "ID": 50,
+    "Topic": "Safe Driving Principles",
+    "Question": "A driver must make safe driving decisions:",
+    "Option_A": "Only when traffic is heavy",
+    "Option_B": "Only if they are a professional driver",
+    "Option_C": "Continuously and proactively while driving",
+    "Option_D": "",
+    "Correct_Answer": "Continuously and proactively while driving"
+  },
+  {
+    "ID": 51,
+    "Topic": "Safe Driving Principles",
+    "Question": "What is the recommended following distance behind another vehicle under normal conditions?",
+    "Option_A": "Two car lengths",
+    "Option_B": "One car length",
+    "Option_C": "Three car lengths",
+    "Option_D": "",
+    "Correct_Answer": "One car length"
+  },
+  {
+    "ID": 52,
+    "Topic": "Safe Driving Principles",
+    "Question": "If the brake lights of the vehicle ahead of you turn on, you should:",
+    "Option_A": "Blow your horn to warn the driver",
+    "Option_B": "Prepare to brake and increase your following distance",
+    "Option_C": "Change lanes immediately without signaling",
+    "Option_D": "",
+    "Correct_Answer": "Prepare to brake and increase your following distance"
+  },
+  {
+    "ID": 53,
+    "Topic": "Safe Driving Principles",
+    "Question": "The vehicle horn should be used primarily to:",
+    "Option_A": "Create noise to vent frustration",
+    "Option_B": "Show off a customized sound",
+    "Option_C": "Give a necessary safety warning",
+    "Option_D": "",
+    "Correct_Answer": "Give a necessary safety warning"
+  },
+  {
+    "ID": 54,
+    "Topic": "Safe Driving Principles",
+    "Question": "The safest speed for a vehicle depends on:",
+    "Option_A": "Road, traffic, and weather conditions",
+    "Option_B": "The vehicle's maximum speedometer rating",
+    "Option_C": "The driver's personal hurry or preference",
+    "Option_D": "",
+    "Correct_Answer": "Road, traffic, and weather conditions"
+  },
+  {
+    "ID": 55,
+    "Topic": "Safe Driving Principles",
+    "Question": "To combat fatigue and drowsiness during a long trip, a driver should:",
+    "Option_A": "Drink alcohol to relax before driving",
+    "Option_B": "Stop occasionally to rest, stretch, or nap",
+    "Option_C": "Take anti-sleep medication frequently",
+    "Option_D": "",
+    "Correct_Answer": "Stop occasionally to rest, stretch, or nap"
+  },
+  {
+    "ID": 56,
+    "Topic": "Safe Driving Principles",
+    "Question": "If a vehicle behind you signals that it wants to overtake, you should:",
+    "Option_A": "Move to the right and stop completely",
+    "Option_B": "Slow down slightly, move to the right, and let it pass",
+    "Option_C": "Speed up so the other vehicle cannot pass you",
+    "Option_D": "",
+    "Correct_Answer": "Slow down slightly, move to the right, and let it pass"
+  },
+  {
+    "ID": 57,
+    "Topic": "Safe Driving Principles",
+    "Question": "What is a \"blind spot\" in driving?",
+    "Option_A": "An area around the vehicle not visible in the mirrors",
+    "Option_B": "A part of the engine block",
+    "Option_C": "A type of traffic light that has failed",
+    "Option_D": "",
+    "Correct_Answer": "An area around the vehicle not visible in the mirrors"
+  },
+  {
+    "ID": 58,
+    "Topic": "Safe Driving Principles",
+    "Question": "When driving near a school, you must:",
+    "Option_A": "Drive at your normal highway speed",
+    "Option_B": "Exercise extreme caution and slow down significantly",
+    "Option_C": "Use your horn continuously to alert students",
+    "Option_D": "",
+    "Correct_Answer": "Exercise extreme caution and slow down significantly"
+  },
+  {
+    "ID": 59,
+    "Topic": "Safe Driving Principles",
+    "Question": "The philosophy of \"defensive driving\" aims to:",
+    "Option_A": "Arrive at the destination faster than other motorists",
+    "Option_B": "Avoid accidents regardless of who is legally at fault",
+    "Option_C": "Prove to others who is the more skilled driver",
+    "Option_D": "",
+    "Correct_Answer": "Avoid accidents regardless of who is legally at fault"
+  },
+  {
+    "ID": 60,
+    "Topic": "Safe Driving Principles",
+    "Question": "What is the first priority when an emergency vehicle with sirens is approaching?",
+    "Option_A": "Race the emergency vehicle to clear the path",
+    "Option_B": "Yield the right-of-way and move to the side of the road",
+    "Option_C": "Stop in the middle of the road immediately",
+    "Option_D": "",
+    "Correct_Answer": "Yield the right-of-way and move to the side of the road"
+  },
+  {
+    "ID": 61,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "What is the penalty for driving under the influence of alcohol or prohibited drugs?",
+    "Option_A": "Php 2,000.00",
+    "Option_B": "6 months imprisonment",
+    "Option_C": "1-month license suspension",
+    "Option_D": "",
+    "Correct_Answer": "Php 2,000.00"
+  },
+  {
+    "ID": 62,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "What is the penalty for using a fake driver's license?",
+    "Option_A": "Php 500.00 and a 6-month disqualification from getting a license",
+    "Option_B": "Imprisonment for not more than 6 months",
+    "Option_C": "Php 100.00 fine",
+    "Option_D": "",
+    "Correct_Answer": "Php 500.00 and a 6-month disqualification from getting a license"
+  },
+  {
+    "ID": 63,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "In case of an accident involving your vehicle, it must be reported to the nearest police station:",
+    "Option_A": "Within 72 hours",
+    "Option_B": "Immediately",
+    "Option_C": "Within 48 hours",
+    "Option_D": "",
+    "Correct_Answer": "Immediately"
+  },
+  {
+    "ID": 64,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "How many days is the grace period to settle a traffic case and redeem a license after being apprehended?",
+    "Option_A": "30 days",
+    "Option_B": "15 days",
+    "Option_C": "10 days",
+    "Option_D": "",
+    "Correct_Answer": "15 days"
+  },
+  {
+    "ID": 65,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "A red flag or red light must be attached to any load that extends beyond the rear of the vehicle by more than:",
+    "Option_A": "1 meter",
+    "Option_B": "3 meters",
+    "Option_C": "2 meters",
+    "Option_D": "",
+    "Correct_Answer": "1 meter"
+  },
+  {
+    "ID": 66,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Driving without a valid license is punishable by:",
+    "Option_A": "Php 500.00",
+    "Option_B": "Php 500.00 and vehicle impoundment for up to 10 days",
+    "Option_C": "Php 750.00",
+    "Option_D": "",
+    "Correct_Answer": "Php 500.00 and vehicle impoundment for up to 10 days"
+  },
+  {
+    "ID": 67,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "How many demerit points are assigned to a \"Grave Violation\"?",
+    "Option_A": "5 points",
+    "Option_B": "3 points",
+    "Option_C": "1 point",
+    "Option_D": "",
+    "Correct_Answer": "5 points"
+  },
+  {
+    "ID": 68,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "How many demerit points are assigned to a \"Less Grave Violation\"?",
+    "Option_A": "5 points",
+    "Option_B": "3 points",
+    "Option_C": "1 point",
+    "Option_D": "",
+    "Correct_Answer": "3 points"
+  },
+  {
+    "ID": 69,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Violations not classified as grave or less grave are considered \"Light\" and carry:",
+    "Option_A": "5 points",
+    "Option_B": "3 points",
+    "Option_C": "1 point",
+    "Option_D": "",
+    "Correct_Answer": "1 point"
+  },
+  {
+    "ID": 70,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "A driver with 5 to 9 demerit points must undergo which intervention?",
+    "Option_A": "Revocation of license",
+    "Option_B": "Driving Enhancement Program (DEP)",
+    "Option_C": "A new practical driving test",
+    "Option_D": "",
+    "Correct_Answer": "Driving Enhancement Program (DEP)"
+  },
+  {
+    "ID": 71,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "A driver with 10 or more demerit points is required to:",
+    "Option_A": "Attend DEP and pass a theoretical exam",
+    "Option_B": "Pay a Php 10,000 fine",
+    "Option_C": "Surrender the vehicle permanently",
+    "Option_D": "",
+    "Correct_Answer": "Attend DEP and pass a theoretical exam"
+  },
+  {
+    "ID": 72,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "If a driver accumulates at least 40 demerit points, their license will be:",
+    "Option_A": "Suspended for 1 month",
+    "Option_B": "Revoked for at least 2 years",
+    "Option_C": "Replaced with a student permit",
+    "Option_D": "",
+    "Correct_Answer": "Revoked for at least 2 years"
+  },
+  {
+    "ID": 73,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "When do accumulated demerit points revert to zero?",
+    "Option_A": "Every calendar year",
+    "Option_B": "Upon license renewal",
+    "Option_C": "Every 5 years",
+    "Option_D": "",
+    "Correct_Answer": "Upon license renewal"
+  },
+  {
+    "ID": 74,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Drivers of public utility vehicles (PUV) are penalized with how many demerit points for violations?",
+    "Option_A": "The standard points",
+    "Option_B": "Double the demerit points",
+    "Option_C": "Triple the demerit points",
+    "Option_D": "",
+    "Correct_Answer": "Double the demerit points"
+  },
+  {
+    "ID": 75,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "A Student Permit will be confiscated and revoked if the holder accumulates:",
+    "Option_A": "1 demerit point",
+    "Option_B": "5 demerit points",
+    "Option_C": "10 demerit points",
+    "Option_D": "",
+    "Correct_Answer": "5 demerit points"
+  },
+  {
+    "ID": 76,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "What is the penalty for a driver whose license has been revoked three times?",
+    "Option_A": "Perpetual disqualification from getting a license",
+    "Option_B": "A 10-year ban on all permits",
+    "Option_C": "A Php 50,000 fine",
+    "Option_D": "",
+    "Correct_Answer": "Perpetual disqualification from getting a license"
+  },
+  {
+    "ID": 77,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "A driver must complete the required intervention program within how many days of their last apprehension/notice?",
+    "Option_A": "15 days",
+    "Option_B": "30 days",
+    "Option_C": "60 days",
+    "Option_D": "",
+    "Correct_Answer": "30 days"
+  },
+  {
+    "ID": 78,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "Which documents must a driver always carry while operating a vehicle?",
+    "Option_A": "License only",
+    "Option_B": "License, vehicle registration (CR), and the latest official receipt (OR)",
+    "Option_C": "Passport and insurance papers",
+    "Option_D": "",
+    "Correct_Answer": "License, vehicle registration (CR), and the latest official receipt (OR)"
+  },
+  {
+    "ID": 79,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "A driver who commits no violations for 5 years is entitled to a license validity of:",
+    "Option_A": "5 years",
+    "Option_B": "10 years",
+    "Option_C": "Lifetime",
+    "Option_D": "",
+    "Correct_Answer": "10 years"
+  },
+  {
+    "ID": 80,
+    "Topic": "Land Transportation Laws and Violations",
+    "Question": "The initial validity of a new Driver's License (reckoned from birth date) is:",
+    "Option_A": "1 year",
+    "Option_B": "5 years",
+    "Option_C": "3 years",
+    "Option_D": "",
+    "Correct_Answer": "5 years"
+  },
+  {
+    "ID": 81,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "A Student-Driver's Permit (SP) is valid for a period of:",
+    "Option_A": "1 year",
+    "Option_B": "6 months",
+    "Option_C": "2 years",
+    "Option_D": "",
+    "Correct_Answer": "1 year"
+  },
+  {
+    "ID": 82,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "What is the minimum age requirement for an applicant of a Student Permit?",
+    "Option_A": "15 years old",
+    "Option_B": "17 years old",
+    "Option_C": "16 years old",
+    "Option_D": "",
+    "Correct_Answer": "16 years old"
+  },
+  {
+    "ID": 83,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "What is the minimum age for a Non-Professional Driver's License (NPDL)?",
+    "Option_A": "16 years old",
+    "Option_B": "17 years old",
+    "Option_C": "18 years old",
+    "Option_D": "",
+    "Correct_Answer": "17 years old"
+  },
+  {
+    "ID": 84,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "What is the minimum age for a Professional Driver's License (PDL)?",
+    "Option_A": "17 years old",
+    "Option_B": "18 years old",
+    "Option_C": "21 years old",
+    "Option_D": "",
+    "Correct_Answer": "18 years old"
+  },
+  {
+    "ID": 85,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "What is the minimum age for a Conductor's License (CL)?",
+    "Option_A": "17 years old",
+    "Option_B": "20 years old",
+    "Option_C": "18 years old",
+    "Option_D": "",
+    "Correct_Answer": "18 years old"
+  },
+  {
+    "ID": 86,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "An NPDL allows a person to operate:",
+    "Option_A": "Private motor vehicles",
+    "Option_B": "Public utility vehicles",
+    "Option_C": "Any type of vehicle regardless of use",
+    "Option_D": "",
+    "Correct_Answer": "Private motor vehicles"
+  },
+  {
+    "ID": 87,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "A PDL is required for:",
+    "Option_A": "Personal use only",
+    "Option_B": "Student drivers",
+    "Option_C": "Any driver hired or paid for operating a motor vehicle",
+    "Option_D": "",
+    "Correct_Answer": "Any driver hired or paid for operating a motor vehicle"
+  },
+  {
+    "ID": 88,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Which DL Code is required for operating a motorcycle?",
+    "Option_A": "DL Code B",
+    "Option_B": "DL Code A",
+    "Option_C": "DL Code C",
+    "Option_D": "",
+    "Correct_Answer": "DL Code A"
+  },
+  {
+    "ID": 89,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "DL Code B is for vehicles (Category M1) with a Gross Vehicle Weight (GVW) of up to:",
+    "Option_A": "5,000 kg",
+    "Option_B": "3,500 kg",
+    "Option_C": "7,000 kg",
+    "Option_D": "",
+    "Correct_Answer": "5,000 kg"
+  },
+  {
+    "ID": 90,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "DL Code C is intended for which type of vehicle?",
+    "Option_A": "Passenger cars",
+    "Option_B": "Motorcycles",
+    "Option_C": "Heavy Commercial vehicles (>3500kg GVW)",
+    "Option_D": "",
+    "Correct_Answer": "Heavy Commercial vehicles (>3500kg GVW)"
+  },
+  {
+    "ID": 91,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "DL Code D is required for",
+    "Option_A": "Buses (>5000kg GVW and more than 8 seats)",
+    "Option_B": "Tricycles",
+    "Option_C": "Trailers",
+    "Option_D": "",
+    "Correct_Answer": "Buses (>5000kg GVW and more than 8 seats)"
+  },
+  {
+    "ID": 92,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Driving Condition 1 mandated on a license means the licensee must:",
+    "Option_A": "Drive only during daylight",
+    "Option_B": "Drive only with corrective lenses",
+    "Option_C": "Use a hearing aid",
+    "Option_D": "",
+    "Correct_Answer": "Drive only with corrective lenses"
+  },
+  {
+    "ID": 93,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Driving Condition 2 indicates the licensee must:",
+    "Option_A": "Drive a customized vehicle",
+    "Option_B": "Wear eyeglasses",
+    "Option_C": "Drive only with special equipment for upper/lower limbs",
+    "Option_D": "",
+    "Correct_Answer": "Drive only with special equipment for upper/lower limbs"
+  },
+  {
+    "ID": 94,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Driving Condition 3 requires the licensee to:",
+    "Option_A": "Drive a customized motor vehicle only",
+    "Option_B": "Drive only with a companion",
+    "Option_C": "Drive in the city only",
+    "Option_D": "",
+    "Correct_Answer": "Drive a customized motor vehicle only"
+  },
+  {
+    "ID": 95,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Driving Condition 4 means the licensee is restricted to:",
+    "Option_A": "Night driving",
+    "Option_B": "Daylight driving only",
+    "Option_C": "Highway driving",
+    "Option_D": "",
+    "Correct_Answer": "Daylight driving only"
+  },
+  {
+    "ID": 96,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Driving Condition 5 mandates the use of:",
+    "Option_A": "Corrective lenses",
+    "Option_B": "An automatic transmission",
+    "Option_C": "A hearing aid",
+    "Option_D": "",
+    "Correct_Answer": "A hearing aid"
+  },
+  {
+    "ID": 97,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "A Student Permit holder must be accompanied by:",
+    "Option_A": "A licensed driver accredited as a driving instructor",
+    "Option_B": "Anyone who knows how to drive",
+    "Option_C": "Their parents or legal guardians only",
+    "Option_D": "",
+    "Correct_Answer": "A licensed driver accredited as a driving instructor"
+  },
+  {
+    "ID": 98,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "A Medical Certificate for a license application is valid for:",
+    "Option_A": "30 days",
+    "Option_B": "60 days",
+    "Option_C": "1 year",
+    "Option_D": "",
+    "Correct_Answer": "60 days"
+  },
+  {
+    "ID": 99,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "A new Conductor's License (CL) is initially valid for:",
+    "Option_A": "3 years",
+    "Option_B": "10 years",
+    "Option_C": "5 years",
+    "Option_D": "",
+    "Correct_Answer": "5 years"
+  },
+  {
+    "ID": 100,
+    "Topic": "Licensing Information and General Knowledge",
+    "Question": "Licensees with Conditions 2, 3, 4, or 5 are generally prohibited from:",
+    "Option_A": "Operating For-Hire or Public Utility Vehicles",
+    "Option_B": "Driving private cars",
+    "Option_C": "Driving on expressways",
+    "Option_D": "",
+    "Correct_Answer": "Operating For-Hire or Public Utility Vehicles"
+  },
+  {
+    "ID": 101,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "A vehicle is legally considered \"parked\" if:",
+    "Option_A": "It is stopped to load passengers",
+    "Option_B": "It is stopped for a long time with the engine off",
+    "Option_C": "It is stopped to unload cargo",
+    "Option_D": "",
+    "Correct_Answer": "It is stopped for a long time with the engine off"
+  },
+  {
+    "ID": 102,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Drivers of ambulances must obtain a Certificate of Training from:",
+    "Option_A": "TESDA or Accredited TESDA Training Centers",
+    "Option_B": "LTO",
+    "Option_C": "Department of Health",
+    "Option_D": "",
+    "Correct_Answer": "TESDA or Accredited TESDA Training Centers"
+  },
+  {
+    "ID": 103,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Drivers of firetrucks must be trained by the:",
+    "Option_A": "LTO",
+    "Option_B": "TESDA",
+    "Option_C": "National Fire Training Institute",
+    "Option_D": "",
+    "Correct_Answer": "National Fire Training Institute"
+  },
+  {
+    "ID": 104,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "A training certificate for School Service drivers is issued by:",
+    "Option_A": "TESDA",
+    "Option_B": "LTO or LTFRB",
+    "Option_C": "The Department of Education",
+    "Option_D": "",
+    "Correct_Answer": "LTO or LTFRB"
+  },
+  {
+    "ID": 105,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Carriers of hazardous cargo require specialized training from:",
+    "Option_A": "TESDA or Accredited TESDA Training Centers",
+    "Option_B": "LTO",
+    "Option_C": "The Bureau of Fire Protection",
+    "Option_D": "",
+    "Correct_Answer": "TESDA or Accredited TESDA Training Centers"
+  },
+  {
+    "ID": 106,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "If a driver has a \"Manual Transmission\" (MT) Clutch Code, they are:",
+    "Option_A": "Only allowed to drive MT vehicles",
+    "Option_B": "Prohibited from driving AT vehicles",
+    "Option_C": "Allowed to operate both MT and AT vehicles",
+    "Option_D": "",
+    "Correct_Answer": "Allowed to operate both MT and AT vehicles"
+  },
+  {
+    "ID": 107,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "If a driver has an \"Automatic Transmission\" (AT) Clutch Code, they are:",
+    "Option_A": "Allowed to drive MT vehicles",
+    "Option_B": "Not allowed to operate MT vehicles",
+    "Option_C": "Allowed to drive any vehicle type",
+    "Option_D": "",
+    "Correct_Answer": "Not allowed to operate MT vehicles"
+  },
+  {
+    "ID": 108,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "A driver for a Special-purpose Vehicle (SV) must hold:",
+    "Option_A": "A Professional Driver's License matching the vehicle code",
+    "Option_B": "A Student Permit",
+    "Option_C": "A Non-Professional License",
+    "Option_D": "",
+    "Correct_Answer": "A Professional Driver's License matching the vehicle code"
+  },
+  {
+    "ID": 109,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Vehicle Category L6 refers to a four-wheeled vehicle with an unladen mass of not more than:",
+    "Option_A": "500 kg",
+    "Option_B": "750 kg",
+    "Option_C": "350 kg",
+    "Option_D": "",
+    "Correct_Answer": "350 kg"
+  },
+  {
+    "ID": 110,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Vehicle Category L7, specifically for vehicles intended for carrying goods, has a maximum unladen mass of:",
+    "Option_A": "400 kg",
+    "Option_B": "550 kg",
+    "Option_C": "600 kg",
+    "Option_D": "",
+    "Correct_Answer": "550 kg"
+  },
+  {
+    "ID": 111,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Vehicle Category L1 is a two-wheeled vehicle with a maximum speed not exceeding:",
+    "Option_A": "50 kph",
+    "Option_B": "30 kph",
+    "Option_C": "60 kph",
+    "Option_D": "",
+    "Correct_Answer": "50 kph"
+  },
+  {
+    "ID": 112,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Vehicle Category M1 is used for passengers and has no more than how many seats (excluding the driver)?",
+    "Option_A": "5 seats",
+    "Option_B": "15 seats",
+    "Option_C": "8 seats",
+    "Option_D": "",
+    "Correct_Answer": "8 seats"
+  },
+  {
+    "ID": 113,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Vehicle Category N1 is for the carriage of goods with a GVW not exceeding:",
+    "Option_A": "3,500 kg",
+    "Option_B": "5,000 kg",
+    "Option_C": "7,000 kg",
+    "Option_D": "",
+    "Correct_Answer": "3,500 kg"
+  },
+  {
+    "ID": 114,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Vehicle Category O1 refers to trailers with a GVW not exceeding:",
+    "Option_A": "500 kg",
+    "Option_B": "750 kg",
+    "Option_C": "1,000 kg",
+    "Option_D": "",
+    "Correct_Answer": "750 kg"
+  },
+  {
+    "ID": 115,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "If you stop temporarily to unload a passenger while keeping the engine running, is the vehicle considered \"parked\"?",
+    "Option_A": "Yes",
+    "Option_B": "Only if hazard lights are on",
+    "Option_C": "No",
+    "Option_D": "",
+    "Correct_Answer": "No"
+  },
+  {
+    "ID": 116,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Parking is strictly prohibited in which of the following areas?",
+    "Option_A": "Pedestrian crossings (tawiran ng tao)",
+    "Option_B": "Designated parking lots",
+    "Option_C": "Private driveways with permission",
+    "Option_D": "",
+    "Correct_Answer": "Pedestrian crossings (tawiran ng tao)"
+  },
+  {
+    "ID": 117,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "To operate a heavy articulated vehicle (DL Code CE), a driver must have held a Code C or D license for at least:",
+    "Option_A": "1 month",
+    "Option_B": "6 months",
+    "Option_C": "1 year",
+    "Option_D": "",
+    "Correct_Answer": "6 months"
+  },
+  {
+    "ID": 118,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Part of \"conditioning the vehicle\" for a long trip includes:",
+    "Option_A": "Cleaning the interior only",
+    "Option_B": "Buying new exterior accessories",
+    "Option_C": "Planning the route and checking mechanical readiness",
+    "Option_D": "",
+    "Correct_Answer": "Planning the route and checking mechanical readiness"
+  },
+  {
+    "ID": 119,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "Why should you carry repair tools on long trips?",
+    "Option_A": "In case the vehicle breaks down or requires minor adjustments",
+    "Option_B": "To add necessary weight to the vehicle for traction",
+    "Option_C": "To comply with city noise ordinances",
+    "Option_D": "",
+    "Correct_Answer": "In case the vehicle breaks down or requires minor adjustments"
+  },
+  {
+    "ID": 120,
+    "Topic": "Vehicle Maintenance and Troubleshooting",
+    "Question": "A professional driver must match their DL Code to the specific:",
+    "Option_A": "Color of the vehicle",
+    "Option_B": "Vehicle Category they are operating",
+    "Option_C": "Age of the vehicle",
+    "Option_D": "",
+    "Correct_Answer": "Vehicle Category they are operating"
+  }
+]

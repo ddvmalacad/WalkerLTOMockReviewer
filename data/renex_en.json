@@ -1,0 +1,252 @@
+[
+  {
+    "ID": 1,
+    "Topic": "Renewal",
+    "Question": "A driver who has not committed any traffic violations during the five-year period preceding the license expiration is entitled to a renewal valid for how many years?",
+    "Option_A": "2 years",
+    "Option_B": "5 years",
+    "Option_C": "10 years",
+    "Option_D": "15 years",
+    "Correct_Answer": "10 years"
+  },
+  {
+    "ID": 2,
+    "Topic": "Renewal",
+    "Question": "What is the total validity period of a Student-Driver’s Permit (SP) from the date of its issuance?",
+    "Option_A": "6 months",
+    "Option_B": "1 year",
+    "Option_C": "2 years",
+    "Option_D": "5 years",
+    "Correct_Answer": "1 year"
+  },
+  {
+    "ID": 3,
+    "Topic": "Renewal",
+    "Question": "Which of the following describes the Driving Enhancement Program (DEP) required prior to the initial renewal of a five-year license?",
+    "Option_A": "A practical exam for professional drivers only",
+    "Option_B": "A road safety seminar designed by LTO for driver's license holders",
+    "Option_C": "A physical fitness test conducted by an LTO officer",
+    "Option_D": "A registration process for new motor vehicles",
+    "Correct_Answer": "A road safety seminar designed by LTO for driver's license holders"
+  },
+  {
+    "ID": 4,
+    "Topic": "Renewal",
+    "Question": "If a Driver’s License is not renewed for more than two years after the expiry date, what must the holder do to renew it?",
+    "Option_A": "Pay only the basic fee and penalty",
+    "Option_B": "Attend the DEP seminar only",
+    "Option_C": "Present a new medical certificate only",
+    "Option_D": "Take and pass both the theoretical and practical examinations",
+    "Correct_Answer": "Take and pass both the theoretical and practical examinations"
+  },
+  {
+    "ID": 5,
+    "Topic": "Renewal",
+    "Question": "Under LTO regulations, how is a Driver’s License legally categorized?",
+    "Option_A": "A constitutional right for all taxpayers",
+    "Option_B": "A temporary permit for students only",
+    "Option_C": "A privilege, not a right",
+    "Option_D": "A professional requirement for all adult citizens",
+    "Correct_Answer": "A privilege, not a right"
+  },
+  {
+    "ID": 6,
+    "Topic": "Renewal",
+    "Question": "Which law is known as the Anti-Distracted Driving Act?",
+    "Option_A": "R.A. No. 8750",
+    "Option_B": "R.A. No. 10913",
+    "Option_C": "R.A. No. 10586",
+    "Option_D": "R.A. No. 10666",
+    "Correct_Answer": "R.A. No. 10913"
+  },
+  {
+    "ID": 7,
+    "Topic": "Renewal",
+    "Question": "R.A. No. 8750 is otherwise known as the:",
+    "Option_A": "Seat Belts Use Act of 1999",
+    "Option_B": "Anti-Drunk and Drugged Driving Act",
+    "Option_C": "Motorcycle Helmet Act of 2009",
+    "Option_D": "Philippine Clean Air Act of 1999",
+    "Correct_Answer": "Seat Belts Use Act of 1999"
+  },
+  {
+    "ID": 8,
+    "Topic": "Renewal",
+    "Question": "Which law prohibits driving under the influence of alcohol, dangerous drugs, and other similar substances?",
+    "Option_A": "R.A. No. 4136",
+    "Option_B": "R.A. No. 10586",
+    "Option_C": "R.A. No. 10916",
+    "Option_D": "R.A. No. 8794",
+    "Correct_Answer": "R.A. No. 10586"
+  },
+  {
+    "ID": 9,
+    "Topic": "Renewal",
+    "Question": "R.A. No. 10666 focuses on the safety of which group of people on motorcycles?",
+    "Option_A": "Elderly passengers",
+    "Option_B": "Professional couriers",
+    "Option_C": "Children",
+    "Option_D": "Pregnant women",
+    "Correct_Answer": "Children"
+  },
+  {
+    "ID": 10,
+    "Topic": "Renewal",
+    "Question": "What is the primary focus of R.A. No. 8749?",
+    "Option_A": "Speed limits",
+    "Option_B": "Road user's charges",
+    "Option_C": "Clean air",
+    "Option_D": "Child safety in motor vehicles",
+    "Correct_Answer": "Clean air"
+  },
+  {
+    "ID": 11,
+    "Topic": "Renewal",
+    "Question": "Philippine traffic road signs, signals, and pavement markings are congruent to which 2012 standards?",
+    "Option_A": "LTO Licensing Standards",
+    "Option_B": "DPWH Highway Safety Design Standards",
+    "Option_C": "International Traffic Safety Code",
+    "Option_D": "National Building Code",
+    "Correct_Answer": "DPWH Highway Safety Design Standards"
+  },
+  {
+    "ID": 12,
+    "Topic": "Renewal",
+    "Question": "Traffic signs that inform road users of traffic laws and regulations and which, if disregarded, constitute a violation are classified as:",
+    "Option_A": "Regulatory Signs",
+    "Option_B": "Warning Signs",
+    "Option_C": "Informative Signs",
+    "Option_D": "Miscellaneous Signs",
+    "Correct_Answer": "Regulatory Signs"
+  },
+  {
+    "ID": 13,
+    "Topic": "Renewal",
+    "Question": "Which category of signs is used to warn road users of potential hazards or dangerous conditions on or adjacent to the road?",
+    "Option_A": "Regulatory Signs",
+    "Option_B": "Warning Signs",
+    "Option_C": "Informative Signs",
+    "Option_D": "Pavement Markings",
+    "Correct_Answer": "Warning Signs"
+  },
+  {
+    "ID": 14,
+    "Topic": "Renewal",
+    "Question": "What is the classification of signs that provide directions, instructions, and other information to assist road users?",
+    "Option_A": "Warning Signs",
+    "Option_B": "Regulatory Signs",
+    "Option_C": "Informative Signs",
+    "Option_D": "Road Markings",
+    "Correct_Answer": "Informative Signs"
+  },
+  {
+    "ID": 15,
+    "Topic": "Renewal",
+    "Question": "What is the purpose of road signs and pavement markings as stated in the manual?",
+    "Option_A": "To decorate the national highways",
+    "Option_B": "To guide motorists, pedestrians, and license holders for better understanding and road safety",
+    "Option_C": "To replace the need for attending a driving school",
+    "Option_D": "To track the real-time speed of all moving vehicles",
+    "Correct_Answer": "To guide motorists, pedestrians, and license holders for better understanding and road safety"
+  },
+  {
+    "ID": 16,
+    "Topic": "Renewal",
+    "Question": "Which DL Code is required to operate motorcycles (Vehicle Categories L1, L2, and L3)?",
+    "Option_A": "Code A",
+    "Option_B": "Code B",
+    "Option_C": "Code C",
+    "Option_D": "Code D",
+    "Correct_Answer": "Code A"
+  },
+  {
+    "ID": 17,
+    "Topic": "Renewal",
+    "Question": "A driver with DL Code B is authorized to drive which type of vehicle?",
+    "Option_A": "Heavy commercial vehicles (N2, N3)",
+    "Option_B": "Passenger cars with up to 8 seats (M1)",
+    "Option_C": "Heavy passenger buses (M3)",
+    "Option_D": "Motorcycles with sidecars (L4)",
+    "Correct_Answer": "Passenger cars with up to 8 seats (M1)"
+  },
+  {
+    "ID": 18,
+    "Topic": "Renewal",
+    "Question": "Which Vehicle Category corresponds to DL Code B1?",
+    "Option_A": "M1 (Passenger Car)",
+    "Option_B": "M2 (Passenger Van/Jeepney)",
+    "Option_C": "N1 (Light Commercial)",
+    "Option_D": "O1 (Light Articulated)",
+    "Correct_Answer": "M2 (Passenger Van/Jeepney)"
+  },
+  {
+    "ID": 19,
+    "Topic": "Renewal",
+    "Question": "Which DL Code is required for heavy commercial vehicles categorized as N2 and N3?",
+    "Option_A": "Code B",
+    "Option_B": "Code B2",
+    "Option_C": "Code C",
+    "Option_D": "Code CE",
+    "Correct_Answer": "Code C"
+  },
+  {
+    "ID": 20,
+    "Topic": "Renewal",
+    "Question": "If a driver’s license has a Manual Transmission (MT) Clutch Code, what type of vehicles are they allowed to operate?",
+    "Option_A": "Only Manual Transmission (MT) vehicles",
+    "Option_B": "Only Automatic Transmission (AT) vehicles",
+    "Option_C": "Both Manual (MT) and Automatic (AT) vehicles",
+    "Option_D": "Only semi-automatic vehicles",
+    "Correct_Answer": "Both Manual (MT) and Automatic (AT) vehicles"
+  },
+  {
+    "ID": 21,
+    "Topic": "Renewal",
+    "Question": "If a driver is certified by an LTO accredited physician as having vision outside the 20/40 range, which Medical Condition Code must be indicated on their license?",
+    "Option_A": "Condition 1 (Drive only with corrective lenses)",
+    "Option_B": "Condition 2 (Drive only with special equipment)",
+    "Option_C": "Condition 4 (Daylight driving only)",
+    "Option_D": "Condition 5 (Drive only with hearing aid)",
+    "Correct_Answer": "Condition 1 (Drive only with corrective lenses)"
+  },
+  {
+    "ID": 22,
+    "Topic": "Renewal",
+    "Question": "A licensee with Medical Condition Code 4 is restricted to driving during what time?",
+    "Option_A": "Nighttime only",
+    "Option_B": "Daylight only",
+    "Option_C": "Rush hours only",
+    "Option_D": "Weekends only",
+    "Correct_Answer": "Daylight only"
+  },
+  {
+    "ID": 23,
+    "Topic": "Renewal",
+    "Question": "According to DPWH 2012 standards, what is the purpose of pavement markings on the road?",
+    "Option_A": "To indicate the administrative boundaries of a city",
+    "Option_B": "To provide clear guidance and regulation for lane usage by motorists",
+    "Option_C": "To replace the need for street lights at night",
+    "Option_D": "To identify the specific road contractor who built the highway",
+    "Correct_Answer": "To provide clear guidance and regulation for lane usage by motorists"
+  },
+  {
+    "ID": 24,
+    "Topic": "Renewal",
+    "Question": "Are holders of a Driver's License with an AT (Automatic Transmission) clutch code allowed to operate MT (Manual Transmission) vehicles?",
+    "Option_A": "Yes, at any time",
+    "Option_B": "Yes, but only with a student permit",
+    "Option_C": "No, they are not allowed",
+    "Option_D": "Only in cases of extreme emergency",
+    "Correct_Answer": "No, they are not allowed"
+  },
+  {
+    "ID": 25,
+    "Topic": "Renewal",
+    "Question": "A Medical Certificate issued by an LTO accredited clinic is valid for how many days from the date of issuance?",
+    "Option_A": "15 days",
+    "Option_B": "30 days",
+    "Option_C": "60 days",
+    "Option_D": "90 days",
+    "Correct_Answer": "60 days"
+  }
+]

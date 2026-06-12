@@ -1,0 +1,252 @@
+[
+  {
+    "ID": 1,
+    "Topic": "Renewal",
+    "Question": "Ang isang drayber na walang anumang huling sa trapiko sa loob ng limang taon bago mag-expire ang lisensya ay may karapatang mag-renew na may bisa na ilang taon?",
+    "Option_A": "2 taon",
+    "Option_B": "5 taon",
+    "Option_C": "10 taon",
+    "Option_D": "15 taon",
+    "Correct_Answer": "10 taon"
+  },
+  {
+    "ID": 2,
+    "Topic": "Renewal",
+    "Question": "Ano ang kabuuang panahon ng bisa ng isang Student-Driver’s Permit (SP) mula sa petsa ng pagkakaloob nito?",
+    "Option_A": "6 na buwan",
+    "Option_B": "1 taon",
+    "Option_C": "2 taon",
+    "Option_D": "5 taon",
+    "Correct_Answer": "1 taon"
+  },
+  {
+    "ID": 3,
+    "Topic": "Renewal",
+    "Question": "Alin sa mga sumusunod ang naglalarawan sa Driving Enhancement Program (DEP) na kailangan bago ang unang pag-renew ng isang limang-taong lisensya?",
+    "Option_A": "Isang praktikal na pagsusulit para sa mga propesyonal na drayber lamang",
+    "Option_B": "Isang road safety seminar na dinisenyo ng LTO para sa mga may-ari ng lisensya",
+    "Option_C": "Isang physical fitness test na isinasagawa ng isang opisyal ng LTO",
+    "Option_D": "Isang proseso ng pagpaparehistro para sa mga bagong sasakyan",
+    "Correct_Answer": "Isang road safety seminar na dinisenyo ng LTO para sa mga may-ari ng lisensya"
+  },
+  {
+    "ID": 4,
+    "Topic": "Renewal",
+    "Question": "Kung ang Driver’s License ay hindi na-renew ng higit sa dalawang taon matapos ang petsa ng pag-expire, ano ang dapat gawin ng may-ari upang ma-renew ito?",
+    "Option_A": "Magbayad lamang ng basic fee at penalty",
+    "Option_B": "Dumalo lamang sa DEP seminar",
+    "Option_C": "Magpakita lamang ng bagong medical certificate",
+    "Option_D": "Kumuha at pumasa sa parehong theoretical at practical na pagsusulit",
+    "Correct_Answer": "Kumuha at pumasa sa parehong theoretical at practical na pagsusulit"
+  },
+  {
+    "ID": 5,
+    "Topic": "Renewal",
+    "Question": "Sa ilalim ng mga regulasyon ng LTO, paano legal na inuuri ang Driver’s License?",
+    "Option_A": "Isang karapatang konstitusyonal para sa lahat ng nagbabayad ng buwis",
+    "Option_B": "Isang pansamantalang permit para sa mga estudyante lamang",
+    "Option_C": "Isang pribilehiyo, hindi karapatan",
+    "Option_D": "Isang propesyonal na kinakailangan para sa lahat ng may sapat na gulang",
+    "Correct_Answer": "Isang pribilehiyo, hindi karapatan"
+  },
+  {
+    "ID": 6,
+    "Topic": "Renewal",
+    "Question": "Aling batas ang kilala bilang Anti-Distracted Driving Act (Batas Laban sa Nagambalang Pagmamaneho)?",
+    "Option_A": "R.A. No. 8750",
+    "Option_B": "R.A. No. 10913",
+    "Option_C": "R.A. No. 10586",
+    "Option_D": "R.A. No. 10666",
+    "Correct_Answer": "R.A. No. 10913"
+  },
+  {
+    "ID": 7,
+    "Topic": "Renewal",
+    "Question": "Ang R.A. No. 8750 ay kilala rin bilang:",
+    "Option_A": "Seat Belts Use Act of 1999",
+    "Option_B": "Anti-Drunk and Drugged Driving Act",
+    "Option_C": "Motorcycle Helmet Act of 2009",
+    "Option_D": "Philippine Clean Air Act of 1999",
+    "Correct_Answer": "Seat Belts Use Act of 1999"
+  },
+  {
+    "ID": 8,
+    "Topic": "Renewal",
+    "Question": "Aling batas ang nagbabawal sa pagmamaneho sa ilalim ng impluwensya ng alak, mapanganib na gamot, at iba pang katulad na sustansya?",
+    "Option_A": "R.A. No. 4136",
+    "Option_B": "R.A. No. 10586",
+    "Option_C": "R.A. No. 10916",
+    "Option_D": "R.A. No. 8794",
+    "Correct_Answer": "R.A. No. 10586"
+  },
+  {
+    "ID": 9,
+    "Topic": "Renewal",
+    "Question": "Ang R.A. No. 10666 ay nakatuon sa kaligtasan ng aling grupo ng mga tao sa motorsiklo?",
+    "Option_A": "Mga nakatatandang pasahero",
+    "Option_B": "Mga propesyonal na courier",
+    "Option_C": "Mga bata",
+    "Option_D": "Mga buntis",
+    "Correct_Answer": "Mga bata"
+  },
+  {
+    "ID": 10,
+    "Topic": "Renewal",
+    "Question": "Ano ang pangunahing pokus ng R.A. No. 8749?",
+    "Option_A": "Limitasyon sa bilis (Speed limits)",
+    "Option_B": "Road user's charges",
+    "Option_C": "Malinis na hangin (Clean air)",
+    "Option_D": "Kaligtasan ng bata sa mga motor vehicle",
+    "Correct_Answer": "Malinis na hangin (Clean air)"
+  },
+  {
+    "ID": 11,
+    "Topic": "Renewal",
+    "Question": "Ang mga traffic road signs, signals, at marka sa kalsada (pavement markings) sa Pilipinas ay naaayon sa anong 2012 na pamantayan?",
+    "Option_A": "LTO Licensing Standards",
+    "Option_B": "DPWH Highway Safety Design Standards",
+    "Option_C": "International Traffic Safety Code",
+    "Option_D": "National Building Code",
+    "Correct_Answer": "DPWH Highway Safety Design Standards"
+  },
+  {
+    "ID": 12,
+    "Topic": "Renewal",
+    "Question": "Ang mga traffic signs na nagbibigay-alam sa mga gumagamit ng daan tungkol sa mga batas at regulasyon sa trapiko ay inuuri bilang:",
+    "Option_A": "Regulatory Signs",
+    "Option_B": "Warning Signs",
+    "Option_C": "Informative Signs",
+    "Option_D": "Miscellaneous Signs",
+    "Correct_Answer": "Regulatory Signs"
+  },
+  {
+    "ID": 13,
+    "Topic": "Renewal",
+    "Question": "Aling kategorya ng mga sign ang ginagamit upang babalaan ang mga gumagamit ng daan tungkol sa mga potensyal na panganib o kondisyon sa kalsada?",
+    "Option_A": "Regulatory Signs",
+    "Option_B": "Warning Signs",
+    "Option_C": "Informative Signs",
+    "Option_D": "Pavement Markings",
+    "Correct_Answer": "Warning Signs"
+  },
+  {
+    "ID": 14,
+    "Topic": "Renewal",
+    "Question": "Ano ang klasipikasyon ng mga sign na nagbibigay ng direksyon, instruksyon, at iba pang impormasyon upang tulungan ang mga gumagamit ng kalsada?",
+    "Option_A": "Warning Signs",
+    "Option_B": "Regulatory Signs",
+    "Option_C": "Informative Signs",
+    "Option_D": "Road Markings",
+    "Correct_Answer": "Informative Signs"
+  },
+  {
+    "ID": 15,
+    "Topic": "Renewal",
+    "Question": "Ano ang layunin ng mga road sign at marka sa kalsada (pavement markings) ayon sa manwal?",
+    "Option_A": "Upang palamutian ang mga pambansang highway",
+    "Option_B": "Upang gabayan ang mga motorista, naglalakad, at may-ari ng lisensya para sa mas mabuting pag-unawa at kaligtasan sa daan",
+    "Option_C": "Upang palitan ang pangangailangan para sa pagpasok sa driving school",
+    "Option_D": "Upang subaybayan ang bilis ng lahat ng tumatakbong sasakyan",
+    "Correct_Answer": "Upang gabayan ang mga motorista, naglalakad, at may-ari ng lisensya para sa mas mabuting pag-unawa at kaligtasan sa daan"
+  },
+  {
+    "ID": 16,
+    "Topic": "Renewal",
+    "Question": "Aling DL Code ang kinakailangan upang magmaneho ng mga motorsiklo (Vehicle Categories L1, L2, at L3)?",
+    "Option_A": "Code A",
+    "Option_B": "Code B",
+    "Option_C": "Code C",
+    "Option_D": "Code D",
+    "Correct_Answer": "Code A"
+  },
+  {
+    "ID": 17,
+    "Topic": "Renewal",
+    "Question": "Ang isang drayber na may DL Code B ay awtorisadong magmaneho ng anong uri ng sasakyan?",
+    "Option_A": "Heavy commercial vehicles (N2, N3)",
+    "Option_B": "Sasakyang pampasahero na hindi hihigit sa 8 upuan (M1)",
+    "Option_C": "Heavy passenger buses (M3)",
+    "Option_D": "Motorsiklo na may sidecar (L4)",
+    "Correct_Answer": "Sasakyang pampasahero na hindi hihigit sa 8 upuan (M1)"
+  },
+  {
+    "ID": 18,
+    "Topic": "Renewal",
+    "Question": "Aling Vehicle Category ang tumutugma sa DL Code B1?",
+    "Option_A": "M1 (Passenger Car)",
+    "Option_B": "M2 (Passenger Van/Jeepney)",
+    "Option_C": "N1 (Light Commercial)",
+    "Option_D": "O1 (Light Articulated)",
+    "Correct_Answer": "M2 (Passenger Van/Jeepney)"
+  },
+  {
+    "ID": 19,
+    "Topic": "Renewal",
+    "Question": "Aling DL Code ang kinakailangan para sa mga heavy commercial vehicle na nasa kategoryang N2 at N3?",
+    "Option_A": "Code B",
+    "Option_B": "Code B2",
+    "Option_C": "Code C",
+    "Option_D": "Code CE",
+    "Correct_Answer": "Code C"
+  },
+  {
+    "ID": 20,
+    "Topic": "Renewal",
+    "Question": "Kung ang lisensya ng drayber ay may Manual Transmission (MT) Clutch Code, anong uri ng mga sasakyan ang maaari nilang imaneho?",
+    "Option_A": "Mga sasakyang Manual Transmission (MT) lamang",
+    "Option_B": "Mga sasakyang Automatic Transmission (AT) lamang",
+    "Option_C": "Parehong Manual (MT) at Automatic (AT) na mga sasakyan",
+    "Option_D": "Mga semi-automatic na sasakyan lamang",
+    "Correct_Answer": "Parehong Manual (MT) at Automatic (AT) na mga sasakyan"
+  },
+  {
+    "ID": 21,
+    "Topic": "Renewal",
+    "Question": "Kung ang isang drayber ay sertipikado ng isang LTO accredited physician na may paningin na hindi pasok sa 20/40 range, anong Medical Condition Code ang dapat na nakalagay sa kanyang lisensya?",
+    "Option_A": "Condition 1 (Magmaneho lamang gamit ang corrective lenses)",
+    "Option_B": "Condition 2 (Magmaneho lamang gamit ang espesyal na kagamitan)",
+    "Option_C": "Condition 4 (Magmaneho lamang sa oras ng may araw)",
+    "Option_D": "Condition 5 (Magmaneho lamang gamit ang hearing aid)",
+    "Correct_Answer": "Condition 1 (Magmaneho lamang gamit ang corrective lenses)"
+  },
+  {
+    "ID": 22,
+    "Topic": "Renewal",
+    "Question": "Ang isang licensee na may Medical Condition Code 4 ay limitado sa pagmamaneho sa anong oras?",
+    "Option_A": "Gabi lamang",
+    "Option_B": "Oras ng may araw lamang (daylight)",
+    "Option_C": "Rush hours lamang",
+    "Option_D": "Tuwing weekend lamang",
+    "Correct_Answer": "Oras ng may araw lamang (daylight)"
+  },
+  {
+    "ID": 23,
+    "Topic": "Renewal",
+    "Question": "Ayon sa 2012 DPWH standards, ano ang layunin ng mga marka sa kalsada (pavement markings)?",
+    "Option_A": "Upang ipakita ang mga administratibong hangganan ng isang lungsod",
+    "Option_B": "Upang magbigay ng malinaw na gabay at regulasyon para sa paggamit ng lane ng mga motorista",
+    "Option_C": "Upang palitan ang pangangailangan para sa mga ilaw sa kalsada sa gabi",
+    "Option_D": "Upang kilalanin ang partikular na road contractor na gumawa ng highway",
+    "Correct_Answer": "Upang magbigay ng malinaw na gabay at regulasyon para sa paggamit ng lane ng mga motorista"
+  },
+  {
+    "ID": 24,
+    "Topic": "Renewal",
+    "Question": "Ang mga may-ari ba ng Driver's License na may AT (Automatic Transmission) clutch code ay pinapayagang magmaneho ng mga sasakyang MT (Manual Transmission)?",
+    "Option_A": "Oo, sa anumang oras",
+    "Option_B": "Oo, ngunit may student permit lamang",
+    "Option_C": "Hindi, hindi sila pinapayagan",
+    "Option_D": "Sa mga kaso lamang ng matinding emerhensya",
+    "Correct_Answer": "Hindi, hindi sila pinapayagan"
+  },
+  {
+    "ID": 25,
+    "Topic": "Renewal",
+    "Question": "Ang Medical Certificate na inisyu ng isang LTO accredited clinic ay may bisa sa loob ng ilang araw mula sa petsa ng pagkakaloob?",
+    "Option_A": "15 araw",
+    "Option_B": "30 araw",
+    "Option_C": "60 araw",
+    "Option_D": "90 araw",
+    "Correct_Answer": "60 araw"
+  }
+]
