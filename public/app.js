@@ -1,222 +1,215 @@
-// --- APPLICATION STATE VARIABLES ---
-let currentUser = null;
-let activeQuestionPool = [];
-let currentQuestionIndex = 0;
-let userScore = 0;
-let incorrectItemsTracker = [];
+// --- STATE MANAGEMENT SYSTEM ---
+let currentSession = {
+    userId: null,
+    questions: [],
+    currentIndex: 0,
+    score: 0,
+    incorrectItems: [],
+    selectedAnswer: null,
+    timerInterval: null,
+    timeLeft: 3600 // 60 minutes default
+};
 
-// --- VIEW CONTROLLER ---
-function switchView(viewId) {
-    document.getElementById('auth-view').classList.add('hidden');
-    document.getElementById('dashboard-view').classList.add('hidden');
-    document.getElementById('quiz-view').classList.add('hidden');
-    document.getElementById('results-view').classList.add('hidden');
+// --- DOM ELEMENT ANCHORS ---
+const stages = {
+    auth: document.getElementById('auth-stage'),
+    exam: document.getElementById('exam-stage'),
+    results: document.getElementById('results-stage')
+};
 
-    document.getElementById(viewId).classList.remove('hidden');
-}
+// --- INITIALIZATION EVENT ---
+document.getElementById('start-btn').addEventListener('click', initializeSession);
+document.getElementById('next-btn').addEventListener('click', advanceQuestion);
+document.getElementById('restart-btn').addEventListener('click', () => window.location.reload());
 
-// --- USER MANAGEMENT (SIGNUP) ---
-async function registerUser() {
+// --- STAGE 1: AUTHENTICATION & INITIALIZATION ---
+async function initializeSession() {
     const name = document.getElementById('username').value.trim();
     const age = parseInt(document.getElementById('userage').value);
-    const learning_status = document.getElementById('userstatus').value;
+    const learningStatus = document.getElementById('learning-status').value;
+    const lang = document.getElementById('exam-lang').value;
 
     if (!name || !age) {
-        alert("Please provide both your name and age to enter the portal.");
+        alert('Please fill out all identification fields before starting.');
         return;
     }
 
     try {
-        const response = await fetch('/api/signup', {
+        // 1. Register User Profile in SQLite
+        const authResponse = await fetch('/api/signup', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ name, age, learning_status })
+            body: JSON.stringify({ name, age, learning_status: learningStatus })
         });
+        const user = await authResponse.json();
+        currentSession.userId = user.id;
 
-        currentUser = await response.json();
-        
-        // Update Dashboard Welcome Elements
-        document.getElementById('display-name').textContent = currentUser.name;
-        
-        // Tailor UI options based on License Status selection
-        const topicsContainer = document.getElementById('student-topics-container');
-        if (currentUser.learning_status === 'driver') {
-            topicsContainer.classList.add('hidden'); // Drivers only take standard Renewal exams
-        } else {
-            topicsContainer.classList.remove('hidden'); // Students can pick categories
-        }
+        // 2. Fetch Balanced Questions Dynamic Pool
+        const questionsResponse = await fetch(`/api/questions?lang=${lang}&type=${learningStatus}&topic=all`);
+        currentSession.questions = await questionsResponse.json();
 
-        switchView('dashboard-view');
-        fetchPerformanceAnalytics();
-
-    } catch (err) {
-        console.error("Signup tracking failed:", err);
-        alert("Could not connect to the local server. Is 'node server.js' running?");
-    }
-}
-
-// --- ANALYTICS INSIGHTS FETCH ---
-async function fetchPerformanceAnalytics() {
-    const deck = document.getElementById('analytics-deck');
-    if (!currentUser) return;
-
-    try {
-        const response = await fetch(`/api/performance/${currentUser.id}`);
-        const rows = await response.json();
-
-        if (rows.length === 0) {
-            deck.innerHTML = `<p style='color:gray; text-align:center;'>No test history recorded yet. Complete an exam to calculate your weakest categories!</p>`;
+        if (currentSession.questions.length === 0) {
+            alert('The question pool for this combination is empty or unreadable.');
             return;
         }
 
-        deck.innerHTML = rows.map(row => `
-            <div class="metric-card">
-                <strong>${row.topic}</strong>: ${row.mistakes_count} total mistake(s) registered
-            </div>
-        `).join('');
+        // 3. Adjust Timer based on LTO rules (25 items vs 60 items)
+        currentSession.timeLeft = learningStatus === 'driver' ? 30 * 60 : 60 * 60;
 
-    } catch (err) {
-        deck.innerHTML = `<p style='color:red;'>Failed to load diagnostics framework.</p>`;
+        // 4. Interface Transition
+        stages.auth.classList.add('hidden');
+        stages.exam.classList.remove('hidden');
+
+        startExamTimer();
+        renderQuestion();
+
+    } catch (error) {
+        console.error('Session boot failure:', error);
+        alert('An error occurred while preparing your exam environment.');
     }
 }
 
-// --- QUIZ LAYOUT INITIALIZATION ---
-async function initializeExamination() {
-    const lang = document.getElementById('exam-lang').value;
-    const scopeElement = document.getElementById('exam-scope');
-    const topic = currentUser.learning_status === 'driver' ? 'all' : scopeElement.value;
+// --- STAGE 2: QUIZ LOOP CORE ---
+function renderQuestion() {
+    const nextBtn = document.getElementById('next-btn');
+    nextBtn.classList.add('hidden');
+    currentSession.selectedAnswer = null;
 
-    try {
-        const queryParams = `?lang=${lang}&type=${currentUser.learning_status}&topic=${encodeURIComponent(topic)}`;
-        const response = await fetch(`/api/questions${queryParams}`);
-        activeQuestionPool = await response.json();
-
-        if (activeQuestionPool.length === 0) {
-            alert("No matching questions found in the database. Ensure your data/ folder is fully populated!");
-            return;
-        }
-
-        // Reset tracking states
-        currentQuestionIndex = 0;
-        userScore = 0;
-        incorrectItemsTracker = [];
-
-        switchView('quiz-view');
-        renderActiveQuestion();
-
-    } catch (err) {
-        console.error("Could not fetch question pool array:", err);
-        alert("Error launching testing engine.");
-    }
-}
-
-// --- RENDER CURRENT ACTIVE ITEM ---
-function renderActiveQuestion() {
-    const question = activeQuestionPool[currentQuestionIndex];
+    const q = currentSession.questions[currentSession.currentIndex];
     
-    // Hide 'Next' button until user choices are explicitly verified
-    document.getElementById('next-item-btn').classList.add('hidden');
+    // Update Counter & Progress Bar
+    document.getElementById('question-counter').innerText = `Question ${currentSession.currentIndex + 1} of ${currentSession.questions.length}`;
+    const progressPercent = (currentSession.currentIndex / currentSession.questions.length) * 100;
+    document.getElementById('progress-bar').style.width = `${progressPercent}%`;
 
-    // Update Progress Bars and Titles
-    document.getElementById('quiz-progress').textContent = `Question ${currentQuestionIndex + 1} of ${activeQuestionPool.length}`;
-    document.getElementById('quiz-topic').textContent = question.topic || "General Knowledge";
-    document.getElementById('quiz-question-text').textContent = question.question;
+    // Display Question
+    document.getElementById('question-display').innerText = q.question;
 
-    const optionsBox = document.getElementById('quiz-options-box');
-    optionsBox.innerHTML = '';
+    // Render Option Rows
+    const optionsContainer = document.getElementById('options-display');
+    optionsContainer.innerHTML = '';
 
-    // Render interactive multi-choice option buttons dynamically
-    question.options.forEach(optionText => {
+    q.options.forEach((option) => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
-        btn.textContent = optionText;
-        btn.onclick = () => verifyUserChoice(btn, optionText, question);
-        optionsBox.appendChild(btn);
+        btn.innerText = option;
+        
+        btn.addEventListener('click', () => {
+            if (currentSession.selectedAnswer !== null) return; // Prevent double-clicking
+            
+            currentSession.selectedAnswer = option;
+            
+            // Minimalist selection micro-interaction highlight
+            btn.classList.add('selected');
+            nextBtn.classList.remove('hidden');
+        });
+
+        optionsContainer.appendChild(btn);
     });
 }
 
-// --- INTERACTIVE VERIFICATION LOGIC (COLOR SHIFT ENGINE) ---
-function verifyUserChoice(selectedButton, chosenText, questionItem) {
-    const optionsBox = document.getElementById('quiz-options-box');
-    const buttons = optionsBox.getElementsByClassName('option-btn');
+function advanceQuestion() {
+    const q = currentSession.questions[currentSession.currentIndex];
+    const isCorrect = (currentSession.selectedAnswer === q.correct_answer);
 
-    // Freeze inputs to block duplicate point-scoring tampering
-    for (let btn of buttons) {
-        btn.disabled = true;
-        
-        // Turn the absolute correct choice green immediately
-        if (btn.textContent === questionItem.answer) {
-            btn.classList.add('correct');
-        }
-    }
-
-    if (chosenText === questionItem.answer) {
-        userScore++;
+    // Track state metrics
+    if (isCorrect) {
+        currentSession.score++;
     } else {
-        // If wrong, highlight user selection red and log to weak analytics array
-        selectedButton.classList.add('wrong');
-        incorrectItemsTracker.push({
-            id: questionItem.id,
-            topic: questionItem.topic || "General Knowledge"
+        currentSession.incorrectItems.push({
+            question: q.question,
+            topic: q.topic
         });
     }
 
-    // Unveil forward progression control
-    document.getElementById('next-item-btn').classList.remove('hidden');
-}
+    currentSession.currentIndex++;
 
-// --- CYCLE POOL PROGRESSION ---
-function advanceNextQuestion() {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < activeQuestionPool.length) {
-        renderActiveQuestion();
+    if (currentSession.currentIndex < currentSession.questions.length) {
+        renderQuestion();
     } else {
-        processExamFinalization();
+        completeExamSession();
     }
 }
 
-// --- SCORE SUBMISSION PROCESSOR ---
-async function processExamFinalization() {
-    const lang = document.getElementById('exam-lang').value;
-    const examTypeLabel = currentUser.learning_status === 'driver' ? 'Driver Renewal' : 'Student Mock';
+// --- COUNTDOWN SYSTEM ---
+function startExamTimer() {
+    const timerDisplay = document.getElementById('exam-timer');
+    
+    currentSession.timerInterval = setInterval(() => {
+        currentSession.timeLeft--;
+        
+        const mins = Math.floor(currentSession.timeLeft / 60);
+        const secs = currentSession.timeLeft % 60;
+        timerDisplay.innerText = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
 
+        if (currentSession.timeLeft <= 300) {
+            timerDisplay.style.color = 'var(--error)'; // Urgent Warning coloring
+        }
+
+        if (currentSession.timeLeft <= 0) {
+            clearInterval(currentSession.timerInterval);
+            alert('Time limit expired! Processing available answers.');
+            completeExamSession();
+        }
+    }, 1000);
+}
+
+// --- STAGE 3: METRICS PROCESSING & COMPLETION ---
+async function completeExamSession() {
+    clearInterval(currentSession.timerInterval);
+    document.getElementById('progress-bar').style.width = '100%';
+
+    stages.exam.classList.add('hidden');
+    stages.results.classList.remove('hidden');
+
+    const total = currentSession.questions.length;
+    const finalScore = currentSession.score;
+    const learningStatus = document.getElementById('learning-status').value;
+
+    // Render score metrics
+    document.getElementById('score-display').innerText = `${finalScore}/${total}`;
+
+    // LTO Passing Score Metrics Rules evaluation
+    const passingMark = learningStatus === 'driver' ? 20 : 48; // 20/25 for renewal, 48/60 for non-pro
+    const statusText = document.getElementById('passing-status');
+
+    if (finalScore >= passingMark) {
+        statusText.innerText = 'PASSED - Ready for LTO Portal Evaluation';
+        statusText.style.color = 'var(--success)';
+    } else {
+        statusText.innerText = `FAILED - Passing Score is ${passingMark}/${total}`;
+        statusText.style.color = 'var(--error)';
+    }
+
+    // Save exam attempt history payload to backend database via REST
     try {
         await fetch('/api/submit-exam', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-                user_id: currentUser.id,
-                exam_type: examTypeLabel,
-                language: lang,
-                score: userScore,
-                total_questions: activeQuestionPool.length,
-                incorrect_items: incorrectItemsTracker
+                user_id: currentSession.userId,
+                exam_type: learningStatus,
+                language: document.getElementById('exam-lang').value,
+                score: finalScore,
+                total_questions: total,
+                incorrect_items: currentSession.incorrectItems
             })
         });
-    } catch (err) {
-        console.error("Analytics syncing failed to reach database file:", err);
-    }
 
-    // Display Outcomes Breakdown
-    document.getElementById('score-display').textContent = `${userScore} / ${activeQuestionPool.length}`;
-    
-    // Calculate standard LTO pass metrics threshold cutoffs (usually 80% passing grade)
-    const passingRatio = userScore / activeQuestionPool.length;
-    const banner = document.getElementById('pass-fail-banner');
-    
-    if (passingRatio >= 0.80) {
-        banner.textContent = "PASSED! Excellent knowledge mastery status.";
-        banner.style.color = "green";
-    } else {
-        banner.textContent = "FAILED. Review your targeted error cards on the dashboard.";
-        banner.style.color = "red";
-    }
+        // Load performance dashboard telemetry from backend metrics generator
+        const matrixResponse = await fetch(`/api/performance/${currentSession.userId}`);
+        const performanceData = await matrixResponse.json();
+        
+        renderWeaknessMatrix(performanceData);
 
-    switchView('results-view');
+    } catch (error) {
+        console.error('Data metric archival failed:', error);
+    }
 }
 
-// --- PORTAL RESET ENGINE ---
-function returnToDashboard() {
-    switchView('dashboard-view');
-    fetchPerformanceAnalytics(); // Refresh the weakness list based on recent test mistakes
-}
+function renderWeaknessMatrix(data) {
+    const container = document.getElementById('performance-matrix');
+    container.innerHTML = '';
+
+    if (data.length === 0) {
+        container.innerHTML = `<p style="color: var(--success); font-size: 0.9rem; font-weight:500;">Perfect score recorded! No structural weaknesses detected.</p>`;

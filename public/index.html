@@ -3,152 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LTO Theoretical Examination Reviewer Portal</title>
-    <style>
-        :root {
-            --primary: #0f4c81;
-            --secondary: #f5f7fa;
-            --success: #2e7d32;
-            --error: #c62828;
-            --dark: #2c3e50;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--secondary);
-            color: var(--dark);
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-        h1, h2 { text-align: center; color: var(--primary); }
-        .hidden { display: none !important; }
-        .form-group {
-            margin-bottom: 20px;
-        }
-        label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 600;
-        }
-        input, select, button {
-            width: 100%;
-            padding: 12px;
-            border: 2px solid #ddd;
-            border-radius: 6px;
-            font-size: 16px;
-            box-sizing: border-box;
-        }
-        button {
-            background-color: var(--primary);
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-weight: bold;
-            transition: background 0.2s;
-            margin-top: 10px;
-        }
-        button:hover { background-color: #0b3861; }
-        .option-btn {
-            background-color: #f8f9fa;
-            color: var(--dark);
-            border: 2px solid #e9ecef;
-            text-align: left;
-            margin-bottom: 12px;
-            padding: 15px;
-        }
-        .option-btn:hover { background-color: #e2e6ea; }
-        .correct { background-color: var(--success) !important; color: white !important; }
-        .wrong { background-color: var(--error) !important; color: white !important; }
-        .metric-card {
-            background: #edf2f7;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 10px;
-            border-left: 5px solid var(--primary);
-        }
-    </style>
+    <title>LTO Mock Exam Portal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
-    <h1>LTO Driver Licensing Reviewer</h1>
-    
-    <div id="auth-view">
-        <h2>User Registration</h2>
-        <div class="form-group">
-            <label>Full Name</label>
-            <input type="text" id="username" placeholder="Enter name...">
-        </div>
-        <div class="form-group">
-            <label>Age</label>
-            <input type="number" id="userage" placeholder="Enter age...">
-        </div>
-        <div class="form-group">
-            <label>Target License Status</label>
-            <select id="userstatus">
-                <option value="student">Student Permit / First-Time Applicant</option>
-                <option value="driver">Existing Driver (License Renewal)</option>
-            </select>
-        </div>
-        <button onclick="registerUser()">Enter Portal</button>
+    <div class="container">
+        <header>
+            <h1>LTO Mock Exam Portal</h1>
+            <p class="subtitle">Land Transportation Office Licensing Reviewer</p>
+        </header>
+
+        <section id="auth-stage">
+            <div class="form-group">
+                <label for="username">Full Name</label>
+                <input type="text" id="username" placeholder="e.g., Juan Dela Cruz" required>
+            </div>
+
+            <div class="form-group">
+                <label for="userage">Age</label>
+                <input type="number" id="userage" placeholder="e.g., 25" min="16" required>
+            </div>
+
+            <div class="form-group">
+                <label for="learning-status">Application Type</label>
+                <select id="learning-status">
+                    <option value="student">Student Permit / Non-Professional License (60 Items)</option>
+                    <option value="driver">Professional License / Renewal (25 Items)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exam-lang">Preferred Language</label>
+                <select id="exam-lang">
+                    <option value="en">English</option>
+                    <option value="tl">Tagalog (Filipino)</option>
+                </select>
+            </div>
+
+            <button id="start-btn">Initialize Exam Session</button>
+        </section>
+
+        <section id="exam-stage" class="hidden">
+            <div class="progress-container" style="background: var(--border); height: 4px; border-radius: 2px; margin-bottom: 1.5rem; position: relative; overflow: hidden;">
+                <div id="progress-bar" style="background: var(--primary); height: 100%; width: 0%; transition: width 0.3s ease;"></div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                <span id="question-counter" style="font-size: 0.875rem; font-weight: 600; color: var(--text-muted);">Question 1 of --</span>
+                <span id="exam-timer" style="font-size: 0.875rem; font-weight: 700; color: var(--accent);">60:00</span>
+            </div>
+
+            <div class="question-card">
+                <p class="question-text" id="question-display">Loading core validation parameters...</p>
+                
+                <div class="options-list" id="options-display">
+                    </div>
+            </div>
+
+            <button id="next-btn" class="hidden" style="margin-top: 1.5rem; background-color: var(--accent);">Proceed to Next Item</button>
+        </section>
+
+        <section id="results-stage" class="hidden">
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h2 style="font-size: 2rem; color: var(--primary); margin-bottom: 0.5rem;">Exam Complete</h2>
+                <div style="font-size: 3.5rem; font-weight: 700; color: var(--success); margin-line: auto;" id="score-display">0/0</div>
+                <p id="passing-status" style="font-weight: 600; margin-top: 0.5rem;"></p>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid var(--border); margin-bottom: 1.5rem;">
+
+            <div>
+                <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--primary-light); margin-bottom: 1rem;">Analytical Weakness Matrix</h3>
+                <div id="performance-matrix" style="display: flex; flex-direction: column; gap: 0.75rem;">
+                    </div>
+            </div>
+
+            <button id="restart-btn" style="margin-top: 2rem;">Return to Dashboard</button>
+        </section>
     </div>
 
-    <div id="dashboard-view" class="hidden">
-        <h2>Welcome, <span id="display-name"></span>!</h2>
-        <p style="text-align: center;">Configure your practice testing parameters below.</p>
-        
-        <div class="form-group">
-            <label>Preferred Language</label>
-            <select id="exam-lang">
-                <option value="en">English (English Pool)</option>
-                <option value="tl">Tagalog (Tagalog Pool)</option>
-            </select>
-        </div>
-
-        <div class="form-group" id="student-topics-container">
-            <label>Examination Scope Category</label>
-            <select id="exam-scope">
-                <option value="all">General Examination Mock (60 Questions Randomized)</option>
-                <option value="Road Signs and Pavement Markings">1. Road Signs and Pavement Markings</option>
-                <option value="Road and Traffic Rules">2. Road and Traffic Rules</option>
-                <option value="Safe Driving Principles">3. Safe Driving Principles</option>
-                <option value="Land Transportation Laws and Violations">4. Land Transportation Laws and Violations</option>
-                <option value="Licensing Information and General Knowledge">5. Licensing Information and General Knowledge</option>
-                <option value="Vehicle Maintenance and Troubleshooting">6. Vehicle Maintenance and Troubleshooting</option>
-            </select>
-        </div>
-
-        <button onclick="initializeExamination()">Start Assessment</button>
-        
-        <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ddd;">
-        <h3>Your Weakness Analysis Dashboard</h3>
-        <div id="analytics-deck">Loading diagnostic tracking metrics...</div>
-    </div>
-
-    <div id="quiz-view" class="hidden">
-        <h3 id="quiz-progress" style="color: gray;">Question 0/0</h3>
-        <div id="quiz-topic" style="font-weight: bold; color: var(--primary); margin-bottom: 5px;">Topic</div>
-        <h2 id="quiz-question-text" style="text-align: left; margin-bottom: 25px;">Question Body Text?</h2>
-        
-        <div id="quiz-options-box"></div>
-        <button id="next-item-btn" class="hidden" onclick="advanceNextQuestion()">Proceed to Next Question</button>
-    </div>
-
-    <div id="results-view" class="hidden">
-        <h2>Assessment Completed!</h2>
-        <h1 id="score-display" style="font-size: 48px; margin: 10px 0;">0 / 0</h1>
-        <h3 id="pass-fail-banner"></h3>
-        <button onclick="returnToDashboard()">Return to Dashboard</button>
-    </div>
-</div>
-
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

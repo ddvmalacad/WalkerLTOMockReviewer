@@ -1,0 +1,205 @@
+/* --- Google Fonts Import --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* --- CSS Variables / Design Tokens --- */
+:root {
+    --bg-main: #f8fafc;        /* Slate 50 - Soft background baseline */
+    --surface: #ffffff;        /* Pristine canvas white */
+    --primary: #0f172a;        /* Slate 900 - Rich dark navy for maximum readability */
+    --primary-light: #1e293b;  /* Slate 800 - Secondary headers */
+    --accent: #d97706;         /* Amber 600 - Low-contrast alert / timer accent */
+    --text-main: #1e293b;      /* Primary body text */
+    --text-muted: #64748b;     /* Muted parameters/counters */
+    --border: #e2e8f0;         /* Split parameters divider line */
+    --success: #16a34a;        /* Emerald 600 - Passing feedback */
+    --error: #dc2626;          /* Red 600 - Failure diagnostic indicator */
+    --radius: 12px;
+    --shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
+    --transition: all 0.2s ease-in-out;
+}
+
+/* --- Global Reset & Base Styles --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    line-height: 1.6;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- App Container Wrapper --- */
+.container {
+    width: 100%;
+    max-width: 650px;
+    background-color: var(--surface);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 2.5rem;
+    border: 1px solid var(--border);
+}
+
+/* --- Typography / Headers --- */
+h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+p.subtitle {
+    color: var(--text-muted);
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 0.95rem;
+}
+
+/* --- Form Controls & Inputs --- */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-light);
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background-color: #fafafa;
+    color: var(--text-main);
+    transition: var(--transition);
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: var(--accent);
+    background-color: var(--surface);
+    box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.15);
+}
+
+/* --- Buttons --- */
+button {
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+button:hover {
+    background-color: var(--primary-light);
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* --- Interactive Quiz Layout --- */
+.question-card {
+    margin-top: 0.5rem;
+}
+
+.question-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    color: var(--primary);
+    letter-spacing: -0.01em;
+}
+
+.options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+/* Interactive Option Rows */
+.option-btn {
+    width: 100%;
+    text-align: left;
+    padding: 1.1rem 1.25rem;
+    background-color: var(--surface);
+    color: var(--text-main);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: none;
+    transition: var(--transition);
+}
+
+.option-btn:hover {
+    background-color: #f8fafc;
+    border-color: var(--text-muted);
+    transform: scale(0.998);
+}
+
+/* State Toggles (Triggered via JavaScript selection) */
+.option-btn.selected {
+    border-color: var(--accent);
+    background-color: rgba(217, 119, 6, 0.04);
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.option-btn.correct {
+    border-color: var(--success);
+    background-color: rgba(22, 163, 74, 0.06);
+    color: var(--success);
+}
+
+.option-btn.incorrect {
+    border-color: var(--error);
+    background-color: rgba(220, 38, 38, 0.06);
+    color: var(--error);
+}
+
+/* --- Utilities & Responsive Design --- */
+.hidden {
+    display: none !important;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 1rem 0.5rem;
+    }
+    .container {
+        padding: 1.75rem 1.25rem;
+        border-radius: 8px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .question-text {
+        font-size: 1.15rem;
+    }
+}
