@@ -1,6 +1,6 @@
 // --- CENTRALIZED ARCHITECTURE APPLICATION STATE ---
 let currentSession = {
-    user: null, // Holds profile properties globally
+    user: null, 
     questions: [],
     currentIndex: 0,
     score: 0,
@@ -11,7 +11,7 @@ let currentSession = {
     timeLeft: 3600
 };
 
-let authIsRegistrationMode = true; // State switch for tracking login screens
+let authIsRegistrationMode = true; 
 
 // --- INTERACTIVE MATRIX DOCUMENT ENGINE MATCHES ---
 const stages = {
@@ -210,7 +210,7 @@ async function initializeSession() {
     const topic = document.getElementById('exam-topic').value;
 
     try {
-        const questionsResponse = await fetch(`/api/questions?lang=${lang}&type=${learningStatus}&topic=${topic}`);
+        const questionsResponse = await fetch(`/api/questions?lang=${lang}&type=${learningStatus}&topic=${encodeURIComponent(topic)}`);
         currentSession.questions = await questionsResponse.json();
 
         if (currentSession.questions.length === 0) {
@@ -222,13 +222,12 @@ async function initializeSession() {
         currentSession.score = 0;
         currentSession.incorrectItems = [];
 
-        // Dynamic target clock mapping profiles
         if (topic !== 'all' && topic !== 'general' && topic !== 'renewal') {
-            currentSession.timeLeft = 20 * 60; // Focus sets -> 20 mins
+            currentSession.timeLeft = 20 * 60; 
         } else if (learningStatus === 'driver') {
-            currentSession.timeLeft = 30 * 60; // Pro renewal sets -> 30 mins
+            currentSession.timeLeft = 30 * 60; 
         } else {
-            currentSession.timeLeft = 60 * 60; // Student standard sets -> 60 mins
+            currentSession.timeLeft = 60 * 60; 
         }
 
         navigateToStage('exam');
@@ -245,6 +244,13 @@ async function initializeSession() {
 function renderQuestion() {
     const nextBtn = document.getElementById('next-btn');
     nextBtn.classList.add('hidden');
+    
+    // DYNAMIC TEXT LABELLING: Turns to Submit Exam button if it is the absolute final item
+    if (currentSession.currentIndex === currentSession.questions.length - 1) {
+        nextBtn.innerText = "Submit Exam ➔";
+    } else {
+        nextBtn.innerText = "Proceed to Next Item ➔";
+    }
     
     currentSession.selectedAnswer = null;
     currentSession.isSelectedAnswerCorrect = false;
@@ -267,7 +273,6 @@ function renderQuestion() {
         q.Option_D || q.option_d
     ];
 
-    // STRIPS THE BLANK FIELDS OUT: Never generates a structural box artifact for empty space cells
     const validOptions = rawOptions.filter(opt => opt !== undefined && opt !== null && String(opt).trim() !== "");
 
     validOptions.forEach((option, index) => {
@@ -304,7 +309,7 @@ function renderQuestion() {
 
 function advanceQuestion() {
     const q = currentSession.questions[currentSession.currentIndex];
-    const safeTopic = q.Topic || q.topic || 'General';
+    const safeTopic = q.Topic || q.topic || 'General Knowledge';
 
     if (currentSession.isSelectedAnswerCorrect) {
         currentSession.score++;
@@ -324,12 +329,10 @@ function advanceQuestion() {
     }
 }
 
-// --- FIXES TIMER DISPLAY DELAY AND FLASH ARTIFACTS ---
 function startExamTimer() {
     const timerDisplay = document.getElementById('exam-timer');
-    timerDisplay.style.color = 'var(--text-main)'; // Reset color
+    timerDisplay.style.color = 'var(--text-main)'; 
     
-    // Define an internal inline scheduler task
     const renderClockSnapshot = () => {
         const mins = Math.floor(currentSession.timeLeft / 60);
         const secs = currentSession.timeLeft % 60;
@@ -340,7 +343,6 @@ function startExamTimer() {
         }
     };
 
-    // RUN INSTANTLY: Pulls rendering calculations forward so the user never catches a 60:00 flash frame
     renderClockSnapshot();
 
     currentSession.timerInterval = setInterval(() => {
@@ -355,7 +357,6 @@ function startExamTimer() {
     }, 1000);
 }
 
-// --- COMPILES AND CLOSES THE ACTIVE TEST SET ---
 async function completeExamSession() {
     clearInterval(currentSession.timerInterval);
     document.getElementById('progress-bar').style.width = '100%';
@@ -364,7 +365,6 @@ async function completeExamSession() {
 
     const total = currentSession.questions.length;
     const finalScore = currentSession.score;
-    const learningStatus = document.getElementById('learning-status').value;
 
     document.getElementById('score-display').innerText = `${finalScore}/${total}`;
 
