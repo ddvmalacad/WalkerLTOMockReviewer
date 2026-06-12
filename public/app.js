@@ -130,7 +130,13 @@ function renderQuestion() {
 // --- NAVIGATION & METRIC COLLECTION ---
 function advanceQuestion() {
     const q = currentSession.questions[currentSession.currentIndex];
-    const isCorrect = (currentSession.selectedAnswer === q.correct_answer);
+    
+    // Safely convert both choices to lowercase and strip hidden trailing/leading spaces
+    const cleanUserAnswer = String(currentSession.selectedAnswer).toLowerCase().trim();
+    const cleanCorrectAnswer = String(q.correct_answer).toLowerCase().trim();
+
+    // Check for an exact word match OR check if the user selected an option that matches a letter key
+    const isCorrect = (cleanUserAnswer === cleanCorrectAnswer);
 
     // Track state metrics
     if (isCorrect) {
