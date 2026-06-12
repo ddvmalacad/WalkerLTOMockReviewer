@@ -17,7 +17,7 @@ const stages = {
     results: document.getElementById('results-stage')
 };
 
-// --- INITIALIZATION EVENT ---
+// --- INITIALIZATION EVENTS ---
 document.getElementById('start-btn').addEventListener('click', initializeSession);
 document.getElementById('next-btn').addEventListener('click', advanceQuestion);
 document.getElementById('restart-btn').addEventListener('click', () => window.location.reload());
@@ -35,7 +35,7 @@ async function initializeSession() {
     }
 
     try {
-        // 1. Register User Profile in SQLite
+        // 1. Register User Profile in SQLite via Backend API
         const authResponse = await fetch('/api/signup', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -213,3 +213,24 @@ function renderWeaknessMatrix(data) {
 
     if (data.length === 0) {
         container.innerHTML = `<p style="color: var(--success); font-size: 0.9rem; font-weight:500;">Perfect score recorded! No structural weaknesses detected.</p>`;
+        return;
+    }
+
+    data.forEach(item => {
+        const row = document.createElement('div');
+        row.style = `
+            display: flex; 
+            justify-content: space-between; 
+            background: #fafafa; 
+            padding: 0.75rem 1rem; 
+            border: 1px solid var(--border); 
+            border-radius: 6px;
+            font-size: 0.9rem;
+        `;
+        row.innerHTML = `
+            <span style="font-weight: 500; color: var(--primary-light);">${item.topic}</span>
+            <span style="font-weight: 700; color: var(--error);">${item.mistakes_count} Missed</span>
+        `;
+        container.appendChild(row);
+    });
+}
