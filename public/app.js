@@ -207,19 +207,28 @@ function advanceQuestion() {
 }
 
 // --- COUNTDOWN SYSTEM ---
+// --- COUNTDOWN SYSTEM ---
 function startExamTimer() {
     const timerDisplay = document.getElementById('exam-timer');
     
-    currentSession.timerInterval = setInterval(() => {
-        currentSession.timeLeft--;
-        
+    // Create a helper function to update the screen
+    const updateDisplay = () => {
         const mins = Math.floor(currentSession.timeLeft / 60);
         const secs = currentSession.timeLeft % 60;
         timerDisplay.innerText = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-
+        
         if (currentSession.timeLeft <= 300) {
             timerDisplay.style.color = 'var(--error)';
         }
+    };
+
+    // 1. Run it IMMEDIATELY so the user never sees the hardcoded "60:00"
+    updateDisplay(); 
+    
+    // 2. Then start the 1-second interval loop
+    currentSession.timerInterval = setInterval(() => {
+        currentSession.timeLeft--;
+        updateDisplay();
 
         if (currentSession.timeLeft <= 0) {
             clearInterval(currentSession.timerInterval);
