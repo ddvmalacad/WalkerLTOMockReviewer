@@ -17,18 +17,37 @@ const stages = {
     results: document.getElementById('results-stage')
 };
 
+const learningStatusSelect = document.getElementById('learning-status');
+const examTopicSelect = document.getElementById('exam-topic');
+
 // --- INITIALIZATION EVENTS ---
 document.getElementById('start-btn').addEventListener('click', initializeSession);
 document.getElementById('next-btn').addEventListener('click', advanceQuestion);
 document.getElementById('restart-btn').addEventListener('click', () => window.location.reload());
 
+// --- UI INTERLOCK: RESTRICT PROFESSIONAL EXAMS TO FULL MOCK ONLY ---
+learningStatusSelect.addEventListener('change', () => {
+    if (learningStatusSelect.value === 'driver') {
+        // Force selection to "All Topics" and disable control
+        examTopicSelect.value = 'all';
+        examTopicSelect.disabled = true;
+        examTopicSelect.style.opacity = '0.6';
+        examTopicSelect.style.cursor = 'not-allowed';
+    } else {
+        // Reactivate for Student Permits
+        examTopicSelect.disabled = false;
+        examTopicSelect.style.opacity = '1';
+        examTopicSelect.style.cursor = 'default';
+    }
+});
+
 // --- STAGE 1: AUTHENTICATION & INITIALIZATION ---
 async function initializeSession() {
     const name = document.getElementById('username').value.trim();
     const age = parseInt(document.getElementById('userage').value);
-    const learningStatus = document.getElementById('learning-status').value;
+    const learningStatus = learningStatusSelect.value;
     const lang = document.getElementById('exam-lang').value;
-    const topic = document.getElementById('exam-topic').value;
+    const topic = examTopicSelect.value;
 
     if (!name || !age) {
         alert('Please fill out all identification fields before starting.');
@@ -71,6 +90,7 @@ async function initializeSession() {
 }
 
 // --- STAGE 2: QUIZ LOOP CORE ---
+// Displays current question parameters and dynamically renders interaction rows.
 function renderQuestion() {
     const nextBtn = document.getElementById('next-btn');
     nextBtn.classList.add('hidden');
@@ -96,11 +116,9 @@ function renderQuestion() {
         btn.innerText = option;
         
         btn.addEventListener('click', () => {
-            if (currentSession.selectedAnswer !== null) return; // Prevent changing selections
+            if (currentSession.selectedAnswer !== null) return; // Locked after choice
             
             currentSession.selectedAnswer = option;
-            
-            // Minimalist selection micro-interaction highlight
             btn.classList.add('selected');
             nextBtn.classList.remove('hidden');
         });
@@ -145,7 +163,7 @@ function startExamTimer() {
         timerDisplay.innerText = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
 
         if (currentSession.timeLeft <= 300) {
-            timerDisplay.style.color = 'var(--error)'; // Alert user when under 5 minutes left
+            timerDisplay.style.color = 'var(--error)';
         }
 
         if (currentSession.timeLeft <= 0) {
@@ -166,13 +184,19 @@ async function completeExamSession() {
 
     const total = currentSession.questions.length;
     const finalScore = currentSession.score;
-    const learningStatus = document.getElementById('learning-status').value;
+    const learningStatus = learningStatusSelect.value;
 
     // Render score metrics
     document.getElementById('score-display').innerText = `${finalScore}/${total}`;
 
-    // LTO Passing Mark Threshold calculations
-    const passingMark = learningStatus === 'driver' ? 20 : 48; // 20/25 for renewal, 48/60 for non-pro
+    // --- DYNAMIC PASSING MARK EVALUATION ENGINE ---
+    let passingMark;
+    if (total === 10) {
+        passingMark = 8; // Focus category exam threshold (80% of 10)
+    } else {
+        passingMark = learningStatus === 'driver' ? 20 : 48; // Full comprehensive benchmarks (20/25 or 48/60)
+    }
+
     const statusText = document.getElementById('passing-status');
 
     if (finalScore >= passingMark) {
@@ -209,6 +233,7 @@ async function completeExamSession() {
     }
 }
 
+// Injects the analytical failure metrics into the results display section
 function renderWeaknessMatrix(data) {
     const container = document.getElementById('performance-matrix');
     container.innerHTML = '';
