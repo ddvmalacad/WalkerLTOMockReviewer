@@ -313,3 +313,7 @@ select:focus {
         font-size: 1.1rem;
     }
 }
+
+.hidden {
+    display: none !important;
+}
