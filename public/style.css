@@ -1,24 +1,24 @@
-/* --- Google Fonts Import --- */
+/* --- GOOGLE FONTS IMPORT --- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-/* --- CSS Variables / Design Tokens --- */
+/* --- SYSTEM DESIGN TOKENS --- */
 :root {
-    --bg-main: #f8fafc;        /* Slate 50 - Soft background baseline */
-    --surface: #ffffff;        /* Pristine canvas white */
-    --primary: #0f172a;        /* Slate 900 - Rich dark navy for maximum readability */
-    --primary-light: #1e293b;  /* Slate 800 - Secondary headers */
-    --accent: #d97706;         /* Amber 600 - Low-contrast alert / timer accent */
-    --text-main: #1e293b;      /* Primary body text */
-    --text-muted: #64748b;     /* Muted parameters/counters */
-    --border: #e2e8f0;         /* Split parameters divider line */
-    --success: #16a34a;        /* Emerald 600 - Passing feedback */
-    --error: #dc2626;          /* Red 600 - Failure diagnostic indicator */
-    --radius: 12px;
-    --shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
-    --transition: all 0.2s ease-in-out;
+    --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    --surface: #ffffff;
+    --primary: #1e3a8a;       /* Deep Luxury Navy */
+    --primary-light: #3b82f6; /* Modern Electric Blue */
+    --success: #10b981;       /* Premium Emerald Green */
+    --error: #ef4444;         /* Soft Vivid Crimson */
+    --text-main: #1f2937;     /* Charcoal Primary Text */
+    --text-muted: #6b7280;    /* Neutral Grey Text */
+    --border: #e5e7eb;        /* Soft Divider Line */
+    --radius-lg: 16px;
+    --radius-md: 10px;
+    --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+    --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* --- Global Reset & Base Styles --- */
+/* --- BASE STYLES & RESET --- */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -27,179 +27,253 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: var(--bg-main);
+    background: var(--bg-gradient);
+    min-height: 100vh;
     color: var(--text-main);
-    line-height: 1.6;
-    padding: 2rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    padding: 20px;
+    line-height: 1.5;
 }
 
-/* --- App Container Wrapper --- */
+/* --- THE MAIN VIEWPORT CARD --- */
 .container {
+    background: var(--surface);
     width: 100%;
-    max-width: 650px;
-    background-color: var(--surface);
-    border-radius: var(--radius);
+    max-width: 640px;
+    border-radius: var(--radius-lg);
     box-shadow: var(--shadow);
-    padding: 2.5rem;
-    border: 1px solid var(--border);
+    padding: 40px;
+    transition: var(--transition);
 }
 
-/* --- Typography / Headers --- */
-h1 {
-    font-size: 1.75rem;
+.hidden {
+    display: none !important;
+}
+
+/* --- STAGE 1: PORTAL AUTHENTICATION HEADER --- */
+header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+header h1 {
+    font-size: 1.8rem;
     font-weight: 700;
     color: var(--primary);
-    margin-bottom: 0.5rem;
-    text-align: center;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.025em;
+    margin-bottom: 6px;
 }
 
-p.subtitle {
+header p {
     color: var(--text-muted);
-    text-align: center;
-    margin-bottom: 2.5rem;
     font-size: 0.95rem;
 }
 
-/* --- Form Controls & Inputs --- */
+/* --- FORMS & INPUT CONTROLS --- */
 .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: 20px;
 }
 
-label {
+.form-group label {
     display: block;
+    font-size: 0.85rem;
     font-weight: 600;
-    font-size: 0.875rem;
-    margin-bottom: 0.5rem;
-    color: var(--primary-light);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    margin-bottom: 8px;
 }
 
 input[type="text"],
 input[type="number"],
 select {
     width: 100%;
-    padding: 0.8rem 1rem;
-    font-size: 1rem;
+    padding: 12px 16px;
     font-family: inherit;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    background-color: #fafafa;
+    font-size: 0.95rem;
     color: var(--text-main);
-    transition: var(--transition);
-}
-
-input:focus, select:focus {
+    background-color: #f9fafb;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
     outline: none;
-    border-color: var(--accent);
-    background-color: var(--surface);
-    box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.15);
+    transition: var(--transition);
+    appearance: none;
 }
 
-/* --- Buttons --- */
-button {
+/* Add custom arrow decoration for select fields */
+select {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 16px;
+    padding-right: 40px;
+}
+
+input:focus,
+select:focus {
+    border-color: var(--primary-light);
+    background-color: var(--surface);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+/* --- ACTION BUTTONS --- */
+.btn {
     width: 100%;
-    padding: 0.9rem;
+    padding: 14px;
+    font-family: inherit;
     font-size: 1rem;
     font-weight: 600;
-    font-family: inherit;
-    color: white;
+    color: #ffffff;
     background-color: var(--primary);
     border: none;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     cursor: pointer;
     transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 6px -1px rgba(30, 58, 138, 0.2);
 }
 
-button:hover {
-    background-color: var(--primary-light);
+.btn:hover {
+    background-color: #172e6b;
     transform: translateY(-1px);
+    box-shadow: 0 6px 12px -1px rgba(30, 58, 138, 0.3);
 }
 
-button:active {
+.btn:active {
     transform: translateY(0);
 }
 
-/* --- Interactive Quiz Layout --- */
-.question-card {
-    margin-top: 0.5rem;
+/* --- STAGE 2: HUD & LIVE TELEMETRY BAR --- */
+.exam-hud {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
 }
 
-.question-text {
+#exam-timer {
+    font-variant-numeric: tabular-nums;
+    background: #f3f4f6;
+    padding: 4px 10px;
+    border-radius: 6px;
+    letter-spacing: 0.05em;
+}
+
+.progress-container {
+    width: 100%;
+    height: 6px;
+    background-color: var(--border);
+    border-radius: 100px;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: var(--primary-light);
+    border-radius: 100px;
+    transition: width 0.3s ease;
+}
+
+/* --- QUESTION & MCQ INTERACTION ENGINE --- */
+#question-display {
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 600;
+    color: var(--text-main);
+    margin-bottom: 24px;
     line-height: 1.4;
-    margin-bottom: 2rem;
-    color: var(--primary);
-    letter-spacing: -0.01em;
 }
 
-.options-list {
+.options-grid {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 12px;
+    margin-bottom: 32px;
 }
 
-/* Interactive Option Rows */
 .option-btn {
     width: 100%;
     text-align: left;
-    padding: 1.1rem 1.25rem;
-    background-color: var(--surface);
-    color: var(--text-main);
-    border: 1px solid var(--border);
-    border-radius: 8px;
+    padding: 16px 20px;
+    font-family: inherit;
+    font-size: 0.95rem;
     font-weight: 500;
-    box-shadow: none;
+    color: var(--text-main);
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    cursor: pointer;
     transition: var(--transition);
+    outline: none;
 }
 
 .option-btn:hover {
-    background-color: #f8fafc;
-    border-color: var(--text-muted);
-    transform: scale(0.998);
+    background-color: #f9fafb;
+    border-color: #9ca3af;
+    transform: translateX(2px);
 }
 
-/* State Toggles (Triggered via JavaScript selection) */
-.option-btn.selected {
-    border-color: var(--accent);
-    background-color: rgba(217, 119, 6, 0.04);
-    color: var(--accent);
-    font-weight: 600;
+/* --- STAGE 3: SCOREBOARD & ANALYTICAL MATRIX --- */
+.results-header {
+    text-align: center;
+    margin-bottom: 32px;
 }
 
-.option-btn.correct {
-    border-color: var(--success);
-    background-color: rgba(22, 163, 74, 0.06);
-    color: var(--success);
+#score-display {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1;
+    margin-bottom: 8px;
+    letter-spacing: -0.05em;
 }
 
-.option-btn.incorrect {
-    border-color: var(--error);
-    background-color: rgba(220, 38, 38, 0.06);
-    color: var(--error);
+#passing-status {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    margin-bottom: 24px;
 }
 
-/* --- Utilities & Responsive Design --- */
-.hidden {
-    display: none !important;
+.matrix-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-main);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--border);
 }
 
+.matrix-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 32px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* --- RESPONSIVE SCALING --- */
 @media (max-width: 480px) {
     body {
-        padding: 1rem 0.5rem;
+        padding: 12px;
     }
     .container {
-        padding: 1.75rem 1.25rem;
-        border-radius: 8px;
+        padding: 24px 16px;
     }
-    h1 {
-        font-size: 1.5rem;
-    }
-    .question-text {
-        font-size: 1.15rem;
+    #question-display {
+        font-size: 1.1rem;
     }
 }
