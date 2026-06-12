@@ -28,6 +28,7 @@ async function initializeSession() {
     const age = parseInt(document.getElementById('userage').value);
     const learningStatus = document.getElementById('learning-status').value;
     const lang = document.getElementById('exam-lang').value;
+    const topic = document.getElementById('exam-topic').value;
 
     if (!name || !age) {
         alert('Please fill out all identification fields before starting.');
@@ -44,16 +45,16 @@ async function initializeSession() {
         const user = await authResponse.json();
         currentSession.userId = user.id;
 
-        // 2. Fetch Balanced Questions Dynamic Pool
-        const questionsResponse = await fetch(`/api/questions?lang=${lang}&type=${learningStatus}&topic=all`);
+        // 2. Fetch Questions Filtered by Language, Application Type, and chosen Topic Focus
+        const questionsResponse = await fetch(`/api/questions?lang=${lang}&type=${learningStatus}&topic=${topic}`);
         currentSession.questions = await questionsResponse.json();
 
         if (currentSession.questions.length === 0) {
-            alert('The question pool for this combination is empty or unreadable.');
+            alert('The question pool for this specific topic combination is empty or missing.');
             return;
         }
 
-        // 3. Adjust Timer based on LTO rules (25 items vs 60 items)
+        // 3. Adjust Timer based on LTO rules (25 items for renewal vs 60 items for comprehensive)
         currentSession.timeLeft = learningStatus === 'driver' ? 30 * 60 : 60 * 60;
 
         // 4. Interface Transition
@@ -95,7 +96,7 @@ function renderQuestion() {
         btn.innerText = option;
         
         btn.addEventListener('click', () => {
-            if (currentSession.selectedAnswer !== null) return; // Prevent double-clicking
+            if (currentSession.selectedAnswer !== null) return; // Prevent changing selections
             
             currentSession.selectedAnswer = option;
             
@@ -108,6 +109,7 @@ function renderQuestion() {
     });
 }
 
+// --- NAVIGATION & METRIC COLLECTION ---
 function advanceQuestion() {
     const q = currentSession.questions[currentSession.currentIndex];
     const isCorrect = (currentSession.selectedAnswer === q.correct_answer);
@@ -143,12 +145,12 @@ function startExamTimer() {
         timerDisplay.innerText = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
 
         if (currentSession.timeLeft <= 300) {
-            timerDisplay.style.color = 'var(--error)'; // Urgent Warning coloring
+            timerDisplay.style.color = 'var(--error)'; // Alert user when under 5 minutes left
         }
 
         if (currentSession.timeLeft <= 0) {
             clearInterval(currentSession.timerInterval);
-            alert('Time limit expired! Processing available answers.');
+            alert('Time limit expired! Auto-submitting answers.');
             completeExamSession();
         }
     }, 1000);
@@ -169,7 +171,7 @@ async function completeExamSession() {
     // Render score metrics
     document.getElementById('score-display').innerText = `${finalScore}/${total}`;
 
-    // LTO Passing Score Metrics Rules evaluation
+    // LTO Passing Mark Threshold calculations
     const passingMark = learningStatus === 'driver' ? 20 : 48; // 20/25 for renewal, 48/60 for non-pro
     const statusText = document.getElementById('passing-status');
 
@@ -228,7 +230,7 @@ function renderWeaknessMatrix(data) {
             font-size: 0.9rem;
         `;
         row.innerHTML = `
-            <span style="font-weight: 500; color: var(--primary-light);">${item.topic}</span>
+            <span style="font-weight: 500; color: var(--primary-light); text-transform: capitalize;">${item.topic}</span>
             <span style="font-weight: 700; color: var(--error);">${item.mistakes_count} Missed</span>
         `;
         container.appendChild(row);

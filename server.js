@@ -4,20 +4,16 @@ import fs from 'fs';
 import path from 'path';
 
 const app = express();
-// Dynamic port allocation for Render, defaulting to 3000 locally
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
-// Serve frontend static files from the public directory
 app.use(express.static('public')); 
 
 // --- DATABASE CONFIGURATION ---
-// Initializes a local SQL database file automatically.
-// better-sqlite3 handles this synchronously during execution.
 const db = new Database('./lto_reviewer.db', { verbose: console.log });
 console.log('SQLite database storage ready via better-sqlite3.');
 
-// Create tables synchronously
+// Create tables synchronously using sealed template literals
 db.exec(`
     CREATE TABLE IF NOT EXISTS users (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -51,8 +47,6 @@ app.post('/api/signup', (req, res) => {
     try {
         const stmt = db.prepare(`INSERT INTO users (name, age, learning_status) VALUES (?, ?, ?)`);
         const info = stmt.run(name, age, learning_status);
-        
-        // better-sqlite3 returns metadata on the info object (info.lastInsertRowid replaces this.lastID)
         res.json({ id: info.lastInsertRowid, name, age, learning_status });
     } catch (err) {
         return res.status(500).json({ error: err.message });
@@ -61,31 +55,25 @@ app.post('/api/signup', (req, res) => {
 
 // API 2: Dynamic Question Fetcher & Balancing Engine
 app.get('/api/questions', (req, res) => {
-    const { lang, type, topic } = req.query; // lang: 'en'/'tl', type: 'student'/'driver', topic: 'all' or name
+    const { lang, type, topic } = req.query;
     const filePath = path.join('data', `questions_${lang}.json`);
 
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) return res.status(500).json({ error: "Target data pool is unreadable or missing." });
         
         let pool = JSON.parse(data);
-        
-        // Filter out questions based on Student vs Driver target user
         let filtered = pool.filter(q => q.user_type === type);
 
-        // If a student selects a specific exam category
         if (topic && topic !== 'all') {
             filtered = filtered.filter(q => q.topic.toLowerCase().trim() === topic.toLowerCase().trim());
+            filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 15);
+        } else {
+            if (type === 'driver') {
+                filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 25);
+            } else if (topic === 'all') {
+                filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 60);
+            }
         }
-
-        // Apply strict LTO standard question layout cutoffs
-        if (type === 'driver') {
-            // Renewal exams are consistently exactly 25 items long
-            filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 25);
-        } else if (topic === 'all') {
-            // General Mock exams compile exactly 60 randomized items across topics
-            filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 60);
-        }
-
         res.json(filtered);
     });
 });
@@ -94,7 +82,6 @@ app.get('/api/questions', (req, res) => {
 app.post('/api/submit-exam', (req, res) => {
     const { user_id, exam_type, language, score, total_questions, incorrect_items } = req.body;
     
-    // We execute the multi-step insert within a performance-boosting Database Transaction
     const insertTransaction = db.transaction((attemptData, items) => {
         const attemptStmt = db.prepare(`
             INSERT INTO exam_attempts (user_id, exam_type, language, score, total_questions) 
@@ -126,7 +113,7 @@ app.post('/api/submit-exam', (req, res) => {
     }
 });
 
-// API 4: Weakness Matrix Generator (Calculates mistakes grouped by topic)
+// API 4: Weakness Matrix Generator
 app.get('/api/performance/:userId', (req, res) => {
     const { userId } = req.params;
     try {
@@ -135,7 +122,6 @@ app.get('/api/performance/:userId', (req, res) => {
             WHERE attempt_id IN (SELECT id FROM exam_attempts WHERE user_id = ?)
             GROUP BY topic ORDER BY mistakes_count DESC
         `);
-        // .all() executes the query and directly outputs all matching rows as an array
         const rows = stmt.all(userId);
         res.json(rows);
     } catch (err) {
