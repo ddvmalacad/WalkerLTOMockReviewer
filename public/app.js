@@ -6,6 +6,7 @@ let currentSession = {
     score: 0,
     incorrectItems: [],
     selectedAnswer: null,
+    isSelectedAnswerCorrect: false, // Dynamic validation state cache
     timerInterval: null,
     timeLeft: 3600 // 60 minutes default
 };
@@ -38,6 +39,22 @@ learningStatusSelect.addEventListener('change', () => {
         examTopicSelect.style.cursor = 'default';
     }
 });
+
+// --- UNIVERSAL EVALUATION ENGINE ---
+// Validates responses regardless of whether the JSON uses raw text, indices (0,1,2), or alphabet keys (A,B,C)
+function checkIsCorrect(optionText, index, correctAnswer) {
+    const cleanOption = String(optionText).toLowerCase().trim();
+    const cleanCorrect = String(correctAnswer).toLowerCase().trim();
+    
+    const alphaKey = String.fromCharCode(65 + index).toLowerCase(); // 0 -> 'a', 1 -> 'b', 2 -> 'c'
+    const indexStr0 = String(index);                               // 0-based array lookup ('0', '1'...)
+    const indexStr1 = String(index + 1);                           // 1-based index lookup ('1', '2'...)
+
+    return cleanOption === cleanCorrect || 
+           alphaKey === cleanCorrect || 
+           indexStr0 === cleanCorrect || 
+           indexStr1 === cleanCorrect;
+}
 
 // --- STAGE 1: AUTHENTICATION & INITIALIZATION ---
 async function initializeSession() {
@@ -87,7 +104,9 @@ async function initializeSession() {
 function renderQuestion() {
     const nextBtn = document.getElementById('next-btn');
     nextBtn.classList.add('hidden');
+    
     currentSession.selectedAnswer = null;
+    currentSession.isSelectedAnswerCorrect = false;
 
     const q = currentSession.questions[currentSession.currentIndex];
     
@@ -100,36 +119,31 @@ function renderQuestion() {
     const optionsContainer = document.getElementById('options-display');
     optionsContainer.innerHTML = '';
 
-    q.options.forEach((option) => {
+    q.options.forEach((option, index) => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
         btn.innerText = option;
         
         btn.addEventListener('click', () => {
-            if (currentSession.selectedAnswer !== null) return; // Locked after selection
+            if (currentSession.selectedAnswer !== null) return; // Disallow answer modifications
             
             currentSession.selectedAnswer = option;
+            const isCorrect = checkIsCorrect(option, index, q.correct_answer);
+            currentSession.isSelectedAnswerCorrect = isCorrect;
             
-            // Clean values to prevent case/spacing mismatches during verification
-            const cleanUserChoice = String(option).toLowerCase().trim();
-            const cleanCorrectChoice = String(q.correct_answer).toLowerCase().trim();
-            
-            if (cleanUserChoice === cleanCorrectChoice) {
-                // Flash green for correct choice
+            if (isCorrect) {
                 btn.style.backgroundColor = 'var(--success)';
                 btn.style.borderColor = 'var(--success)';
                 btn.style.color = '#ffffff';
             } else {
-                // Flash red for incorrect choice
                 btn.style.backgroundColor = 'var(--error)';
                 btn.style.borderColor = 'var(--error)';
                 btn.style.color = '#ffffff';
                 
-                // Seamlessly locate and reveal the correct answer choice in green
+                // Highlight the correct alternative button out of the sibling list array positions
                 const siblingButtons = optionsContainer.querySelectorAll('.option-btn');
-                siblingButtons.forEach(sibling => {
-                    const cleanSiblingText = sibling.innerText.toLowerCase().trim();
-                    if (cleanSiblingText === cleanCorrectChoice) {
+                siblingButtons.forEach((sibling, sIndex) => {
+                    if (checkIsCorrect(sibling.innerText, sIndex, q.correct_answer)) {
                         sibling.style.backgroundColor = 'var(--success)';
                         sibling.style.borderColor = 'var(--success)';
                         sibling.style.color = '#ffffff';
@@ -147,12 +161,8 @@ function renderQuestion() {
 // --- NAVIGATION & METRIC COLLECTION ---
 function advanceQuestion() {
     const q = currentSession.questions[currentSession.currentIndex];
-    
-    const cleanUserAnswer = String(currentSession.selectedAnswer).toLowerCase().trim();
-    const cleanCorrectAnswer = String(q.correct_answer).toLowerCase().trim();
-    const isCorrect = (cleanUserAnswer === cleanCorrectAnswer);
 
-    if (isCorrect) {
+    if (currentSession.isSelectedAnswerCorrect) {
         currentSession.score++;
     } else {
         currentSession.incorrectItems.push({
