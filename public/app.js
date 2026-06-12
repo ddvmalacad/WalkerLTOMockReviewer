@@ -6,9 +6,9 @@ let currentSession = {
     score: 0,
     incorrectItems: [],
     selectedAnswer: null,
-    isSelectedAnswerCorrect: false, // Dynamic validation state cache
+    isSelectedAnswerCorrect: false, 
     timerInterval: null,
-    timeLeft: 3600 // 60 minutes default
+    timeLeft: 3600 
 };
 
 // --- DOM ELEMENT ANCHORS ---
@@ -40,20 +40,41 @@ learningStatusSelect.addEventListener('change', () => {
     }
 });
 
-// --- UNIVERSAL EVALUATION ENGINE ---
-// Validates responses regardless of whether the JSON uses raw text, indices (0,1,2), or alphabet keys (A,B,C)
-function checkIsCorrect(optionText, index, correctAnswer) {
-    const cleanOption = String(optionText).toLowerCase().trim();
-    const cleanCorrect = String(correctAnswer).toLowerCase().trim();
+// --- UNIVERSAL MULTI-KEY EVALUATION ENGINE ---
+function checkIsCorrect(optionText, index, q) {
+    // Look for any valid key layout present within your JSON schema structures
+    const rawCorrect = q.correct_answer !== undefined ? q.correct_answer : 
+                       (q.answer !== undefined ? q.answer : q.correct);
     
-    const alphaKey = String.fromCharCode(65 + index).toLowerCase(); // 0 -> 'a', 1 -> 'b', 2 -> 'c'
-    const indexStr0 = String(index);                               // 0-based array lookup ('0', '1'...)
-    const indexStr1 = String(index + 1);                           // 1-based index lookup ('1', '2'...)
+    if (rawCorrect === undefined) {
+        console.error("DATABASE SCHEMA WARNING: No answer key found in your question object configuration!", q);
+        return false; 
+    }
 
-    return cleanOption === cleanCorrect || 
-           alphaKey === cleanCorrect || 
-           indexStr0 === cleanCorrect || 
-           indexStr1 === cleanCorrect;
+    const cleanOption = String(optionText).toLowerCase().trim();
+    const cleanCorrect = String(rawCorrect).toLowerCase().trim();
+    
+    // Diagnostic logging to help you inspect mismatches in the browser console (F12)
+    console.log(`[EVALUATING] Clicked: "${cleanOption}" | JSON Target: "${cleanCorrect}"`);
+
+    // 1. Literal Text Match
+    if (cleanOption === cleanCorrect) return true;
+
+    // 2. Alphanumeric Strip Match (Handles punctuation issues like "A." vs "A")
+    const pureOption = cleanOption.replace(/[^a-z0-9]/g, '');
+    const pureCorrect = cleanCorrect.replace(/[^a-z0-9]/g, '');
+    if (pureOption === pureCorrect && pureOption.length > 0) return true;
+
+    // 3. Mapping Coordinates (Checks Letter Indexes A/B/C or Array Values 0/1/2)
+    const alphaKey = String.fromCharCode(65 + index).toLowerCase(); 
+    const indexStr0 = String(index);                               
+    const indexStr1 = String(index + 1);                           
+
+    if (pureCorrect === alphaKey || pureCorrect === indexStr0 || pureCorrect === indexStr1) {
+        return true;
+    }
+
+    return false;
 }
 
 // --- STAGE 1: AUTHENTICATION & INITIALIZATION ---
@@ -125,10 +146,10 @@ function renderQuestion() {
         btn.innerText = option;
         
         btn.addEventListener('click', () => {
-            if (currentSession.selectedAnswer !== null) return; // Disallow answer modifications
+            if (currentSession.selectedAnswer !== null) return; 
             
             currentSession.selectedAnswer = option;
-            const isCorrect = checkIsCorrect(option, index, q.correct_answer);
+            const isCorrect = checkIsCorrect(option, index, q);
             currentSession.isSelectedAnswerCorrect = isCorrect;
             
             if (isCorrect) {
@@ -140,10 +161,10 @@ function renderQuestion() {
                 btn.style.borderColor = 'var(--error)';
                 btn.style.color = '#ffffff';
                 
-                // Highlight the correct alternative button out of the sibling list array positions
+                // Track down the true variant to flash green as a baseline reference
                 const siblingButtons = optionsContainer.querySelectorAll('.option-btn');
                 siblingButtons.forEach((sibling, sIndex) => {
-                    if (checkIsCorrect(sibling.innerText, sIndex, q.correct_answer)) {
+                    if (checkIsCorrect(sibling.innerText, sIndex, q)) {
                         sibling.style.backgroundColor = 'var(--success)';
                         sibling.style.borderColor = 'var(--success)';
                         sibling.style.color = '#ffffff';
