@@ -53,32 +53,70 @@ app.post('/api/signup', (req, res) => {
     }
 });
 
-// API 2: Dynamic Question Fetcher & Balancing Engine
+// API 2: Dynamic Question Fetcher & File Router Engine
 app.get('/api/questions', (req, res) => {
-    const { lang, type, topic } = req.query;
-    const filePath = path.join('data', `questions_${lang}.json`);
+    try {
+        const { lang, type, topic } = req.query;
 
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) return res.status(500).json({ error: "Target data pool is unreadable or missing." });
+        // 1. Standardize language tags safely ('tg' or 'tl' map directly to Tagalog)
+        const cleanLang = (lang === 'tg' || lang === 'tl') ? 'tg' : 'en';
         
-        let pool = JSON.parse(data);
-        let filtered = pool.filter(q => q.user_type === type);
+        // 2. Identify the targeted content variant set 
+        // Professional (driver) defaults to Set B. Students/Non-Prof default to Set A.
+        const setSuffix = (type === 'driver') ? 'setB' : 'setA';
 
-        // Matches strings accurately regardless of surrounding whitespace variations
-        if (topic && topic !== 'all') {
-            filtered = filtered.filter(q => q.topic.toLowerCase().trim() === topic.toLowerCase().trim());
-            
-            // UPDATED: Capped to exactly 10 questions for focused category selections
-            filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 10);
-        } else {
+        let targetFile = '';
+
+        // 3. Dynamic Router Map Logic for the 8 Segregated JSON Data Sources
+        if (!topic || topic === 'all' || topic === 'general' || topic === 'renewal') {
             if (type === 'driver') {
+                targetFile = `renex_${cleanLang}.json`; // Renewal Exam pool
+            } else {
+                targetFile = `genex_${cleanLang}.json`; // General Exam pool
+            }
+        } else {
+            targetFile = `topic_${cleanLang}_${setSuffix}.json`; // Focused subtopic target set
+        }
+
+        const filePath = path.join('data', targetFile);
+
+        // 4. Fallback fail-safe data validation check
+        if (!fs.existsSync(filePath)) {
+            console.error(`ERROR: Missing JSON data source file target -> ${targetFile}`);
+            return res.status(404).json({ error: `The requested exam database target (${targetFile}) is missing.` });
+        }
+
+        // Read targeted data asset synchronously to keep cycles lightweight
+        const rawData = fs.readFileSync(filePath, 'utf8');
+        let filtered = JSON.parse(rawData);
+
+        // 5. In-Memory Filter execution and Randomized Slice Caps
+        if (!topic || topic === 'all' || topic === 'general' || topic === 'renewal') {
+            // Full Comprehensive Mock Exams
+            if (type === 'driver') {
+                // LTO Professional Renewal Exam Blueprint (25 Questions)
                 filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 25);
-            } else if (topic === 'all') {
+            } else {
+                // LTO Student & Non-Professional Exam Blueprint (60 Questions)
                 filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 60);
             }
+        } else {
+            // Focus Sub-Topic Targeted Reviewer Modes
+            filtered = filtered.filter(q => {
+                const qTopic = q.Topic || q.topic || '';
+                return qTopic.toLowerCase().trim() === topic.toLowerCase().trim();
+            });
+            
+            // Subcategory Focus Session Cap (10 Questions)
+            filtered = filtered.sort(() => 0.5 - Math.random()).slice(0, 10);
         }
+
         res.json(filtered);
-    });
+
+    } catch (error) {
+        console.error("API 2 Question Router Failure:", error);
+        res.status(500).json({ error: "Failed to resolve and process the question payload database." });
+    }
 });
 
 // API 3: Submit Finished Exam Results & Record Diagnostic Metrics
@@ -103,7 +141,9 @@ app.post('/api/submit-exam', (req, res) => {
         if (items && items.length > 0) {
             const itemStmt = db.prepare(`INSERT INTO incorrect_answers (attempt_id, topic) VALUES (?, ?)`);
             for (const item of items) {
-                itemStmt.run(attemptId, item.topic || "General Knowledge");
+                // Safe check fallback tracking handles both lowercase and uppercase variations
+                const itemTopic = item.topic || item.Topic || "General Knowledge";
+                itemStmt.run(attemptId, itemTopic);
             }
         }
     });

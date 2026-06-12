@@ -40,13 +40,14 @@ learningStatusSelect.addEventListener('change', () => {
     }
 });
 
-// --- UNIVERSAL MULTI-KEY EVALUATION ENGINE ---
+// --- UNIVERSAL EVALUATION ENGINE (CASE & KEY INSENSITIVE) ---
 function checkIsCorrect(optionText, index, q) {
-    const rawCorrect = q.correct_answer !== undefined ? q.correct_answer : 
-                       (q.answer !== undefined ? q.answer : q.correct);
+    // Gracefully reads both uppercase (Excel) and lowercase database keys
+    const rawCorrect = q.Correct_Answer !== undefined ? q.Correct_Answer : 
+                       (q.correct_answer !== undefined ? q.correct_answer : q.answer);
     
     if (rawCorrect === undefined) {
-        console.error("DATABASE SCHEMA WARNING: No answer key found in your question object configuration!", q);
+        console.error("DATABASE SCHEMA WARNING: Missing correct answer key alignment!", q);
         return false; 
     }
 
@@ -55,17 +56,14 @@ function checkIsCorrect(optionText, index, q) {
 
     if (cleanOption === cleanCorrect) return true;
 
+    // Direct text normalization filtering 
     const pureOption = cleanOption.replace(/[^a-z0-9]/g, '');
     const pureCorrect = cleanCorrect.replace(/[^a-z0-9]/g, '');
     if (pureOption === pureCorrect && pureOption.length > 0) return true;
 
+    // Letter index fallback check (A, B, C, D)
     const alphaKey = String.fromCharCode(65 + index).toLowerCase(); 
-    const indexStr0 = String(index);                               
-    const indexStr1 = String(index + 1);                           
-
-    if (pureCorrect === alphaKey || pureCorrect === indexStr0 || pureCorrect === indexStr1) {
-        return true;
-    }
+    if (pureCorrect === alphaKey) return true;
 
     return false;
 }
@@ -79,7 +77,7 @@ async function initializeSession() {
     const topic = examTopicSelect.value;
 
     if (!name || !age) {
-        alert('Please fill out all identification fields before starting.');
+        alert('Please fill out all identity fields before beginning.');
         return;
     }
 
@@ -100,13 +98,13 @@ async function initializeSession() {
             return;
         }
 
-        // --- DYNAMIC MULTI-TIER TIMER LOGIC ---
+        // --- TIMER ALLOCATION ENGINE ---
         if (topic !== 'all') {
-            currentSession.timeLeft = 20 * 60; // ⏱️ Topic Specific Focus Exams -> 20 Minutes
+            currentSession.timeLeft = 20 * 60; // Topic Focus Category -> 20 Minutes
         } else if (learningStatus === 'driver') {
-            currentSession.timeLeft = 30 * 60; // Professional License Renewal -> 30 Minutes
+            currentSession.timeLeft = 30 * 60; // Professional Renewal -> 30 Minutes
         } else {
-            currentSession.timeLeft = 60 * 60; // Non-Prof/Student Full Comprehensive -> 60 Minutes
+            currentSession.timeLeft = 60 * 60; // Student Comprehensive -> 60 Minutes
         }
 
         stages.auth.classList.add('hidden');
@@ -121,7 +119,7 @@ async function initializeSession() {
     }
 }
 
-// --- STAGE 2: QUIZ LOOP CORE ---
+// --- STAGE 2: APPLICATION ENGINE CORE ---
 function renderQuestion() {
     const nextBtn = document.getElementById('next-btn');
     nextBtn.classList.add('hidden');
@@ -135,12 +133,24 @@ function renderQuestion() {
     const progressPercent = (currentSession.currentIndex / currentSession.questions.length) * 100;
     document.getElementById('progress-bar').style.width = `${progressPercent}%`;
 
-    document.getElementById('question-display').innerText = q.question;
+    // Safe extraction of question text property
+    document.getElementById('question-display').innerText = q.Question || q.question;
 
     const optionsContainer = document.getElementById('options-display');
     optionsContainer.innerHTML = '';
 
-    q.options.forEach((option, index) => {
+    // Coalesce options from uppercase (Excel) and lowercase keys
+    const rawOptions = [
+        q.Option_A || q.option_a,
+        q.Option_B || q.option_b,
+        q.Option_C || q.option_c,
+        q.Option_D || q.option_d
+    ];
+
+    // CLEANER FILTER: Removes any empty rows, nulls, or spaces from drawing a button element
+    const validOptions = rawOptions.filter(opt => opt !== undefined && opt !== null && String(opt).trim() !== "");
+
+    validOptions.forEach((option, index) => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
         btn.innerText = option;
@@ -152,12 +162,12 @@ function renderQuestion() {
             const isCorrect = checkIsCorrect(option, index, q);
             currentSession.isSelectedAnswerCorrect = isCorrect;
             
-            // USING CSS CLASSES INSTEAD OF INLINE STYLES
             if (isCorrect) {
                 btn.classList.add('correct');
             } else {
                 btn.classList.add('wrong');
                 
+                // Track down the correct alternative button and light it up green
                 const siblingButtons = optionsContainer.querySelectorAll('.option-btn');
                 siblingButtons.forEach((sibling, sIndex) => {
                     if (checkIsCorrect(sibling.innerText, sIndex, q)) {
@@ -173,16 +183,17 @@ function renderQuestion() {
     });
 }
 
-// --- NAVIGATION & METRIC COLLECTION ---
+// --- METRIC MANAGEMENT & ARCHIVAL ---
 function advanceQuestion() {
     const q = currentSession.questions[currentSession.currentIndex];
+    const safeTopic = q.Topic || q.topic || 'General';
 
     if (currentSession.isSelectedAnswerCorrect) {
         currentSession.score++;
     } else {
         currentSession.incorrectItems.push({
-            question: q.question,
-            topic: q.topic
+            question: q.Question || q.question,
+            topic: safeTopic
         });
     }
 
@@ -212,13 +223,13 @@ function startExamTimer() {
 
         if (currentSession.timeLeft <= 0) {
             clearInterval(currentSession.timerInterval);
-            alert('Time limit expired! Auto-submitting answers.');
+            alert('Time limit expired! Processing exam results.');
             completeExamSession();
         }
     }, 1000);
 }
 
-// --- STAGE 3: METRICS PROCESSING & COMPLETION ---
+// --- STAGE 3: PERFORMANCE METRICS DISPLAY ---
 async function completeExamSession() {
     clearInterval(currentSession.timerInterval);
     document.getElementById('progress-bar').style.width = '100%';
@@ -232,20 +243,15 @@ async function completeExamSession() {
 
     document.getElementById('score-display').innerText = `${finalScore}/${total}`;
 
-    let passingMark;
-    if (total === 10) {
-        passingMark = 8; 
-    } else {
-        passingMark = learningStatus === 'driver' ? 20 : 48; 
-    }
-
+    // Dynamic 80% passing mark rule handles variable lengths flawlessly
+    const passingMark = Math.ceil(total * 0.8);
     const statusText = document.getElementById('passing-status');
 
     if (finalScore >= passingMark) {
-        statusText.innerText = 'PASSED - Ready for LTO Portal Evaluation';
+        statusText.innerText = `PASSED - Required Score was ${passingMark}/${total}`;
         statusText.style.color = 'var(--success)';
     } else {
-        statusText.innerText = `FAILED - Passing Score is ${passingMark}/${total}`;
+        statusText.innerText = `FAILED - Required Score is ${passingMark}/${total}`;
         statusText.style.color = 'var(--error)';
     }
 
