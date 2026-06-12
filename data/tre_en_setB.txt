@@ -1,7 +1,3 @@
-tre_en_setB
-
-//SET B English
-
 //Road Signs and Pavement Markings
 
 1.	What does a red circular traffic sign usually indicate? 

@@ -1,7 +1,3 @@
-tre_tg_setB
-
-//SET B Tagalog
-
 //Road Signs and Pavement Markings
 
 1.	Ano ang kahulugan ng senyas-trapiko na kulay pula at tatsulok ang hugis? 

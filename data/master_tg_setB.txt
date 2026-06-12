@@ -1,6 +1,4 @@
-master_tg_setB
-
-Road Signs and Pavement Markings
+//Road Signs and Pavement Markings
 1. b
 2. c
 3. a
@@ -22,7 +20,7 @@ Road Signs and Pavement Markings
 19. b
 20. a
 
-Road and Traffic Rules
+//Road and Traffic Rules
 1. a
 2. b
 3. c
@@ -46,7 +44,7 @@ Road and Traffic Rules
 
 
 
-Safe Driving Principles
+//Safe Driving Principles
 1. a
 2. a
 3. a
@@ -69,7 +67,7 @@ Safe Driving Principles
 20. b
 
 
-Land Transportation Laws and Violations
+//Land Transportation Laws and Violations
 1. c
 2. a
 3. a
@@ -93,7 +91,7 @@ Land Transportation Laws and Violations
 
 
 
-Licensing Information and General Knowledge
+//Licensing Information and General Knowledge
 
 1. a
 2. b
@@ -117,7 +115,7 @@ Licensing Information and General Knowledge
 20. b
 
 
-Vehicle Maintenance and Troubleshooting
+//Vehicle Maintenance and Troubleshooting
 
 1. c 
 2. a
