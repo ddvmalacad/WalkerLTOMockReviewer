@@ -1,33 +1,32 @@
 import express from 'express';
-import sqlite3 from 'sqlite3';
+import Database from 'better-sqlite3';
 import fs from 'fs';
 import path from 'path';
 
 const app = express();
-const PORT = 3000;
+// Dynamic port allocation for Render, defaulting to 3000 locally
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 // Serve frontend static files from the public directory
 app.use(express.static('public')); 
 
 // --- DATABASE CONFIGURATION ---
-// Initializes a local SQL database file automatically
-const db = new sqlite3.Database('./lto_reviewer.db', (err) => {
-    if (err) console.error("Database connection failed:", err.message);
-    else console.log('SQLite database storage ready.');
-});
+// Initializes a local SQL database file automatically.
+// better-sqlite3 handles this synchronously during execution.
+const db = new Database('./lto_reviewer.db', { verbose: console.log });
+console.log('SQLite database storage ready via better-sqlite3.');
 
-db.serialize(() => {
-    // 1. User Profiles
-    db.run(`CREATE TABLE IF NOT EXISTS users (
+// Create tables synchronously
+db.exec(`
+    CREATE TABLE IF NOT EXISTS users (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         name TEXT,
         age INTEGER,
         learning_status TEXT
-    )`);
+    );
 
-    // 2. Comprehensive Exam Analytics Tracking
-    db.run(`CREATE TABLE IF NOT EXISTS exam_attempts (
+    CREATE TABLE IF NOT EXISTS exam_attempts (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         user_id INTEGER,
         exam_type TEXT,
@@ -35,26 +34,29 @@ db.serialize(() => {
         score INTEGER,
         total_questions INTEGER,
         date_taken TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-    )`);
+    );
 
-    // 3. Granular Error Diagnostics Tracker
-    db.run(`CREATE TABLE IF NOT EXISTS incorrect_answers (
+    CREATE TABLE IF NOT EXISTS incorrect_answers (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         attempt_id INTEGER,
         topic TEXT
-    )`);
-});
+    );
+`);
 
 // --- SERVER REST ENDPOINTS (APIs) ---
 
 // API 1: Register New User Profile
 app.post('/api/signup', (req, res) => {
     const { name, age, learning_status } = req.body;
-    db.run(`INSERT INTO users (name, age, learning_status) VALUES (?, ?, ?)`, 
-    [name, age, learning_status], function(err) {
-        if (err) return res.status(500).json({ error: err.message });
-        res.json({ id: this.lastID, name, age, learning_status });
-    });
+    try {
+        const stmt = db.prepare(`INSERT INTO users (name, age, learning_status) VALUES (?, ?, ?)`);
+        const info = stmt.run(name, age, learning_status);
+        
+        // better-sqlite3 returns metadata on the info object (info.lastInsertRowid replaces this.lastID)
+        res.json({ id: info.lastInsertRowid, name, age, learning_status });
+    } catch (err) {
+        return res.status(500).json({ error: err.message });
+    }
 });
 
 // API 2: Dynamic Question Fetcher & Balancing Engine
@@ -92,33 +94,53 @@ app.get('/api/questions', (req, res) => {
 app.post('/api/submit-exam', (req, res) => {
     const { user_id, exam_type, language, score, total_questions, incorrect_items } = req.body;
     
-    db.run(`INSERT INTO exam_attempts (user_id, exam_type, language, score, total_questions) VALUES (?, ?, ?, ?, ?)`,
-    [user_id, exam_type, language, score, total_questions], function(err) {
-        if (err) return res.status(500).json({ error: err.message });
+    // We execute the multi-step insert within a performance-boosting Database Transaction
+    const insertTransaction = db.transaction((attemptData, items) => {
+        const attemptStmt = db.prepare(`
+            INSERT INTO exam_attempts (user_id, exam_type, language, score, total_questions) 
+            VALUES (?, ?, ?, ?, ?)
+        `);
+        const info = attemptStmt.run(
+            attemptData.user_id, 
+            attemptData.exam_type, 
+            attemptData.language, 
+            attemptData.score, 
+            attemptData.total_questions
+        );
         
-        const attemptId = this.lastID;
-        
-        // Log individual missed items to populate the analytical weakness tracker
-        if (incorrect_items && incorrect_items.length > 0) {
-            const stmt = db.prepare(`INSERT INTO incorrect_answers (attempt_id, topic) VALUES (?, ?)`);
-            incorrect_items.forEach(item => {
-                stmt.run(attemptId, item.topic || "General Knowledge");
-            });
-            stmt.finalize();
+        const attemptId = info.lastInsertRowid;
+
+        if (items && items.length > 0) {
+            const itemStmt = db.prepare(`INSERT INTO incorrect_answers (attempt_id, topic) VALUES (?, ?)`);
+            for (const item of items) {
+                itemStmt.run(attemptId, item.topic || "General Knowledge");
+            }
         }
-        res.json({ success: true });
     });
+
+    try {
+        insertTransaction({ user_id, exam_type, language, score, total_questions }, incorrect_items);
+        res.json({ success: true });
+    } catch (err) {
+        return res.status(500).json({ error: err.message });
+    }
 });
 
 // API 4: Weakness Matrix Generator (Calculates mistakes grouped by topic)
 app.get('/api/performance/:userId', (req, res) => {
     const { userId } = req.params;
-    db.all(`SELECT topic, COUNT(*) as mistakes_count FROM incorrect_answers 
+    try {
+        const stmt = db.prepare(`
+            SELECT topic, COUNT(*) as mistakes_count FROM incorrect_answers 
             WHERE attempt_id IN (SELECT id FROM exam_attempts WHERE user_id = ?)
-            GROUP BY topic ORDER BY mistakes_count DESC`, [userId], (err, rows) => {
-        if (err) return res.status(500).json({ error: err.message });
+            GROUP BY topic ORDER BY mistakes_count DESC
+        `);
+        // .all() executes the query and directly outputs all matching rows as an array
+        const rows = stmt.all(userId);
         res.json(rows);
-    });
+    } catch (err) {
+        return res.status(500).json({ error: err.message });
+    }
 });
 
-app.listen(PORT, () => console.log(`Application actively hosted on: http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Application actively hosted on port: ${PORT}`));
