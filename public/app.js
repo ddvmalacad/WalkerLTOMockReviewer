@@ -8,7 +8,7 @@ let currentSession = {
     selectedAnswer: null,
     isSelectedAnswerCorrect: false, 
     timerInterval: null,
-    timeLeft: 3600 
+    timeLeft: 3600 // Fallback dynamic state tracking
 };
 
 // --- DOM ELEMENT ANCHORS ---
@@ -42,7 +42,6 @@ learningStatusSelect.addEventListener('change', () => {
 
 // --- UNIVERSAL MULTI-KEY EVALUATION ENGINE ---
 function checkIsCorrect(optionText, index, q) {
-    // Look for any valid key layout present within your JSON schema structures
     const rawCorrect = q.correct_answer !== undefined ? q.correct_answer : 
                        (q.answer !== undefined ? q.answer : q.correct);
     
@@ -53,19 +52,13 @@ function checkIsCorrect(optionText, index, q) {
 
     const cleanOption = String(optionText).toLowerCase().trim();
     const cleanCorrect = String(rawCorrect).toLowerCase().trim();
-    
-    // Diagnostic logging to help you inspect mismatches in the browser console (F12)
-    console.log(`[EVALUATING] Clicked: "${cleanOption}" | JSON Target: "${cleanCorrect}"`);
 
-    // 1. Literal Text Match
     if (cleanOption === cleanCorrect) return true;
 
-    // 2. Alphanumeric Strip Match (Handles punctuation issues like "A." vs "A")
     const pureOption = cleanOption.replace(/[^a-z0-9]/g, '');
     const pureCorrect = cleanCorrect.replace(/[^a-z0-9]/g, '');
     if (pureOption === pureCorrect && pureOption.length > 0) return true;
 
-    // 3. Mapping Coordinates (Checks Letter Indexes A/B/C or Array Values 0/1/2)
     const alphaKey = String.fromCharCode(65 + index).toLowerCase(); 
     const indexStr0 = String(index);                               
     const indexStr1 = String(index + 1);                           
@@ -107,7 +100,14 @@ async function initializeSession() {
             return;
         }
 
-        currentSession.timeLeft = learningStatus === 'driver' ? 30 * 60 : 60 * 60;
+        // --- DYNAMIC MULTI-TIER TIMER LOGIC ---
+        if (topic !== 'all') {
+            currentSession.timeLeft = 20 * 60; // ⏱️ Topic Specific Focus Exams -> 20 Minutes
+        } else if (learningStatus === 'driver') {
+            currentSession.timeLeft = 30 * 60; // Professional License Renewal -> 30 Minutes
+        } else {
+            currentSession.timeLeft = 60 * 60; // Non-Prof/Student Full Comprehensive -> 60 Minutes
+        }
 
         stages.auth.classList.add('hidden');
         stages.exam.classList.remove('hidden');
@@ -161,7 +161,6 @@ function renderQuestion() {
                 btn.style.borderColor = 'var(--error)';
                 btn.style.color = '#ffffff';
                 
-                // Track down the true variant to flash green as a baseline reference
                 const siblingButtons = optionsContainer.querySelectorAll('.option-btn');
                 siblingButtons.forEach((sibling, sIndex) => {
                     if (checkIsCorrect(sibling.innerText, sIndex, q)) {
