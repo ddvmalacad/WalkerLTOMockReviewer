@@ -102,7 +102,6 @@ select {
     appearance: none;
 }
 
-/* Add custom arrow decoration for select fields */
 select {
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
     background-repeat: no-repeat;
@@ -118,8 +117,11 @@ select:focus {
     box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
 }
 
-/* --- ACTION BUTTONS --- */
-.btn {
+/* --- ACTION BUTTON ENGINE (.btn, #start-btn, #next-btn, #restart-btn) --- */
+.btn,
+#start-btn,
+#next-btn,
+#restart-btn {
     width: 100%;
     padding: 14px;
     font-family: inherit;
@@ -136,16 +138,36 @@ select:focus {
     align-items: center;
     gap: 8px;
     box-shadow: 0 4px 6px -1px rgba(30, 58, 138, 0.2);
+    text-decoration: none;
+    outline: none;
 }
 
-.btn:hover {
+.btn:hover,
+#start-btn:hover,
+#next-btn:hover,
+#restart-btn:hover {
     background-color: #172e6b;
     transform: translateY(-1px);
     box-shadow: 0 6px 12px -1px rgba(30, 58, 138, 0.3);
 }
 
-.btn:active {
+.btn:active,
+#start-btn:active,
+#next-btn:active,
+#restart-btn:active {
     transform: translateY(0);
+}
+
+/* Secondary style modifier specifically for the Restart layout variant */
+#restart-btn {
+    background-color: var(--text-muted);
+    box-shadow: 0 4px 6px -1px rgba(107, 114, 128, 0.2);
+    margin-top: 20px;
+}
+
+#restart-btn:hover {
+    background-color: #4b5563;
+    box-shadow: 0 6px 12px -1px rgba(107, 114, 128, 0.3);
 }
 
 /* --- STAGE 2: HUD & LIVE TELEMETRY BAR --- */
