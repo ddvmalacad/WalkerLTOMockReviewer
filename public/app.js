@@ -28,13 +28,11 @@ document.getElementById('restart-btn').addEventListener('click', () => window.lo
 // --- UI INTERLOCK: RESTRICT PROFESSIONAL EXAMS TO FULL MOCK ONLY ---
 learningStatusSelect.addEventListener('change', () => {
     if (learningStatusSelect.value === 'driver') {
-        // Force selection to "All Topics" and disable control
         examTopicSelect.value = 'all';
         examTopicSelect.disabled = true;
         examTopicSelect.style.opacity = '0.6';
         examTopicSelect.style.cursor = 'not-allowed';
     } else {
-        // Reactivate for Student Permits
         examTopicSelect.disabled = false;
         examTopicSelect.style.opacity = '1';
         examTopicSelect.style.cursor = 'default';
@@ -55,7 +53,6 @@ async function initializeSession() {
     }
 
     try {
-        // 1. Register User Profile in SQLite via Backend API
         const authResponse = await fetch('/api/signup', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -64,7 +61,6 @@ async function initializeSession() {
         const user = await authResponse.json();
         currentSession.userId = user.id;
 
-        // 2. Fetch Questions Filtered by Language, Application Type, and chosen Topic Focus
         const questionsResponse = await fetch(`/api/questions?lang=${lang}&type=${learningStatus}&topic=${topic}`);
         currentSession.questions = await questionsResponse.json();
 
@@ -73,10 +69,8 @@ async function initializeSession() {
             return;
         }
 
-        // 3. Adjust Timer based on LTO rules (25 items for renewal vs 60 items for comprehensive)
         currentSession.timeLeft = learningStatus === 'driver' ? 30 * 60 : 60 * 60;
 
-        // 4. Interface Transition
         stages.auth.classList.add('hidden');
         stages.exam.classList.remove('hidden');
 
@@ -90,7 +84,6 @@ async function initializeSession() {
 }
 
 // --- STAGE 2: QUIZ LOOP CORE ---
-// Displays current question parameters and dynamically renders interaction rows.
 function renderQuestion() {
     const nextBtn = document.getElementById('next-btn');
     nextBtn.classList.add('hidden');
@@ -98,15 +91,12 @@ function renderQuestion() {
 
     const q = currentSession.questions[currentSession.currentIndex];
     
-    // Update Counter & Progress Bar
     document.getElementById('question-counter').innerText = `Question ${currentSession.currentIndex + 1} of ${currentSession.questions.length}`;
     const progressPercent = (currentSession.currentIndex / currentSession.questions.length) * 100;
     document.getElementById('progress-bar').style.width = `${progressPercent}%`;
 
-    // Display Question
     document.getElementById('question-display').innerText = q.question;
 
-    // Render Option Rows
     const optionsContainer = document.getElementById('options-display');
     optionsContainer.innerHTML = '';
 
@@ -116,10 +106,37 @@ function renderQuestion() {
         btn.innerText = option;
         
         btn.addEventListener('click', () => {
-            if (currentSession.selectedAnswer !== null) return; // Locked after choice
+            if (currentSession.selectedAnswer !== null) return; // Locked after selection
             
             currentSession.selectedAnswer = option;
-            btn.classList.add('selected');
+            
+            // Clean values to prevent case/spacing mismatches during verification
+            const cleanUserChoice = String(option).toLowerCase().trim();
+            const cleanCorrectChoice = String(q.correct_answer).toLowerCase().trim();
+            
+            if (cleanUserChoice === cleanCorrectChoice) {
+                // Flash green for correct choice
+                btn.style.backgroundColor = 'var(--success)';
+                btn.style.borderColor = 'var(--success)';
+                btn.style.color = '#ffffff';
+            } else {
+                // Flash red for incorrect choice
+                btn.style.backgroundColor = 'var(--error)';
+                btn.style.borderColor = 'var(--error)';
+                btn.style.color = '#ffffff';
+                
+                // Seamlessly locate and reveal the correct answer choice in green
+                const siblingButtons = optionsContainer.querySelectorAll('.option-btn');
+                siblingButtons.forEach(sibling => {
+                    const cleanSiblingText = sibling.innerText.toLowerCase().trim();
+                    if (cleanSiblingText === cleanCorrectChoice) {
+                        sibling.style.backgroundColor = 'var(--success)';
+                        sibling.style.borderColor = 'var(--success)';
+                        sibling.style.color = '#ffffff';
+                    }
+                });
+            }
+            
             nextBtn.classList.remove('hidden');
         });
 
@@ -131,14 +148,10 @@ function renderQuestion() {
 function advanceQuestion() {
     const q = currentSession.questions[currentSession.currentIndex];
     
-    // Safely convert both choices to lowercase and strip hidden trailing/leading spaces
     const cleanUserAnswer = String(currentSession.selectedAnswer).toLowerCase().trim();
     const cleanCorrectAnswer = String(q.correct_answer).toLowerCase().trim();
-
-    // Check for an exact word match OR check if the user selected an option that matches a letter key
     const isCorrect = (cleanUserAnswer === cleanCorrectAnswer);
 
-    // Track state metrics
     if (isCorrect) {
         currentSession.score++;
     } else {
@@ -192,15 +205,13 @@ async function completeExamSession() {
     const finalScore = currentSession.score;
     const learningStatus = learningStatusSelect.value;
 
-    // Render score metrics
     document.getElementById('score-display').innerText = `${finalScore}/${total}`;
 
-    // --- DYNAMIC PASSING MARK EVALUATION ENGINE ---
     let passingMark;
     if (total === 10) {
-        passingMark = 8; // Focus category exam threshold (80% of 10)
+        passingMark = 8; 
     } else {
-        passingMark = learningStatus === 'driver' ? 20 : 48; // Full comprehensive benchmarks (20/25 or 48/60)
+        passingMark = learningStatus === 'driver' ? 20 : 48; 
     }
 
     const statusText = document.getElementById('passing-status');
@@ -213,7 +224,6 @@ async function completeExamSession() {
         statusText.style.color = 'var(--error)';
     }
 
-    // Save exam attempt history payload to backend database via REST
     try {
         await fetch('/api/submit-exam', {
             method: 'POST',
@@ -228,7 +238,6 @@ async function completeExamSession() {
             })
         });
 
-        // Load performance dashboard telemetry from backend metrics generator
         const matrixResponse = await fetch(`/api/performance/${currentSession.userId}`);
         const performanceData = await matrixResponse.json();
         
@@ -239,7 +248,6 @@ async function completeExamSession() {
     }
 }
 
-// Injects the analytical failure metrics into the results display section
 function renderWeaknessMatrix(data) {
     const container = document.getElementById('performance-matrix');
     container.innerHTML = '';
